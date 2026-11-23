@@ -22,7 +22,7 @@ Quelle: `data/static/potenzial_taten.yaml` im Makrowolf, je Eintrag mit Bundesta
 - Infrastruktur-Zukunftsgesetz (schnellere Planung): Beschluss 26.06.2026 (BR-Drs. 390/26).
 - Investitionssofortprogramm, Standortfördergesetz, Bau-Turbo, Stromsteuer auf EU-Mindestsatz.
 
-**Folge für den Essay:** Die Grundsicherung ändert die Anreize im Sozialstaat und fällt unter die Reformdefinition des Essays. Sie kam in der ersten Hälfte der Wahlperiode, ohne Grundgesetzänderung, über normale Mehrheiten. Stand sie im Wahlprogramm der Union 2025 (noch am Text prüfen), ist der politische Falsifikationstest des Essays schon erfüllt. Der politische Teil muss das aufnehmen.
+**Folge für den Essay:** Die Grundsicherung ändert die Anreize im Sozialstaat und fällt unter die Reformdefinition des Essays. Sie kam in der ersten Hälfte der Wahlperiode, ohne Grundgesetzänderung, über normale Mehrheiten. Die „Neue Grundsicherung“ stand im Wahlprogramm von CDU und CSU 2025 (belegt über Medienberichte zur Kurzfassung, etwa https://www.infranken.de/deutschland/union-will-das-buergergeld-abschaffen-aber-was-bedeutet-das-wirklich-art-5998619; Langfassung noch prüfen). Damit ist der politische Falsifikationstest des Essays in seiner jetzigen Form erfüllt. Der politische Teil muss das aufnehmen.
 
 ## 3. Sondervermögen Infrastruktur und Klimaneutralität: Abfluss
 
