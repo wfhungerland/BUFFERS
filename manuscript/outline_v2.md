@@ -1,6 +1,6 @@
 # Outline v2: Lost in Transmission (Phenomenal World, ca. 6,000 words)
 
-Stand 23.11.2026. Entscheidungen vom 23.11.2026: Puffer verdecken (verursachen nicht); das Signal kommt verzerrt an (Kulturkampf statt Anpassungsdruck); zwei Falsifikationstests; Streeck als Einstieg, Wachstumsmodelle als Ziel des Arguments; Ostdeutschland als Beleg; Japan entfällt.
+Stand 23.11.2026. Entscheidungen vom 23.11.2026: Puffer verdecken (verursachen nicht); das Signal kommt verzerrt an (Kulturkampf statt Anpassungsdruck); zwei Falsifikationstests; Streeck als Einstieg, Wachstumsmodelle als Ziel des Arguments; Ostdeutschland als Beleg; Japan entfällt. Nachtrag: Der alte politische Test ist durch die Grundsicherung (2026) erfüllt; der Essay deutet das offen um (Reform trifft die Ungeschützten, nicht die Kernkoalition) und formuliert den Test neu.
 
 ## Core thesis (draft)
 
@@ -12,17 +12,15 @@ Germany's slump has reached the labour market roughly as much as the output gap 
 2. **Not new, intensified** (850). Table 1 harmonised (one BA rate concept, gap column, peak-to-trough window). Figure 2 rebuilt on gaps: pass-through 2022–25 sits inside the pre-2009 band; 2009 and 2020 are the outliers. The novelty is how the loss is split between gap and potential.
 3. **How a supply shock stays invisible** (1,200). The shock hits the export model's core: energy prices, China, export decoupling. The concealment: hours per worker −2.9 %, employment +1.5 %, energy-intensive output −15 % against jobs −6 %. Three buffers, ranked as a hypothesis. Measurement caveat: production-function estimates partly book hoarded labour as lower potential.
 4. **Whom the buffers protect** (650). The buffers shield the export model's core constituency: skilled workers, collective agreements, works councils, industrial regions. Dualisation (Palier and Thelen; Emmenegger et al.; Hassel): entrants, fixed-term and supplier workers and the energy-intensive periphery carry the adjustment.
-5. **The signal in the wrong currency** (900). Those outside the growth coalition produce no reform mandate but a cultural one: AfD strength where the unprotected margin concentrates (regional evidence). Salience, veto points, fragmentation. March 2025 as fiscal expansion under an exiting majority.
+5. **The signal in the wrong currency** (900). Those outside the growth coalition produce no reform mandate but a cultural one: AfD strength where the unprotected margin concentrates (regional evidence). Salience, veto points, fragmentation. March 2025 as fiscal expansion under an exiting majority. Evidence: across 400 districts the AfD gain 2021–25 is unrelated to the rise in unemployment and modestly related to industrial employment shares (`results/afd_exposure.md`). Ordinary politics does deliver reform, but of one kind: the Grundsicherung (2026) disciplines the unprotected margin and leaves the insiders' institutions untouched.
 6. **A growth model without a coalition** (1,000). Destination of the argument. Baccaro and Pontusson (2016); Baccaro, Blyth and Pontusson (2022): growth models rest on social coalitions. The time bought could finance a shift towards an investment- and domestic-demand-led model; the special fund supplies money, not a coalition. The buffers keep the old coalition intact and thereby block the new one. East Germany as precedent: transfers sustain incomes, not a new productive base. Streeck revisited: bought time ends when the bill comes due; here it comes due as a political, not a fiscal, bill.
 7. **Three clocks as a deadline** (450). Demographic, fiscal, capability clocks set the deadline for the transition. The demographic buffer fails into output, not unemployment.
-8. **How to test it** (250). (a) Economic: potential estimates are revised up and the gap widens, so the slack was cyclical. (b) Political: a structural reform passes through ordinary electoral politics; check against the 2025–26 legislation (Grundsicherung, pensions, planning). Policy reduced to one question: who carries the transition.
+8. **How to test it** (250). (a) Economic: potential estimates are revised up and the gap widens, so the slack was cyclical. (b) Political, restated openly: the original test (a structural reform via ordinary politics) was met by the Grundsicherung in 2026; the essay says so. The sharper test: a reform that changes the insiders' institutions (wage-setting, short-time work, employment protection, regional industrial subsidies) or builds a coalition for a new growth model passes without a crisis or a constitutional detour. Policy reduced to one question: who carries the transition.
 
 Ending stays with Köcher: the calmest job-security reading on record is what this crisis looks like.
 
 ## Open checks before drafting
 
-- Regional evidence for section 5: AfD vote share 2025 against exposure to energy-intensive and supplier employment (Kreise).
-- Status of 2025–26 reforms (Grundsicherung, pension package, planning acceleration).
-- Use of the special fund so far (outflows 2025–26) for section 6.
+- Done 23.11.2026: AfD district check, reform status, special-fund outflows, autumn 2026 data (`results/pruefungen_offen.md`).
 - Potential estimates of 2019 vintage (AMECO archive, SVR) for a direct write-down figure.
 - Data update to autumn 2026 (step 3).
