@@ -18,6 +18,41 @@ This essay makes three claims. First, the shock behind the write-down is real an
 
 What is missing is the one thing that bought time is supposed to finance: a transition. Growth models rest on social coalitions (Baccaro and Pontusson 2016). The 500-billion-euro infrastructure fund agreed in March 2025 supplies money for a shift towards an investment-led model. It does not supply a coalition to carry one. The buffers hold the old coalition together; this essay argues that, in doing so, they make a new one harder to form. Streeck's bought time ended when the bill came due. In Germany, the bill is coming due as well. It is not arriving as a fiscal crisis. Increasingly, it is arriving as a political one.
 
+
+## 2. Not new, intensified
+
+Germany has buffered recessions before. What is new is not the size of the unemployment response but where the rest of the loss ends up.
+
+Table 1 measures every German recession since the 1960s in the same way. It takes the fall in the output gap from its last peak to its trough, the rise in registered unemployment over the same years, and the ratio of the two: how many points of unemployment each point of lost capacity produced. To keep the series comparable, the unemployment rate is the one the Federal Employment Agency has published for the longest time, measured against dependent civilian employees.
+
+*Table 1: German recessions, lost capacity and unemployment, 1965-2025*
+
+| Episode | Output gap, peak → trough (% of potential) | Fall in gap (points) | Registered unemployment, peak → trough (%) | Rise (points) | Rise per point of lost capacity |
+|---|---|---|---|---|---|
+| 1966/67 | 1965: +1.1 → 1967: −3.7 | 4.8 | 0.7 → 2.1 | 1.4 | 0.29 |
+| 1974/75 | 1973: +2.5 → 1975: −2.5 | 4.9 | 1.2 → 4.7 | 3.5 | 0.71 |
+| 1981/82 | 1979: +3.2 → 1983: −1.7 | 4.9 | 3.8 → 9.1 | 5.3 | 1.08 |
+| 1992/93 | 1991: +4.0 → 1993: −0.8 | 4.8 | 7.3 → 9.8 | 2.5 | 0.52 |
+| 2008/09 | 2008: +1.6 → 2009: −4.9 | 6.4 | 8.7 → 9.1 | 0.4 | 0.06 |
+| 2020 | 2019: +1.3 → 2020: −3.5 | 4.8 | 5.5 → 6.5 | 1.0 | 0.21 |
+| 2022-25 | 2022: +0.9 → 2025: −1.7 | 2.6 | 5.8 → 6.8 | 1.0 | 0.38 |
+
+*Sources: European Commission (2026), output gap, West Germany until 1990; Bundesagentur für Arbeit (2026), annual averages, rate on dependent civilian labour force. Own calculation.*
+
+Before 2009, every point of lost capacity cost between a third of a point and a full point of unemployment, and the level rarely fell back to where it had been. The 1966/67 recession, mild by later standards, helped bring down Ludwig Erhard's government and tripled registered unemployment; by June 1967 the new grand coalition had passed the Stability and Growth Act. The 1992/93 downturn fed a rise that peaked at 12.7 percent in 1997 and was answered, a decade later, by the Hartz reforms. The link between recession and reform was never tight. It ran through coalition arithmetic and party competition. But the labour market reliably carried the signal.
+
+2009 broke the pattern. Output fell by more than five percent, the largest contraction in the history of the Federal Republic, yet registered unemployment barely moved. Short-time work peaked at 1.44 million people in May 2009, and working-time accounts absorbed even more of the adjustment (Burda and Hunt 2011). 2020 repeated the pattern in starker form, with close to six million workers on short-time work in spring (IAB 2022). In both episodes, buffering was a bet that the shock would pass, and the bet paid off. By 2011, German output was back above its 2008 level, and the Commission's estimate of potential output had barely been dented, at less than two percent below its pre-crisis trend (European Commission 2026). Firms that had kept their skilled workers restarted at full strength while competitors rebuilt their workforces. Economists called it the German labour market miracle.
+
+Measured this way, 2022-25 is not a miracle. A rise of 0.38 points per point of lost capacity sits inside the range of the old recessions, well above 2009 and 2020. The same holds internationally (Figure 2). The German response to the recent downturn is unremarkable next to the American, French, Italian and British responses to theirs. The outliers in the German series are the crisis episodes of 2009 and 2020, when the state paid firms to keep workers, not the slow slump of the past four years.
+
+![Figure 2](../figures/figure2_passthrough.png)
+
+*Figure 2: Rise in unemployment per point of lost capacity, by recession. Each point is one recession in one country: the rise in the ILO unemployment rate from the peak to the trough of the output gap, divided by the fall in the gap. Germany in blue, the United States, France, Italy and the United Kingdom in grey. Source: European Commission (2026), own calculation.*
+
+The ILO measure in Figure 2 differs from the registered count in Table 1. It is a survey measure and runs well below the German administrative figure, which is the one voters and politicians see. The two tell the same story here. The negative German values around 2009 and 2013 also reflect the long decline in unemployment after the Hartz reforms, which overlaid the cycle.
+
+So the labour market has responded as it used to. What differs is the shock that it has been responding to. In 2009, almost all of the loss was cyclical, and almost all of it came back. Today, the output gap explains only about three of the ten points by which German output trails its pre-2019 path. The remainder has been written off as potential output that will not return. Germany is no longer buffering a recession. It is buffering a decline, and a decline does not end with a recovery that rewards the firms that waited.
+
 <!-- References used in section 1 (to be merged into the final list):
 Ball, L., D. Leigh and P. Loungani (2017): Okun's Law: Fit at 50? Journal of Money, Credit and Banking 49(7), pp. 1413-1441.
 Baccaro, L. and J. Pontusson (2016): Rethinking Comparative Political Economy: The Growth Model Perspective. Politics & Society 44(2), pp. 175-207.
@@ -26,4 +61,5 @@ EY (2026): Jobstudie 2026 (16 percent rate their job insecure in 2025, 22 percen
 European Commission (2026): AMECO database, Autumn 2026 Economic Forecast vintage, released 17 November 2026.
 Köcher, R. (2023): Halbzeitbilanz. Frankfurter Allgemeine Zeitung, 21 September 2023, p. 8.
 Streeck, W. (2014): Buying Time: The Delayed Crisis of Democratic Capitalism. Verso, London.
+Section 2 adds: Burda, M. C. and J. Hunt (2011): What Explains the German Labor Market Miracle in the Great Recession? Brookings Papers on Economic Activity, Spring 2011, pp. 273-335. IAB (2022): Kurzarbeit in der Corona-Krise. IAB-Forum, Nuremberg (check exact title and figure, about six million in April 2020).
 Numbers: results/befund1_output_gap.md, results/potential_evidence.md, results/pruefungen_offen.md -->

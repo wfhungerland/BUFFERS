@@ -124,6 +124,7 @@ def main():
         du0 = dep[b] - dep[a]
         du1 = dep.get(b + 1, float("nan")) - dep[a] if b + 1 <= 2025 else None
         pt.append({"episode": name, "peak": a, "trough": b, "gap_peak": gap[a], "gap_trough": gap[b],
+                   "u_reg_peak": dep[a], "u_reg_trough": dep[b],
                    "d_gap": round(dg, 2), "d_u_reg": round(du0, 2), "beta_reg": round(du0 / -dg, 2),
                    "d_u_reg_lag1": "" if du1 is None else round(du1, 2),
                    "beta_reg_lag1": "" if du1 is None else round(du1 / -dg, 2)})
