@@ -109,7 +109,7 @@ Meanwhile the institutions through which economic distress used to be converted 
 
 Ordinary politics has not been idle since. Within fourteen months of taking office, the new government had passed a stricter basic income support to replace the *Bürgergeld*, tax incentives to keep pensioners in work, and laws to speed up public procurement and infrastructure planning (Deutscher Bundestag 2025b, 2026a, 2026b, 2026c). The replacement of the *Bürgergeld*, promised in the CDU/CSU programme, passed with an ordinary majority in the first half of the term. By the test this essay originally set itself, that is a structural reform delivered by electoral politics, and the essay has to concede it.
 
-What the concession reveals is the direction of reform. The measure that passed tightens the conditions for the unprotected: the long-term unemployed, people at the margin of the labour market. It leaves the institutions of the protected untouched. Wage-setting, short-time work, employment protection and the negotiated reduction paths in industry have not been touched. The one planned change to insider rules confirms the pattern: a draft reform of the Working Hours Act from mid-2026 would replace the daily limit with a weekly one, but only where collective agreements allow it, leaving the decision with the social partners (Deutscher Bundestag 2026d). Reform has not stopped. It has been routed onto the people who carry the adjustment already.
+What the concession reveals is the direction of reform. The measure that passed tightens the conditions for the unprotected: the long-term unemployed, people at the margin of the labour market. It leaves the institutions of the protected untouched. Wage-setting, short-time work, employment protection and the negotiated reduction paths in industry have not been touched. The one planned change to insider rules confirms the pattern. A ministry draft of mid-2026 would have replaced the daily limit on working hours with a weekly one, but only where collective agreements allowed it; the labour-law bill the cabinet adopted in November 2026 left the change out altogether (Deutscher Bundestag 2026d; Hogapage 2026). Reform has not stopped. It has been routed onto the people who carry the adjustment already.
 
 ## 6. A growth model without a coalition
 
@@ -119,7 +119,7 @@ The shock of 2022 hit the engine of that model. Cheap energy and a growing Chine
 
 Time bought this way could be used for a transition. The 500-billion-euro infrastructure fund provides the money for a shift towards a model driven more by public and private investment and domestic demand. The money is flowing slowly: 14 billion euros were spent in 2025, and 48 billion are budgeted for 2026 (Bundesministerium der Finanzen 2026). Even fully spent, the fund covers less than the public investment gap of just under 600 billion euros over ten years that economists from both the employer-funded and the union-funded institutes estimated in 2024 (Dullien et al. 2024).
 
-Money is not the binding constraint. A new growth model needs a coalition that wants it: firms, workers and regions whose future depends on its success and who will defend it politically. This essay's reading is that the buffers work against the formation of such a coalition. They hold the old one together by protecting its members from the decline of the industries that sustained it. The workers who might gain most from a new model, the young, the precariously employed, the people in regions without a future in energy-intensive industry, are exactly those whom the buffers leave exposed, and their votes are increasingly going to a party that campaigns for the debt brake and against the energy transition, not for an investment-led model.
+Money is not the binding constraint. A new growth model needs a coalition that wants it: firms, workers and regions whose future depends on its success and who will defend it politically. This essay's reading is that the buffers work against the formation of such a coalition. They hold the old one together by protecting its members from the decline of the industries that sustained it. The workers who might gain most from a new model, the young, the precariously employed, the people in regions without a future in energy-intensive industry, are exactly those whom the buffers leave exposed, and their votes are increasingly going to a party that campaigns for the debt brake and against the energy transition, not for an investment-led model (Bundeszentrale für politische Bildung 2025).
 
 Eastern Germany shows what transfers can and cannot do. Net transfers from west to east between 1991 and 2013 are estimated at close to two trillion euros (IWH 2014). They have sustained incomes and infrastructure, yet output per head in the eastern states remains at about 72 percent of the western level, almost unchanged since 2020 (Röhl 2025). In 2023, 43 percent of eastern Germans described themselves as second-class citizens (Infratest dimap 2023), and the AfD is strongest there. Money preserved the standard of living. It did not build a new productive base, and it did not build political attachment to the order that provided it.
 
@@ -171,6 +171,8 @@ Bundesministerium der Finanzen (2026): *Bundeshaushalt: Haushaltsrechnung 2025, 
 
 Bundesverfassungsgericht (BVerfG) (2023): *Zweites Nachtragshaushaltsgesetz 2021 ist nichtig*. Press release on the judgment of 15 November 2023, 2 BvF 1/22, Karlsruhe.
 
+Bundeszentrale für politische Bildung (2025): *Die Programmatik der AfD*. Dossier Parteien in Deutschland, Bonn (online, accessed 24 November 2026).
+
 Burda, M. C. and J. Hunt (2011): What Explains the German Labor Market Miracle in the Great Recession? *Brookings Papers on Economic Activity*, Spring 2011, pp. 273-319.
 
 Creditreform (2025): *Insolvenzen in Deutschland, Jahr 2025*. Creditreform Wirtschaftsforschung, Neuss, 8 December 2025.
@@ -195,7 +197,7 @@ Deutscher Bundestag (2026b): *Gesetzesbeschluss zum Vergabebeschleunigungsgesetz
 
 Deutscher Bundestag (2026c): *Gesetzesbeschluss zum Infrastruktur-Zukunftsgesetz*. Bundesrat-Drucksache 390/26 (Drucksachen 21/4099, 21/4301), Berlin, 26 June 2026.
 
-Deutscher Bundestag (2026d): *Arbeitszeit*. Textarchiv 2026, kw21, and Wissenschaftliche Dienste WD 6 - 004/26, Berlin (draft amendment of the Arbeitszeitgesetz; status of the ministry draft to be confirmed against the cabinet record).
+Deutscher Bundestag (2026d): *Arbeitszeit*. Textarchiv 2026, week 21, Berlin, and Wissenschaftliche Dienste, WD 6 - 004/26 (on the planned amendment of the Arbeitszeitgesetz).
 
 Die Bundeswahlleiterin (2025): *Bundestagswahl 2025: Endgültiges Ergebnis*. Press release, Wiesbaden, 14 March 2025.
 
@@ -214,6 +216,8 @@ Hassel, A. (2014): The Paradox of Liberalization: Understanding Dualism and the 
 Havik, K., K. Mc Morrow, F. Orlandi, C. Planas, R. Raciborski, W. Röger, A. Rossi, A. Thum-Thysen and V. Vandermeulen (2014): *The Production Function Methodology for Calculating Potential Growth Rates & Output Gaps*. European Economy Economic Papers 535, European Commission, Brussels.
 
 Heddesheimer, V., H. Sichart, A. Wiedemann and H. Hilbig (2025): GERDA: The German Election Database. *Scientific Data* 12, doi:10.1038/s41597-025-04811-5.
+
+Hogapage (2026): *Arbeitszeitreform ohne Wochenarbeitszeit*. Hogapage Nachrichten, 19 November 2026 (secondary report on the cabinet decision of 18 November 2026; check against the BMAS press release).
 
 IAB (2025): *Mit rund 1 Million offenen Stellen bleibt die Personalnachfrage schwach*. IAB-Presseinformation, Institut für Arbeitsmarkt- und Berufsforschung, Nuremberg, November 2025.
 
