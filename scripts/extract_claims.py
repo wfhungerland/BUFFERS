@@ -5,8 +5,9 @@ Existing status columns are kept for claims whose text is unchanged.
 """
 import csv, re, os
 
-SRC = "manuscript/lost_in_transmission.md"
-OUT = "inventory/claims.csv"
+import sys
+SRC = sys.argv[1] if len(sys.argv) > 1 else "manuscript/lost_in_transmission.md"
+OUT = sys.argv[2] if len(sys.argv) > 2 else "inventory/claims.csv"
 FIELDS = ["id", "section", "claim", "cited_source", "status", "checked_against", "note"]
 
 old = {}
@@ -14,7 +15,7 @@ if os.path.exists(OUT):
     for r in csv.DictReader(open(OUT, encoding="utf-8")):
         old[r["claim"]] = r
 
-text = open(SRC, encoding="utf-8").read().split("\n## References")[0]
+text = open(SRC, encoding="utf-8").read().split("\n## References")[0].split("<!--")[0]
 section, rows, n = "", [], 0
 for line in text.split("\n"):
     if line.startswith("## "):
