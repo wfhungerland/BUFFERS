@@ -1,4 +1,4 @@
-"""Figure 2 and Table 1: unemployment pass-through per recession, Germany against USA, FRA, ITA, GBR.
+"""Figure 1 and Table 1: unemployment pass-through per recession, Germany against USA, FRA, ITA, GBR.
 
 Episode = a fall of the output gap by at least 2 percentage points from a local peak to the next
 local trough (AMECO, Autumn 2026 vintage; West Germany until 1990, Germany from 1991).
@@ -9,7 +9,7 @@ Unemployment: ILO definition (AMECO ZUTN) for the cross-country figure; register
 civilian labour force (BA) for the German Table 1 (results/okun_gap_peak_trough.csv, from okun_gap.py).
 
 Run from repository root:  python3 scripts/okun_episodes_intl.py
-Writes results/okun_episodes_intl.csv, results/table1.md, figures/figure2_passthrough.png/.svg
+Writes results/okun_episodes_intl.csv, results/table1.md, figures/figure1_passthrough.png/.svg
 """
 import csv
 import os
@@ -117,8 +117,8 @@ def main():
              "Episodes: output gap falls by at least 2 points from peak to trough. Labels: peak to trough year.",
              fontsize=6.5, color="#52514e")
     fig.tight_layout(rect=(0, 0.06, 1, 1))
-    fig.savefig(f"{FIG}/figure2_passthrough.png")
-    fig.savefig(f"{FIG}/figure2_passthrough.svg")
+    fig.savefig(f"{FIG}/figure1_passthrough.png")
+    fig.savefig(f"{FIG}/figure1_passthrough.svg")
 
     # Table 1 for Germany: registered rate (BA, dependent basis) from okun_gap.py
     t = list(csv.DictReader(open(f"{OUT}/okun_gap_peak_trough.csv", encoding="utf-8")))
