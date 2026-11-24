@@ -159,6 +159,8 @@ Baccaro, L. and J. Pontusson (2016): Rethinking Comparative Political Economy: T
 
 Ball, L., D. Leigh and P. Loungani (2017): Okun's Law: Fit at 50? *Journal of Money, Credit and Banking* 49(7), pp. 1413-1441.
 
+BMAS (2026): *Kabinett beschließt Arbeitsrechtspaket*. Press release, Bundesministerium für Arbeit und Soziales, Berlin, 18 November 2026. [content seen only in search excerpts; check against the press release and bill text]
+
 Bundesagentur für Arbeit (2025): *Jahresrückblick 2024: Wirtschaftliche Stagnation hinterlässt deutliche Spuren am Arbeitsmarkt*. Presseinfo, Nuremberg, 3 January 2025.
 
 Bundesagentur für Arbeit (2026): *Arbeitslosigkeit im Zeitverlauf*. Statistik der Bundesagentur für Arbeit, reporting month October 2026, Nuremberg.
@@ -170,8 +172,6 @@ Bundesagentur für Arbeit (2026c): *Grundsicherung für Arbeitsuchende (SGB II):
 Bundesministerium der Finanzen (2026): *Bundeshaushalt: Haushaltsrechnung 2025, Haushaltsplan 2026, Regierungsentwurf 2027* (Sondervermögen Infrastruktur und Klimaneutralität). bundeshaushalt.de, Berlin.
 
 Bundesverfassungsgericht (BVerfG) (2023): *Zweites Nachtragshaushaltsgesetz 2021 ist nichtig*. Press release on the judgment of 15 November 2023, 2 BvF 1/22, Karlsruhe.
-
-BMAS (2026): *Kabinett beschließt Arbeitsrechtspaket*. Press release, Bundesministerium für Arbeit und Soziales, Berlin, 18 November 2026. [content seen only in search excerpts; check against the press release and bill text]
 
 Bundeszentrale für politische Bildung (2025): *Die Programmatik der AfD*. Dossier Parteien in Deutschland, Bonn (online, accessed 24 November 2026).
 
