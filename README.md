@@ -6,7 +6,9 @@ Privates Repo. Keine Workflows.
 
 ## Aufbau
 
-- `manuscript/lost_in_transmission.md`: Arbeitsfassung (Englisch).
+- `manuscript/lost_in_transmission_pw.md`: Einreichfassung im Hausstil von Phenomenal World (Fußnoten, Links); erzeugt mit `scripts/to_pw_style.py` aus `manuscript/lost_in_transmission_v2_harvard.md`.
+- `manuscript/lost_in_transmission_v2_technical.md`: technische Fassung (Harvard, für Fachzeitschriften).
+- `manuscript/lost_in_transmission.md`: alte Arbeitsfassung (Juli 2026).
 - `inventory/versions.md`: Vergleich der Fassungen und Widersprüche.
 - `inventory/claims.csv`: jede Zahlenaussage mit Quelle und Prüfstatus.
 - `scripts/`: Code. `extract_claims.py` erneuert die Liste der Zahlenaussagen aus der Arbeitsfassung.

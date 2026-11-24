@@ -1,6 +1,6 @@
 # Pitch: Phenomenal World (Entwurf, nicht gesendet)
 
-An: [Redaktionsadresse von https://phenomenalworld.org/about/ eintragen]
+An: editorial@phenomenalworld.org (aus der Fußzeile der Website; vor dem Senden auf der About-Seite gegenprüfen)
 Betreff: Pitch: Lost in Transmission. How Germany buys time with demography and a hiring freeze
 
 Anhang: Hungerland (2026) Lost in Transmission.docx (nur, wenn die Redaktion Volltexte annimmt; sonst erst auf Nachfrage)
