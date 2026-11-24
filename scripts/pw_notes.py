@@ -18,6 +18,8 @@ NOTES = {
                                       "Bundesagentur für Arbeit, \"Jahresrückblick 2024.\"", "https://www.arbeitsagentur.de/presse/2025-02-jahresrueckblick-2024"),
     "Bundesagentur für Arbeit 2026": ("Statistik der Bundesagentur für Arbeit, *Arbeitslosigkeit im Zeitverlauf*, reporting month October 2026 (Nuremberg, 2026); regional series as compiled in the author's data repository.",
                                       "Bundesagentur für Arbeit, *Arbeitslosigkeit im Zeitverlauf*.", "https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Arbeitsuche-Arbeitslosigkeit-Unterbeschaeftigung/Produkte/Zeitreihen-Arbeitslose-Arbeitsuchende-Arbeitslosenquoten/Zeitreihen-Arbeitslose-Arbeitsuchende-Arbeitslosenquoten-Nav.html"),
+    "Bundesagentur für Arbeit 2026d": ("Bundesagentur für Arbeit, \"Jahresrückblick 2025,\" press release, Nuremberg, January 7, 2026. The figure for 2024 revises the earlier estimate of about 320,000 to 298,000; the figure for 2025 is a first estimate.",
+                                       "Bundesagentur für Arbeit, \"Jahresrückblick 2025.\"", "https://www.arbeitsagentur.de/presse/2026-02-jahresrueckblick-2025"),
     "Bundesagentur für Arbeit 2026b": ("Bundesagentur für Arbeit, *Geschäftsbericht 2025* (Nuremberg, 2026), 34.",
                                        "Bundesagentur für Arbeit, *Geschäftsbericht 2025*, 34.", "https://www.arbeitsagentur.de/datei/geschaeftsbericht-2025_ba056572.pdf"),
     "Bundesagentur für Arbeit 2026c": ("Statistik der Bundesagentur für Arbeit, *Grundsicherung für Arbeitsuchende (SGB II): Bedarfsgemeinschaften und Regelleistungsberechtigte* (Nuremberg, April 28, 2026).",

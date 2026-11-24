@@ -66,7 +66,7 @@ Three buffers make this possible. They operate in a hierarchy, and the order mat
 
 ### Demographic scarcity
 
-The first and strongest buffer is demographic. Over the next fifteen years, 13.4 million people, almost a third of the labour force, will reach retirement age; they are the baby-boom cohorts (Destatis 2025a). For a firm deciding whether to let a trained 50-year-old go, the relevant question is not whether demand will recover next year. It is whether anyone will be available to hire when it does. Under these conditions, hoarding is rational even against a shock that may not pass. The firm-level evidence fits. Vacancies have almost halved since late 2022, from almost two million to about one million, and there are now almost three unemployed people for every vacancy (IAB 2025). Firms have stopped searching, and they are dismissing far fewer workers than the output loss would once have produced. Dismissals have not stopped: the number of unemployed in the insurance system, most of whom have recently lost a job, has still risen by more than a third since 2022 (Bundesagentur für Arbeit 2026). Short-time work, the instrument the state used in 2009 and 2020, has played a minor role, at around 320,000 people on average in 2024, against close to six million at the peak in 2020 (Bundesagentur für Arbeit 2025; Fitzenberger and Kagerl 2023). Firms are hoarding on their own account.
+The first and strongest buffer is demographic. Over the next fifteen years, 13.4 million people, almost a third of the labour force, will reach retirement age; they are the baby-boom cohorts (Destatis 2025a). For a firm deciding whether to let a trained 50-year-old go, the relevant question is not whether demand will recover next year. It is whether anyone will be available to hire when it does. Under these conditions, hoarding is rational even against a shock that may not pass. The firm-level evidence fits. Vacancies have almost halved since late 2022, from almost two million to about one million, and there are now almost three unemployed people for every vacancy (IAB 2025). Firms have stopped searching, and they are dismissing far fewer workers than the output loss would once have produced. Dismissals have not stopped: the number of unemployed in the insurance system, most of whom have recently lost a job, has still risen by more than a third since 2022 (Bundesagentur für Arbeit 2026). Short-time work, the instrument the state used in 2009 and 2020, has played a minor role, at around 300,000 people on average in 2024 and 2025, against close to six million at the peak in 2020 (Bundesagentur für Arbeit 2026d; Fitzenberger and Kagerl 2023). Firms are hoarding on their own account.
 
 Demography appears on both sides of the ledger, and the objection deserves a direct answer. The same shrinking labour force that makes hoarding rational also lowers potential growth and is thus part of the decline being hidden. Both are true, but they run on different clocks. As a buffer, demography works immediately, through each firm's retention decision. As a drag on growth, it works slowly, through the supply of labour over a decade. That is why the buffer can hold now and give way later.
 
@@ -176,13 +176,13 @@ Baccaro, L. and J. Pontusson (2016): Rethinking Comparative Political Economy: T
 
 BMAS (2026): *Kabinett beschließt Arbeitsrechtspaket*. Press release, Bundesministerium für Arbeit und Soziales, Berlin, 18 November 2026; and *Gesetz zur Änderung bestimmter arbeitsrechtlicher Vorschriften und zum Schutz der Unternehmensmitbestimmung*, government bill, cabinet decision of 18 November 2026.
 
-Bundesagentur für Arbeit (2025): *Jahresrückblick 2024: Wirtschaftliche Stagnation hinterlässt deutliche Spuren am Arbeitsmarkt*. Presseinfo, Nuremberg, 3 January 2025.
-
 Bundesagentur für Arbeit (2026): *Arbeitslosigkeit im Zeitverlauf*. Statistik der Bundesagentur für Arbeit, reporting month October 2026, Nuremberg.
 
 Bundesagentur für Arbeit (2026b): *Geschäftsbericht der Bundesagentur für Arbeit 2025*. Nuremberg, 2026.
 
 Bundesagentur für Arbeit (2026c): *Grundsicherung für Arbeitsuchende (SGB II): Bedarfsgemeinschaften und Regelleistungsberechtigte*. Statistik der Bundesagentur für Arbeit, Nuremberg, 28 April 2026.
+
+Bundesagentur für Arbeit (2026d): *Jahresrückblick 2025*. Presseinfo, Nuremberg, 7 January 2026 (short-time workers 2024 revised to 298,000; 2025 first estimate about 300,000).
 
 Bundesministerium der Finanzen (2026): *Bundeshaushalt: Haushaltsrechnung 2025, Haushaltsplan 2026, Regierungsentwurf 2027* (Sondervermögen Infrastruktur und Klimaneutralität). bundeshaushalt.de, Berlin.
 
@@ -232,7 +232,7 @@ Hassel, A. (2014): The Paradox of Liberalization: Understanding Dualism and the 
 
 Havik, K., K. Mc Morrow, F. Orlandi, C. Planas, R. Raciborski, W. Röger, A. Rossi, A. Thum-Thysen and V. Vandermeulen (2014): *The Production Function Methodology for Calculating Potential Growth Rates & Output Gaps*. European Economy Economic Papers 535, European Commission, Brussels.
 
-Heddesheimer, V., H. Sichart, A. Wiedemann and H. Hilbig (2025): GERDA: The German Election Database. *Scientific Data* 12, doi:10.1038/s41597-025-04811-5.
+Heddesheimer, V., H. Hilbig, F. Sichart and A. Wiedemann (2025): GERDA: The German Election Database. *Scientific Data* 12, doi:10.1038/s41597-025-04811-5.
 
 IAB (2025): *Mit rund 1 Million offenen Stellen bleibt die Personalnachfrage schwach*. IAB-Presseinformation, Institut für Arbeitsmarkt- und Berufsforschung, Nuremberg, November 2025.
 
