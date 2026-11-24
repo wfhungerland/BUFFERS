@@ -21,3 +21,17 @@ Vorbehalt: Die Dateien im Dropbox-Ordner Pr_BUFFERS/Literatur sind /bib-Zusammen
 | Ost-BIP je Einwohner | weicht ab | Röhl (2025), IW-Trends 52(3): 72 % des Westniveaus, seit 2020 kaum verändert | 72 % statt „four-fifths“ |
 | „Bürger zweiter Klasse“ | bestätigt (sekundär) | Infratest dimap, 28.–30.08.2023: 43 % | Zahl im Text ergänzt |
 | Nettotransfers Ost | sinngemäß bestätigt, alte Schätzungen | IWH (2014): rund 2 Billionen; ifo Dresden: knapp 1,7 Billionen | „between 1.5 and 2 trillion (IWH 2014)“; Primärquelle noch prüfen |
+
+## Teil A
+
+| Claim | Ergebnis | Beleg | Änderung im Text |
+|---|---|---|---|
+| C002 Köcher 7 % / 38 % | **nicht gefunden** | Zusammenfassung enthält nur Vertrauen in Koalition und Standort | offen: am FAZ-Artikel oder Allensbach-PDF prüfen |
+| C039 Strompreis zweieinhalbfach | teilweise | rund 8 ct USA/China bestätigt; 20,3 ct Deutschland nicht in der Zusammenfassung | offen: Abb. 1 der vbw-Studie prüfen |
+| C040 China −17,3 %, Euroraum +14,4 % | bestätigt | SVR 2025/26, Kap. 1 Ziff. 14; Kurzfassung Ziff. 4; in US-Dollar | keine |
+| C047 13,4 Mio. bis 2039, 31 % | bestätigt | Destatis PM 03.09.2025 (Nummer offen) | Kohorten als „baby-boom cohorts“ |
+| C027a Kurzarbeit 2009 | weicht ab | Burda/Hunt: Kurzarbeit 32 % des Stundenrückgangs, Arbeitszeitkonten 17 % | Satz neu: ein Drittel bzw. ein Sechstel; 1,44 Mio. nur sekundär, jetzt „about 1.4 million“ |
+| C027b Kurzarbeit 2020 | bestätigt | Fitzenberger und Kagerl (2023): sechs Mio. im April 2020 | Quelle getauscht |
+| C050 Kurzarbeit 2024 | weicht leicht ab | BA Jahresrückblick 2024: rund 320.000 im Jahresmittel | 320.000 |
+| C053b BA-Defizit 2025 | weicht ab | 5,23 Mrd. war die Planung; Ist laut Geschäftsbericht rund 4,23 Mrd. (nur sekundär) | „more than four billion“; Geschäftsbericht 2025 noch prüfen |
+| C052 Bürgergeld 2025 | bestätigt, stärker | BA: 5,42 Mio. (Dez. 2024) → 5,19 Mio. (Dez. 2025), −4,3 % | „fell by about four percent“ |
