@@ -60,7 +60,7 @@ The shock itself is not hidden. It is visible in every industrial statistic. Wha
 
 Start with the shock. Russia's war cut off the cheap pipeline gas on which German energy-intensive industry had been built. Prices fell back from their 2022 peak but settled at a new level: German industry pays around two and a half times what its American and Chinese competitors pay for electricity (Prognos/vbw 2023). At the same time, Chinese producers moved into the sectors where Germany had been strongest, chemicals, machinery and cars. By August 2025, Chinese export prices stood 17 percent below their 2022 average, while euro-area export prices had risen by 14 percent (SVR 2025). Neither change is cyclical. Neither will be reversed by a pick-up in demand.
 
-The industries at the centre of the shock show it. Between February 2022 and March 2026, output in Germany's energy-intensive branches, chemicals, metals, paper, glass and ceramics, fell by 15 percent. Employment in the same branches fell by six percent, from 848,000 to 794,000 (Destatis 2026). Across manufacturing as a whole, real value added fell by almost seven percent between 2022 and 2025, and employment by three (European Commission 2026). Since 2022, output has fallen roughly twice as fast as jobs, although over the longer period since 2019 manufacturing employment has fallen faster than output. The economy-wide picture is clearer. Against its 2014-19 trend, German output in 2025 fell short by ten points. Missing employment accounts for more than five of them, weak output per hour for four, and shorter hours per worker for half a point (European Commission 2026, own calculation). Germany has not adjusted by cutting hours. It has adjusted by not hiring.
+The industries at the centre of the shock show it. Between February 2022 and March 2026, output in Germany's energy-intensive branches, chemicals, metals, paper, glass and ceramics, fell by 15 percent. Employment in the same branches fell by six percent, from 848,000 to 794,000 (Destatis 2026a). Across manufacturing as a whole, real value added fell by almost seven percent between 2022 and 2025, and employment by three (European Commission 2026). Since 2022, output has fallen roughly twice as fast as jobs, although over the longer period since 2019 manufacturing employment has fallen faster than output. The economy-wide picture is clearer. Against its 2014-19 trend, German output in 2025 fell short by ten points. Missing employment accounts for more than five of them, weak output per hour for four, and shorter hours per worker for half a point (European Commission 2026, own calculation). Germany has not adjusted by cutting hours. It has adjusted by not hiring.
 
 This is labour hoarding in its quiet form: keep the workforce you have, let it shrink through retirement, replace no one. Its cost lands in two places other than the payroll. The first is productivity. A firm that keeps its workers while producing less produces less per hour, and the Commission's method for estimating potential output reads part of that stall as lost capacity (Havik et al. 2014). The effect is real but limited: on an approximation of the Commission's calculation, only about one of the five points of lost potential comes through productivity, against more than half through labour and a quarter through capital (own calculation). The second place the cost lands is outside the firm: on the young people, the migrants and the workers of insolvent suppliers who would have filled the jobs that were not created (section 4).
 
@@ -68,7 +68,7 @@ Three buffers make this possible. They operate in a hierarchy, and the order mat
 
 ### Demographic scarcity
 
-The first and strongest buffer is demographic. Over the next fifteen years, 13.4 million people, almost a third of the labour force, will reach retirement age; they are the baby-boom cohorts (Destatis 2025). For a firm deciding whether to let a trained 50-year-old go, the relevant question is not whether demand will recover next year. It is whether anyone will be available to hire when it does. Under these conditions, hoarding is rational even against a shock that may not pass. The firm-level evidence fits. Vacancies have almost halved since late 2022, from almost two million to about one million, while the number of unemployed per hundred vacancies has risen to almost 290 (IAB 2025): firms have stopped searching, but they have not started firing. Short-time work, the instrument the state used in 2009 and 2020, has played a minor role, at around 320,000 people on average in 2024 against about 1.4 million at the 2009 peak (Bundesagentur für Arbeit 2025). Firms are hoarding on their own account.
+The first and strongest buffer is demographic. Over the next fifteen years, 13.4 million people, almost a third of the labour force, will reach retirement age; they are the baby-boom cohorts (Destatis 2025a). For a firm deciding whether to let a trained 50-year-old go, the relevant question is not whether demand will recover next year. It is whether anyone will be available to hire when it does. Under these conditions, hoarding is rational even against a shock that may not pass. The firm-level evidence fits. Vacancies have almost halved since late 2022, from almost two million to about one million, while the number of unemployed per hundred vacancies has risen to almost 290 (IAB 2025): firms have stopped searching, but they have not started firing. Short-time work, the instrument the state used in 2009 and 2020, has played a minor role, at around 320,000 people on average in 2024 against about 1.4 million at the 2009 peak (Bundesagentur für Arbeit 2025). Firms are hoarding on their own account.
 
 Demography appears on both sides of the ledger, and the objection deserves a direct answer. The same shrinking labour force that makes hoarding rational also lowers potential growth and is thus part of the decline being hidden. Both are true, but they run on different clocks. As a buffer, demography works immediately, through each firm's retention decision. As a drag on growth, it works slowly, through the supply of labour over a decade. That is why the buffer can hold now and give way later.
 
@@ -78,7 +78,7 @@ The second buffer is the narrowness of the shock. Energy-intensive industry and 
 
 ### The welfare backstop
 
-The third buffer is the one most discussed in public and, so far, the least used. The number of people receiving the *Bürgergeld*, Germany's basic income support, fell by about four percent during 2025 rather than rising (Bundesagentur für Arbeit 2026c). Public employment grew, by almost 100,000 in the year to mid-2024 (Destatis 2025), and the unemployment insurance fund ran a deficit of more than four billion euros in 2025 and had to borrow from the federal budget (Bundesagentur für Arbeit 2026b). But the welfare state has not been absorbing a wave of displaced industrial workers, because there has been no wave. Its role is different: it makes the alternatives to dismissal credible. Firms can negotiate long, socially agreed reduction paths, Volkswagen until 2030, Audi until 2029 (Volkswagen 2024; Audi 2025), because early retirement, transfer companies and insurance benefits stand behind them. The backstop shapes behaviour before it pays out.
+The third buffer is the one most discussed in public and, so far, the least used. The number of people receiving the *Bürgergeld*, Germany's basic income support, fell by about four percent during 2025 rather than rising (Bundesagentur für Arbeit 2026c). Public employment grew, by almost 100,000 in the year to mid-2024 (Destatis 2025b), and the unemployment insurance fund ran a deficit of more than four billion euros in 2025 and had to borrow from the federal budget (Bundesagentur für Arbeit 2026b). But the welfare state has not been absorbing a wave of displaced industrial workers, because there has been no wave. Its role is different: it makes the alternatives to dismissal credible. Firms can negotiate long, socially agreed reduction paths, Volkswagen until 2030, Audi until 2029 (Volkswagen 2024; Audi 2025), because early retirement, transfer companies and insurance benefits stand behind them. The backstop shapes behaviour before it pays out.
 
 ### How the buffers work together
 
@@ -91,7 +91,7 @@ The buffers are not neutral. Hoarding protects the workers firms most want to ke
 
 The data show the pattern. Between 2022 and 2025, registered unemployment rose by about a fifth. Among people under 25 it rose by a third, from 203,000 to 273,000, and the youth unemployment rate climbed from 4.4 to 5.7 percent (Bundesagentur für Arbeit 2026). A hiring freeze is a buffer for those already inside. For those trying to get in, it is the recession. Foreign nationals carry an even larger share. They make up about one in six of the dependent labour force, but account for half of the increase in unemployment between 2022 and 2025, partly because refugees from Ukraine entered the statistics, partly because migrants are over-represented in the jobs that go first (Bundesagentur für Arbeit 2026).
 
-The negotiated reduction paths in the car industry show the same logic in contractual form. Volkswagen has agreed to cut more than 35,000 jobs in Germany by 2030 without compulsory redundancies, and Audi up to 7,500 in indirect areas by 2029, with employment protection at its German sites extended to the end of 2033 (Volkswagen 2024; Audi 2025). These agreements protect the people already on the payroll. They do not protect the supplier firms, where the shock lands without a works agreement to soften it. Corporate insolvencies reached their highest level in ten years in 2025 and rose by almost another seven percent in the first eight months of 2026 (Creditreform 2025; Destatis 2026).
+The negotiated reduction paths in the car industry show the same logic in contractual form. Volkswagen has agreed to cut more than 35,000 jobs in Germany by 2030 without compulsory redundancies, and Audi up to 7,500 in indirect areas by 2029, with employment protection at its German sites extended to the end of 2033 (Volkswagen 2024; Audi 2025). These agreements protect the people already on the payroll. They do not protect the supplier firms, where the shock lands without a works agreement to soften it. Corporate insolvencies reached their highest level in ten years in 2025 and rose by almost another seven percent in the first eight months of 2026 (Creditreform 2025; Destatis 2026c).
 
 None of this is new to students of German political economy. The literature on dualisation describes how Germany protected its industrial core in the 1990s and 2000s by shifting flexibility onto a growing periphery of part-time, temporary and low-wage work (Palier and Thelen 2010; Emmenegger et al. 2012). Hassel (2014) argued that this dualism was not a failure of the German model but the condition of its recovery. The current episode extends the pattern. The core is protected through hoarding and negotiated exits; the margin absorbs the adjustment. What has changed is the direction of travel. In the 2000s, dualisation bought competitiveness for an expanding export sector. Today it buys time for a contracting one.
 
@@ -107,7 +107,7 @@ The district data offer a first answer. Across Germany's 400 districts, the AfD'
 
 Meanwhile the institutions through which economic distress used to be converted into policy have become harder to move. The debt brake ties fiscal policy to constitutional majorities. In November 2023, the Constitutional Court voided the reallocation of 60 billion euros in unused credit to the climate fund, removing the coalition's fiscal room at a stroke (BVerfG 2023). The coalition collapsed a year later. The election of February 2025 produced a Bundestag in which the AfD and Die Linke together hold a blocking minority on constitutional amendments. The largest fiscal change in decades, the March 2025 amendment that exempted defence spending above one percent of GDP from the debt brake and created a 500-billion-euro fund for infrastructure and climate investment, was therefore passed by the outgoing Bundestag, by 512 votes to 206, before the new one convened (Deutscher Bundestag 2025). It was an elite manoeuvre against the clock, not the answer to a mandate.
 
-Ordinary politics has not been idle since. Within fourteen months of taking office, the new government had passed a stricter basic income support to replace the *Bürgergeld*, tax incentives to keep pensioners in work, and laws to speed up public procurement and infrastructure planning (Deutscher Bundestag 2025b, 2026a, 2026b). The replacement of the *Bürgergeld*, promised in the CDU/CSU programme, passed with an ordinary majority in the first half of the term. By the test this essay originally set itself, that is a structural reform delivered by electoral politics, and the essay has to concede it.
+Ordinary politics has not been idle since. Within fourteen months of taking office, the new government had passed a stricter basic income support to replace the *Bürgergeld*, tax incentives to keep pensioners in work, and laws to speed up public procurement and infrastructure planning (Deutscher Bundestag 2025b, 2026a, 2026b, 2026c). The replacement of the *Bürgergeld*, promised in the CDU/CSU programme, passed with an ordinary majority in the first half of the term. By the test this essay originally set itself, that is a structural reform delivered by electoral politics, and the essay has to concede it.
 
 What the concession reveals is the direction of reform. The measure that passed tightens the conditions for the unprotected: the long-term unemployed, people at the margin of the labour market. It leaves the institutions of the protected untouched. Wage-setting, short-time work, employment protection and the negotiated reduction paths in industry have not been touched, and no party with a chance of governing proposes to touch them. Reform has not stopped. It has been routed onto the people who carry the adjustment already.
 
@@ -147,15 +147,86 @@ The political test, restated after the essay had to concede its first version: i
 
 Which returns the essay to Köcher's seven percent. The calmest reading of job security in the history of German survey research is not a sign that the crisis has been avoided. It is what this crisis looks like: a decline absorbed so completely by those who are protected that the people who carry it cannot recognise themselves as a group, and answer in a currency that buys them nothing.
 
-<!-- References used in section 1 (to be merged into the final list):
-Ball, L., D. Leigh and P. Loungani (2017): Okun's Law: Fit at 50? Journal of Money, Credit and Banking 49(7), pp. 1413-1441.
-Baccaro, L. and J. Pontusson (2016): Rethinking Comparative Political Economy: The Growth Model Perspective. Politics & Society 44(2), pp. 175-207.
-Bundesagentur für Arbeit (2026): Arbeitslosigkeit im Zeitverlauf, Berichtsmonat Oktober 2026. Nuremberg.
-EY (2026): Jobstudie 2026 (16 percent rate their job insecure in 2025, 22 percent in 2009). Only secondary reports seen so far (Welt, retail-news.de); check against the EY original before submission.
-European Commission (2026): AMECO database, Autumn 2026 Economic Forecast vintage, released 17 November 2026.
-Köcher, R. (2023): Halbzeitbilanz. Frankfurter Allgemeine Zeitung, 21 September 2023, p. 8.
-Streeck, W. (2014): Buying Time: The Delayed Crisis of Democratic Capitalism. Verso, London.
-Sections 4-8 add: Baccaro, L., M. Blyth and J. Pontusson (eds.) (2022): Diminishing Returns: The New Politics of Growth and Stagnation. Oxford University Press. Bundesministerium der Finanzen (2026): Haushaltsrechnung 2025 / Bundeshaushalt 2026 (Sondervermögen Infrastruktur und Klimaneutralität, via Makrowolf bund_tree.json). Bundeswahlleiterin (2025): Endgültiges Ergebnis der Bundestagswahl 2025. BVerfG (2023): 2 BvF 1/22. Creditreform (2025): Insolvenzen in Deutschland, Jahr 2025. Destatis (2026): Insolvenzstatistik Jan-Aug 2026 (via Makrowolf). Deutscher Bundestag (2025): namentliche Abstimmung Drs. 20/15096, 18 March 2025. Deutscher Bundestag (2025b, 2026a, 2026b): Aktivrente BR-Drs. 726/25; Grundsicherung BR-Drs. 116/26; Vergabebeschleunigung BR-Drs. 225/26; Infrastruktur-Zukunftsgesetz BR-Drs. 390/26 (assign letters in final list). Dullien, S., S. Gerards Iglesias, M. Hüther and K. Rietzler (2024): IMK Policy Brief 168 / IW-Policy Paper 2/2024. Emmenegger, P., S. Häusermann, B. Palier and M. Seeleib-Kaiser (eds.) (2012): The Age of Dualization. Oxford University Press. Hassel, A. (2014): The Paradox of Liberalization: Understanding Dualism and the Recovery of the German Political Economy. British Journal of Industrial Relations 52(1), pp. 57-81. Heddesheimer, V., H. Sichart, A. Wiedemann and H. Hilbig (2025): GERDA: The German Election Database. Scientific Data, doi:10.1038/s41597-025-04811-5. Infratest dimap (2023): survey for ARD documentary, September 2023 (check figure). Palier, B. and K. Thelen (2010): Institutionalizing Dualism: Complementarities and Change in France and Germany. Politics & Society 38(1), pp. 119-148. Röhl, K.-H. (2025): IW-Trends 3/2025 (check title). Own calculations: results/afd_exposure.md; youth unemployment from BA district series (Makrowolf).
-Section 3 adds (all to check against originals before submission): Bundesagentur für Arbeit (2025): Jahresrückblick 2024 / Haushalt 2026 (Kurzarbeit, BA deficit, Bürgergeld). Destatis (2025): 13,4 Millionen Erwerbspersonen erreichen in den nächsten 15 Jahren das gesetzliche Rentenalter, PM N048; Beschäftigte des öffentlichen Dienstes 2024, PM 212 (split into 2025a/b in final list). Destatis (2026): Energieintensive Industriezweige mit Produktionsrückgang um 15,2 % von Februar 2022 bis März 2026, PM N032, 15 May 2026. Havik, K. et al. (2014): The Production Function Methodology for Calculating Potential Growth Rates & Output Gaps. European Economy Economic Papers 535. IAB (2025): IAB-Monitor Arbeitskräftebedarf 3/2025. Prognos/vbw (2023): Internationaler Energiepreisvergleich für die Industrie. SVR (2025): Jahresgutachten 2025/26. Volkswagen (2024): Zukunft Volkswagen, 20 December 2024. Audi (2025): Zukunftsvereinbarung, 17 March 2025.
-Section 2 adds: Burda, M. C. and J. Hunt (2011): What Explains the German Labor Market Miracle in the Great Recession? Brookings Papers on Economic Activity, Spring 2011, pp. 273-335. IAB (2022): Kurzarbeit in der Corona-Krise. IAB-Forum, Nuremberg (check exact title and figure, about six million in April 2020).
-Numbers: results/befund1_output_gap.md, results/potential_evidence.md, results/pruefungen_offen.md -->
+## References
+
+Audi (2025): *Management and works council enter agreement for the future*. Audi AG, Ingolstadt, 17 March 2025.
+
+Baccaro, L., M. Blyth and J. Pontusson (eds.) (2022): *Diminishing Returns: The New Politics of Growth and Stagnation*. Oxford University Press, New York.
+
+Baccaro, L. and J. Pontusson (2016): Rethinking Comparative Political Economy: The Growth Model Perspective. *Politics & Society* 44(2), pp. 175-207.
+
+Ball, L., D. Leigh and P. Loungani (2017): Okun's Law: Fit at 50? *Journal of Money, Credit and Banking* 49(7), pp. 1413-1441.
+
+Bundesagentur für Arbeit (2025): *Jahresrückblick 2024: Wirtschaftliche Stagnation hinterlässt deutliche Spuren am Arbeitsmarkt*. Presseinfo, Nuremberg, 3 January 2025.
+
+Bundesagentur für Arbeit (2026): *Arbeitslosigkeit im Zeitverlauf*. Statistik der Bundesagentur für Arbeit, reporting month October 2026, Nuremberg.
+
+Bundesagentur für Arbeit (2026b): *Geschäftsbericht 2025*. Nuremberg. [check outturn deficit against the original]
+
+Bundesagentur für Arbeit (2026c): *Grundsicherung für Arbeitsuchende (SGB II): Bedarfsgemeinschaften und Regelleistungsberechtigte*. Statistik der Bundesagentur für Arbeit, Nuremberg, 28 April 2026.
+
+Bundesministerium der Finanzen (2026): *Bundeshaushalt: Haushaltsrechnung 2025, Haushaltsplan 2026, Regierungsentwurf 2027* (Sondervermögen Infrastruktur und Klimaneutralität). bundeshaushalt.de, Berlin.
+
+Bundesverfassungsgericht (BVerfG) (2023): *Zweites Nachtragshaushaltsgesetz 2021 ist nichtig*. Press release on the judgment of 15 November 2023, 2 BvF 1/22, Karlsruhe.
+
+Burda, M. C. and J. Hunt (2011): What Explains the German Labor Market Miracle in the Great Recession? *Brookings Papers on Economic Activity*, Spring 2011, pp. 273-319.
+
+Creditreform (2025): *Insolvenzen in Deutschland, Jahr 2025*. Creditreform Wirtschaftsforschung, Neuss, 8 December 2025.
+
+Destatis (2025a): *13,4 Millionen Erwerbspersonen erreichen in den nächsten 15 Jahren das gesetzliche Rentenalter*. Press release, Statistisches Bundesamt, Wiesbaden, 3 September 2025.
+
+Destatis (2025b): *Öffentlicher Dienst 2024: Mehr Beschäftigte für Bildung und Kinderbetreuung*. Press release No. 212, Statistisches Bundesamt, Wiesbaden, 17 June 2025.
+
+Destatis (2026a): *Energieintensive Industriezweige mit Produktionsrückgang um 15,2 % von Februar 2022 bis März 2026*. Press release No. N032, Statistisches Bundesamt, Wiesbaden, 15 May 2026.
+
+Destatis (2026b): *Lebendgeborene insgesamt*. Statistisches Bundesamt, Wiesbaden.
+
+Destatis (2026c): *Insolvenzstatistik: Beantragte Unternehmensinsolvenzen, monthly*. GENESIS-Online, Statistisches Bundesamt, Wiesbaden, reporting month August 2026.
+
+Deutscher Bundestag (2025): *Mehrheit für Reform der Schuldenbremse: 512 Abgeordnete stimmen mit Ja*. Textarchiv, Berlin, 18 March 2025.
+
+Deutscher Bundestag (2025b): *Gesetzesbeschluss zur Aktivrente*. Bundesrat-Drucksache 726/25, Berlin, 5 December 2025.
+
+Deutscher Bundestag (2026a): *Gesetzesbeschluss zur Grundsicherung für Arbeitsuchende*. Bundesrat-Drucksache 116/26 (Drucksachen 21/3541, 21/4087), Berlin, 5 March 2026.
+
+Deutscher Bundestag (2026b): *Gesetzesbeschluss zum Vergabebeschleunigungsgesetz*. Bundesrat-Drucksache 225/26 (Drucksache 21/1934), Berlin, 23 April 2026.
+
+Deutscher Bundestag (2026c): *Gesetzesbeschluss zum Infrastruktur-Zukunftsgesetz*. Bundesrat-Drucksache 390/26 (Drucksachen 21/4099, 21/4301), Berlin, 26 June 2026.
+
+Die Bundeswahlleiterin (2025): *Bundestagswahl 2025: Endgültiges Ergebnis*. Press release, Wiesbaden, 14 March 2025.
+
+Dullien, S., S. Gerards Iglesias, M. Hüther and K. Rietzler (2024): *Herausforderungen für die Schuldenbremse: Investitionsbedarfe in der Infrastruktur und für die Transformation*. IMK Policy Brief 168 / IW-Policy Paper 2/2024, Düsseldorf and Cologne, May 2024.
+
+Emmenegger, P., S. Häusermann, B. Palier and M. Seeleib-Kaiser (eds.) (2012): *The Age of Dualization: The Changing Face of Inequality in Deindustrializing Societies*. Oxford University Press, New York.
+
+European Commission (2026): *AMECO database*. Directorate-General for Economic and Financial Affairs, Autumn 2026 Economic Forecast vintage, released 17 November 2026, Brussels.
+
+EY (2026): *EY-Verbraucherumfrage 2025/2026*. Press release, EY Germany, January 2026.
+
+Fitzenberger, B. and C. Kagerl (2023): Viele Dienstleistungsbranchen nutzten Kurzarbeit in der Corona-Krise zeitweise stärker als das Produzierende Gewerbe. *IAB-Forum*, Nuremberg, 20 March 2023.
+
+Hassel, A. (2014): The Paradox of Liberalization: Understanding Dualism and the Recovery of the German Political Economy. *British Journal of Industrial Relations* 52(1), pp. 57-81.
+
+Havik, K., K. Mc Morrow, F. Orlandi, C. Planas, R. Raciborski, W. Röger, A. Rossi, A. Thum-Thysen and V. Vandermeulen (2014): *The Production Function Methodology for Calculating Potential Growth Rates & Output Gaps*. European Economy Economic Papers 535, European Commission, Brussels.
+
+Heddesheimer, V., H. Sichart, A. Wiedemann and H. Hilbig (2025): GERDA: The German Election Database. *Scientific Data* 12, doi:10.1038/s41597-025-04811-5.
+
+IAB (2025): *Mit rund 1 Million offenen Stellen bleibt die Personalnachfrage schwach*. IAB-Presseinformation, Institut für Arbeitsmarkt- und Berufsforschung, Nuremberg, November 2025.
+
+Infratest dimap (2023): *33 Jahre Wiedervereinigung*. Survey for ARD, Berlin, fieldwork 28-30 August 2023.
+
+IWH (2014): Press release 17/2014 on net transfers to eastern Germany. Leibniz-Institut für Wirtschaftsforschung Halle. [check title and figure against the original]
+
+Köcher, R. (2023): Das Vertrauen ist dahin. Halbzeitbilanz. *Frankfurter Allgemeine Zeitung*, 21 September 2023. [job-security figures still to be checked against the original]
+
+Palier, B. and K. Thelen (2010): Institutionalizing Dualism: Complementarities and Change in France and Germany. *Politics & Society* 38(1), pp. 119-148.
+
+Prognos/vbw (2023): *Internationaler Energiepreisvergleich für die Industrie*. Study by Prognos AG for vbw, Vereinigung der Bayerischen Wirtschaft, Munich, October 2023. [German price in Figure 1 still to be checked]
+
+Röhl, K.-H. (2025): 35 Jahre Wiedervereinigung: Was wurde in Ostdeutschland erreicht und wo liegen die größten ökonomischen Probleme? *IW-Trends* 52(3), pp. 61-80, doi:10.2373/1864-810X.25-03-04.
+
+Streeck, W. (2014): *Buying Time: The Delayed Crisis of Democratic Capitalism*. Verso, London.
+
+SVR (2025): *Perspektiven für morgen schaffen, Chancen nicht verspielen. Jahresgutachten 2025/26*. Sachverständigenrat zur Begutachtung der gesamtwirtschaftlichen Entwicklung, Wiesbaden, November 2025.
+
+Volkswagen (2024): *Einigung erzielt: Volkswagen AG stellt sich wettbewerbsfähig für die Zukunft auf*. Press release, Wolfsburg, 20 December 2024.
