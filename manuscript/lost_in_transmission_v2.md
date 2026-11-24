@@ -109,7 +109,7 @@ Meanwhile the institutions through which economic distress used to be converted 
 
 Ordinary politics has not been idle since. Within fourteen months of taking office, the new government had passed a stricter basic income support to replace the *Bürgergeld*, tax incentives to keep pensioners in work, and laws to speed up public procurement and infrastructure planning (Deutscher Bundestag 2025b, 2026a, 2026b, 2026c). The replacement of the *Bürgergeld*, promised in the CDU/CSU programme, passed with an ordinary majority in the first half of the term. By the test this essay originally set itself, that is a structural reform delivered by electoral politics, and the essay has to concede it.
 
-What the concession reveals is the direction of reform. The measure that passed tightens the conditions for the unprotected: the long-term unemployed, people at the margin of the labour market. It leaves the institutions of the protected untouched. Wage-setting, short-time work, employment protection and the negotiated reduction paths in industry have not been touched. The one planned change to insider rules confirms the pattern. A ministry draft of mid-2026 would have replaced the daily limit on working hours with a weekly one, but only where collective agreements allowed it; the labour-law bill the cabinet adopted in November 2026 left the change out altogether (Deutscher Bundestag 2026d; Hogapage 2026). Reform has not stopped. It has been routed onto the people who carry the adjustment already.
+What the concession reveals is the direction of reform. The measure that passed tightens the conditions for the unprotected: the long-term unemployed, people at the margin of the labour market. It leaves the institutions of the protected untouched. Wage-setting, short-time work, employment protection and the negotiated reduction paths in industry have not been touched. The labour-law package the cabinet adopted in November 2026 confirms the pattern. It extends fixed-term contracts without objective reason until 2030, which adds flexibility at the margin, and eases dismissal protection only for top earners (BMAS 2026). The one planned change to the working-time rules of insiders, a weekly instead of a daily limit, was tied to collective agreements in the ministry draft of mid-2026 (Deutscher Bundestag 2026d). Reform has not stopped. It has been routed onto the people who carry the adjustment already.
 
 ## 6. A growth model without a coalition
 
@@ -171,6 +171,8 @@ Bundesministerium der Finanzen (2026): *Bundeshaushalt: Haushaltsrechnung 2025, 
 
 Bundesverfassungsgericht (BVerfG) (2023): *Zweites Nachtragshaushaltsgesetz 2021 ist nichtig*. Press release on the judgment of 15 November 2023, 2 BvF 1/22, Karlsruhe.
 
+BMAS (2026): *Kabinett beschließt Arbeitsrechtspaket*. Press release, Bundesministerium für Arbeit und Soziales, Berlin, 18 November 2026. [content seen only in search excerpts; check against the press release and bill text]
+
 Bundeszentrale für politische Bildung (2025): *Die Programmatik der AfD*. Dossier Parteien in Deutschland, Bonn (online, accessed 24 November 2026).
 
 Burda, M. C. and J. Hunt (2011): What Explains the German Labor Market Miracle in the Great Recession? *Brookings Papers on Economic Activity*, Spring 2011, pp. 273-319.
@@ -216,8 +218,6 @@ Hassel, A. (2014): The Paradox of Liberalization: Understanding Dualism and the 
 Havik, K., K. Mc Morrow, F. Orlandi, C. Planas, R. Raciborski, W. Röger, A. Rossi, A. Thum-Thysen and V. Vandermeulen (2014): *The Production Function Methodology for Calculating Potential Growth Rates & Output Gaps*. European Economy Economic Papers 535, European Commission, Brussels.
 
 Heddesheimer, V., H. Sichart, A. Wiedemann and H. Hilbig (2025): GERDA: The German Election Database. *Scientific Data* 12, doi:10.1038/s41597-025-04811-5.
-
-Hogapage (2026): *Arbeitszeitreform ohne Wochenarbeitszeit*. Hogapage Nachrichten, 19 November 2026 (secondary report on the cabinet decision of 18 November 2026; check against the BMAS press release).
 
 IAB (2025): *Mit rund 1 Million offenen Stellen bleibt die Personalnachfrage schwach*. IAB-Presseinformation, Institut für Arbeitsmarkt- und Berufsforschung, Nuremberg, November 2025.
 
