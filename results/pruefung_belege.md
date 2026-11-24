@@ -44,3 +44,9 @@ Vorbehalt: Die Dateien im Dropbox-Ordner Pr_BUFFERS/Literatur sind /bib-Zusammen
 | C039 Strompreis | ersetzt durch neuere Studie | vbw/FfE (10.11.2025): 2024 Deutschland 13 ct/kWh, USA und China je 8 ct/kWh (Überschrift: „doppelt so hoch“; die Zahlen ergeben gut das 1,6-Fache) | Satz mit Zahlen statt Faktor |
 | C053b BA-Defizit 2025 | bestätigt | Geschäftsbericht 2025: Defizit 4,23 Mrd. €, Rücklage 3,18 Mrd. € aufgelöst, Bundesdarlehen 1,44 Mrd. € | keine |
 | Nettotransfers Ost | bestätigt | IWH-PM 17/2014: „knapp zwei Billionen Euro“ netto 1991 bis 2013, „Größenordnung einigermaßen plausibel“ | „close to two trillion euros between 1991 and 2013“ |
+
+## Teil D: Arbeitsrechtspaket (24.11.2026)
+
+| Aussage | Ergebnis | Beleg |
+|---|---|---|
+| Kabinettsbeschluss 18.11.2026 ohne Wochenhöchstarbeitszeit | bestätigt | BMAS-Pressemitteilung 18.11.2026 und Gesetzesseite: Maßnahmen sind Auflösung gegen Abfindung oberhalb des 1,75-Fachen der Beitragsbemessungsgrenze, sachgrundlose Befristung bis Ende 2030 erweitert, Textform, SE-Mitbestimmung, Sonn- und Feiertagsarbeit für Bäcker, Konditoren und Bibliotheken, Nachweisgesetz. Keine Wochenhöchstarbeitszeit. Referentenentwurf 10.11.2026. |
