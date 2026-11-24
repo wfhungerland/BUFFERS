@@ -144,13 +144,13 @@ The political test had to be restated after its first version failed. The claim 
 
 Which returns the essay to Köcher's seven percent. The calmest reading of job security in the history of German survey research is not a sign that the crisis has been avoided. It is what this crisis looks like: a decline absorbed so completely by those who are protected that the people who carry it cannot recognise themselves as a group, and answer in a currency that buys them nothing.
 
-[^n1]: Renate Köcher, "Halbzeitbilanz," *Frankfurter Allgemeine Zeitung*, September 21, 2023; Institut für Demoskopie Allensbach, FAZ-Monatsbericht September 2023, table A 11.
+[^n1]: Renate Köcher, "Halbzeitbilanz," *Frankfurter Allgemeine Zeitung*, September 21, 2023; Institut für Demoskopie Allensbach, FAZ-Monatsbericht September 2023, table A 11, <https://www.ifd-allensbach.de/fileadmin/kurzberichte_dokumentationen/FAZ_Sept2023_Halbzeitbilanz.pdf>.
 
-[^n2]: Statistik der Bundesagentur für Arbeit, *Arbeitslosigkeit im Zeitverlauf*, reporting month October 2026 (Nuremberg, 2026); regional series as compiled in the author's data repository.
+[^n2]: Statistik der Bundesagentur für Arbeit, *Arbeitslosigkeit im Zeitverlauf*, reporting month October 2026 (Nuremberg, 2026); regional series as compiled in the author's data repository, <https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Fachstatistiken/Arbeitsuche-Arbeitslosigkeit-Unterbeschaeftigung/Produkte/Zeitreihen-Arbeitslose-Arbeitsuchende-Arbeitslosenquoten/Zeitreihen-Arbeitslose-Arbeitsuchende-Arbeitslosenquoten-Nav.html>.
 
 [^n3]: EY, "EY-Verbraucherumfrage 2025/2026," press release, January 2026, <https://www.ey.com/de_de/newsroom/2026/01/ey-verbraucherumfrage-2025-2026>.
 
-[^n4]: Wolfgang Streeck, *Buying Time: The Delayed Crisis of Democratic Capitalism* (London: Verso, 2014).
+[^n4]: Wolfgang Streeck, *Buying Time: The Delayed Crisis of Democratic Capitalism* (London: Verso, 2014), <https://www.versobooks.com/products/14-buying-time>.
 
 [^n5]: Bundesagentur für Arbeit, *Arbeitslosigkeit im Zeitverlauf*.
 
@@ -164,7 +164,7 @@ Which returns the essay to Köcher's seven percent. The calmest reading of job s
 
 [^n10]: European Commission, *AMECO*.
 
-[^n11]: Lucio Baccaro and Jonas Pontusson, "Rethinking Comparative Political Economy: The Growth Model Perspective," *Politics & Society* 44, no. 2 (2016): 175-207.
+[^n11]: Lucio Baccaro and Jonas Pontusson, "Rethinking Comparative Political Economy: The Growth Model Perspective," *Politics & Society* 44, no. 2 (2016): 175-207, <https://doi.org/10.1177/0032329216638053>.
 
 [^n12]: European Commission, *AMECO*.
 
@@ -172,9 +172,9 @@ Which returns the essay to Köcher's seven percent. The calmest reading of job s
 
 [^n14]: Lost capacity is the fall in the output gap, the distance between actual and potential output, from its last peak to its trough; an episode requires a fall of at least two points. The ratio is the change in the registered unemployment rate of the Federal Employment Agency, measured on dependent civilian employees, over the same years, divided by that fall. Before 2009 it ranged from 0.29 to 1.08; for 2022-25 it is 0.38 for all registered unemployed and 0.27 for German nationals only. Code and data are available from the author.
 
-[^n15]: Michael C. Burda and Jennifer Hunt, "What Explains the German Labor Market Miracle in the Great Recession?," *Brookings Papers on Economic Activity* (Spring 2011): 273-319.
+[^n15]: Michael C. Burda and Jennifer Hunt, "What Explains the German Labor Market Miracle in the Great Recession?," *Brookings Papers on Economic Activity* (Spring 2011): 273-319, <https://www.brookings.edu/wp-content/uploads/2011/03/2011a_bpea_burda.pdf>.
 
-[^n16]: Bernd Fitzenberger and Christian Kagerl, "Viele Dienstleistungsbranchen nutzten Kurzarbeit in der Corona-Krise zeitweise stärker als das Produzierende Gewerbe," *IAB-Forum*, March 20, 2023.
+[^n16]: Bernd Fitzenberger and Christian Kagerl, "Viele Dienstleistungsbranchen nutzten Kurzarbeit in der Corona-Krise zeitweise stärker als das Produzierende Gewerbe," *IAB-Forum*, March 20, 2023, <https://iab-forum.de/viele-dienstleistungsbranchen-nutzten-kurzarbeit-in-der-corona-krise-zeitweise-staerker-als-das-produzierende-gewerbe/>.
 
 [^n17]: European Commission, *AMECO*.
 
@@ -182,13 +182,13 @@ Which returns the essay to Köcher's seven percent. The calmest reading of job s
 
 [^n19]: Same method as Table 1, but with the ILO unemployment rate, which is available for all five countries and runs below the German registered rate. Negative German values around 2009 and 2013 reflect the fall in unemployment after the Hartz reforms, which overlaid the cycle.
 
-[^n20]: The split approximates the Commission's production-function method: potential output as trend productivity times capital (weight 0.35) and potential labour (weight 0.65). Against its 2014-19 trend, German potential output in 2025 is 5.1 points lower: labour force −1.4, structural unemployment −1.1, hours −0.3, capital −1.2, trend productivity −1.0. The decomposition is indicative, not the Commission's own. Karel Havik et al., *The Production Function Methodology for Calculating Potential Growth Rates & Output Gaps*, European Economy Economic Papers 535 (Brussels: European Commission, 2014).
+[^n20]: The split approximates the Commission's production-function method: potential output as trend productivity times capital (weight 0.35) and potential labour (weight 0.65). Against its 2014-19 trend, German potential output in 2025 is 5.1 points lower: labour force −1.4, structural unemployment −1.1, hours −0.3, capital −1.2, trend productivity −1.0. The decomposition is indicative, not the Commission's own. Karel Havik, Kieran Mc Morrow, Fabrice Orlandi, Christophe Planas, Rafal Raciborski, Werner Roeger, Alessandro Rossi, Anna Thum-Thysen and Valerie Vandermeulen, *The Production Function Methodology for Calculating Potential Growth Rates & Output Gaps*, European Economy Economic Papers 535 (Brussels: European Commission, 2014), <https://ec.europa.eu/economy_finance/publications/economic_paper/2014/ecp535_en.htm>.
 
-[^n21]: BASF, "BASF Shows Resilience in a Challenging Market Environment and Implements Measures to Strengthen Competitiveness," press release P-23-131, Ludwigshafen, February 24, 2023.
+[^n21]: BASF, "BASF Shows Resilience in a Challenging Market Environment and Implements Measures to Strengthen Competitiveness," press release P-23-131, Ludwigshafen, February 24, 2023, <https://www.basf.com/global/en/media/news-releases/2023/02/p-23-131.html>.
 
-[^n22]: vbw Vereinigung der Bayerischen Wirtschaft and FfE, *Internationaler Energiepreisvergleich für die Industrie*, presentation (Munich, November 10, 2025), 6.
+[^n22]: vbw Vereinigung der Bayerischen Wirtschaft and FfE, *Internationaler Energiepreisvergleich für die Industrie*, presentation (Munich, November 10, 2025), 6, <https://www.vbw-bayern.de/Redaktion/Frei-zugaengliche-Medien/Abteilungen-GS/Wirtschaftspolitik/2025/Downloads/vbw-Studie-Internationaler-Energiepreisvergleich.pdf>.
 
-[^n23]: Sachverständigenrat zur Begutachtung der gesamtwirtschaftlichen Entwicklung, *Perspektiven für morgen schaffen, Chancen nicht verspielen: Jahresgutachten 2025/26* (Wiesbaden, November 2025), chap. 1, para. 14, and summary, para. 4.
+[^n23]: Sachverständigenrat zur Begutachtung der gesamtwirtschaftlichen Entwicklung, *Perspektiven für morgen schaffen, Chancen nicht verspielen: Jahresgutachten 2025/26* (Wiesbaden, November 2025), chap. 1, para. 14, and summary, para. 4, <https://www.sachverstaendigenrat-wirtschaft.de/fileadmin/dateiablage/gutachten/jg202526/JG202526_Gesamtausgabe.pdf>.
 
 [^n24]: Statistisches Bundesamt, "Energieintensive Industriezweige mit Produktionsrückgang um 15,2 % von Februar 2022 bis März 2026," press release no. N032, Wiesbaden, May 15, 2026, <https://www.destatis.de/DE/Presse/Pressemitteilungen/2026/05/PD26_N032_42.html>.
 
@@ -200,21 +200,21 @@ Which returns the essay to Köcher's seven percent. The calmest reading of job s
 
 [^n28]: Trend productivity accounts for about one of the five points of lost potential; see the decomposition of potential output in the note above.
 
-[^n29]: Statistisches Bundesamt, "13,4 Millionen Erwerbspersonen erreichen in den nächsten 15 Jahren das gesetzliche Rentenalter," press release, Wiesbaden, September 3, 2025.
+[^n29]: Statistisches Bundesamt, "13,4 Millionen Erwerbspersonen erreichen in den nächsten 15 Jahren das gesetzliche Rentenalter," press release, Wiesbaden, September 3, 2025, <https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/08/PD25_N048_13.html>.
 
 [^n30]: Institut für Arbeitsmarkt- und Berufsforschung, "Mit rund 1 Million offenen Stellen bleibt die Personalnachfrage schwach," press release, Nuremberg, November 2025, <https://iab.de/presseinfo/mit-rund-1-million-offenen-stellen-bleibt-die-personalnachfrage-schwach/>.
 
 [^n31]: Bundesagentur für Arbeit, *Arbeitslosigkeit im Zeitverlauf*.
 
-[^n32]: Bundesagentur für Arbeit, "Jahresrückblick 2024: Wirtschaftliche Stagnation hinterlässt deutliche Spuren am Arbeitsmarkt," press release, Nuremberg, January 3, 2025; Fitzenberger and Kagerl, "Viele Dienstleistungsbranchen.".
+[^n32]: Bundesagentur für Arbeit, "Jahresrückblick 2024: Wirtschaftliche Stagnation hinterlässt deutliche Spuren am Arbeitsmarkt," press release, Nuremberg, January 3, 2025, <https://www.arbeitsagentur.de/presse/2025-02-jahresrueckblick-2024>; Fitzenberger and Kagerl, "Viele Dienstleistungsbranchen.".
 
-[^n33]: Statistik der Bundesagentur für Arbeit, *Grundsicherung für Arbeitsuchende (SGB II): Bedarfsgemeinschaften und Regelleistungsberechtigte* (Nuremberg, April 28, 2026).
+[^n33]: Statistik der Bundesagentur für Arbeit, *Grundsicherung für Arbeitsuchende (SGB II): Bedarfsgemeinschaften und Regelleistungsberechtigte* (Nuremberg, April 28, 2026), <https://statistik.arbeitsagentur.de/Statistikdaten/Detail/202511/arbeitsmarktberichte/monatsbericht-monatsbericht/monatsbericht-d-0-202511-pdf.pdf?__blob=publicationFile>.
 
-[^n34]: Statistisches Bundesamt, "Öffentlicher Dienst 2024: Mehr Beschäftigte für Bildung und Kinderbetreuung," press release no. 212, Wiesbaden, June 17, 2025.
+[^n34]: Statistisches Bundesamt, "Öffentlicher Dienst 2024: Mehr Beschäftigte für Bildung und Kinderbetreuung," press release no. 212, Wiesbaden, June 17, 2025, <https://www.destatis.de/DE/Presse/Pressemitteilungen/2025/06/PD25_212_741.html>.
 
-[^n35]: Bundesagentur für Arbeit, *Geschäftsbericht 2025* (Nuremberg, 2026), 34.
+[^n35]: Bundesagentur für Arbeit, *Geschäftsbericht 2025* (Nuremberg, 2026), 34, <https://www.arbeitsagentur.de/datei/geschaeftsbericht-2025_ba056572.pdf>.
 
-[^n36]: Volkswagen AG, "Einigung erzielt: Volkswagen AG stellt sich wettbewerbsfähig für die Zukunft auf," press release, Wolfsburg, December 20, 2024, <https://www.volkswagen-group.com/de/pressemitteilungen/einigung-erzielt-volkswagen-ag-stellt-sich-wettbewerbsfaehig-fuer-die-zukunft-auf-18911>; Audi AG, "Management and Works Council Enter Agreement for the Future," press release, Ingolstadt, March 17, 2025.
+[^n36]: Volkswagen AG, "Einigung erzielt: Volkswagen AG stellt sich wettbewerbsfähig für die Zukunft auf," press release, Wolfsburg, December 20, 2024, <https://www.volkswagen-group.com/de/pressemitteilungen/einigung-erzielt-volkswagen-ag-stellt-sich-wettbewerbsfaehig-fuer-die-zukunft-auf-18911>; Audi AG, "Management and Works Council Enter Agreement for the Future," press release, Ingolstadt, March 17, 2025, <https://www.audi-mediacenter.com/en/press-releases/management-and-works-council-enter-agreement-for-the-future-16579>.
 
 [^n37]: Bundesagentur für Arbeit, *Arbeitslosigkeit im Zeitverlauf*.
 
@@ -222,25 +222,25 @@ Which returns the essay to Köcher's seven percent. The calmest reading of job s
 
 [^n39]: Volkswagen, "Einigung erzielt."; Audi, "Agreement for the Future.".
 
-[^n40]: Creditreform Wirtschaftsforschung, *Insolvenzen in Deutschland, Jahr 2025* (Neuss, December 8, 2025); Statistisches Bundesamt, *Insolvenzstatistik: beantragte Unternehmensinsolvenzen*, monthly, reporting month August 2026, GENESIS-Online (Wiesbaden, 2026).
+[^n40]: Creditreform Wirtschaftsforschung, *Insolvenzen in Deutschland, Jahr 2025* (Neuss, December 8, 2025), <https://www.creditreform.de/aktuelles-wissen/pressemeldungen-fachbeitraege/news-details/show/insolvenzen-in-deutschland-jahr-2025>; Statistisches Bundesamt, *Insolvenzstatistik: beantragte Unternehmensinsolvenzen*, monthly, reporting month August 2026, GENESIS-Online (Wiesbaden, 2026), <https://genesis.destatis.de/datenbank/online/statistic/52411/table/52411-0001>.
 
-[^n41]: Bruno Palier and Kathleen Thelen, "Institutionalizing Dualism: Complementarities and Change in France and Germany," *Politics & Society* 38, no. 1 (2010): 119-148; Patrick Emmenegger, Silja Häusermann, Bruno Palier and Martin Seeleib-Kaiser, eds., *The Age of Dualization: The Changing Face of Inequality in Deindustrializing Societies* (New York: Oxford University Press, 2012).
+[^n41]: Bruno Palier and Kathleen Thelen, "Institutionalizing Dualism: Complementarities and Change in France and Germany," *Politics & Society* 38, no. 1 (2010): 119-148, <https://doi.org/10.1177/0032329209357888>; Patrick Emmenegger, Silja Häusermann, Bruno Palier and Martin Seeleib-Kaiser, eds., *The Age of Dualization: The Changing Face of Inequality in Deindustrializing Societies* (New York: Oxford University Press, 2012), <https://academic.oup.com/book/8478>.
 
-[^n42]: Anke Hassel, "The Paradox of Liberalization: Understanding Dualism and the Recovery of the German Political Economy," *British Journal of Industrial Relations* 52, no. 1 (2014): 57-81.
+[^n42]: Anke Hassel, "The Paradox of Liberalization: Understanding Dualism and the Recovery of the German Political Economy," *British Journal of Industrial Relations* 52, no. 1 (2014): 57-81, <https://doi.org/10.1111/j.1467-8543.2012.00913.x>.
 
-[^n43]: Die Bundeswahlleiterin, "Bundestagswahl 2025: Endgültiges Ergebnis," press release, Wiesbaden, March 14, 2025.
+[^n43]: Die Bundeswahlleiterin, "Bundestagswahl 2025: Endgültiges Ergebnis," press release, Wiesbaden, March 14, 2025, <https://www.bundeswahlleiterin.de/info/presse/mitteilungen/bundestagswahl-2025/29_25_endgueltiges-ergebnis.html>.
 
 [^n44]: The Federal Returning Officer compares the 2025 result with the 2021 result as recalculated after the partial repeat election in Berlin in 2024 (10.4 percent); the originally published 2021 figure was 10.3 percent.
 
-[^n45]: Regression across 400 districts of the change in the AfD's second-vote share, 2021-25, on the change in the registered unemployment rate, 2022-25, the shares of employment in energy-intensive manufacturing and in metal, car and machinery production (March 2026), and controls for east, city districts, income per head and the AfD share in 2021, with robust standard errors. With controls, unemployment has no effect; one standard deviation more energy-intensive or metal employment adds 0.3 or 0.5 points. Employment shares are measured after the shock, so the estimate is descriptive. Election data: Vincent Heddesheimer, Florian Sichart, Andreas Wiedemann and Hanno Hilbig, "GERDA: The German Election Database," *Scientific Data* 12 (2025), <https://doi.org/10.1038/s41597-025-04811-5>.
+[^n45]: Regression across 400 districts of the change in the AfD's second-vote share, 2021-25, on the change in the registered unemployment rate, 2022-25, the shares of employment in energy-intensive manufacturing and in metal, car and machinery production (March 2026), and controls for east, city districts, income per head and the AfD share in 2021, with robust standard errors. With controls, unemployment has no effect; one standard deviation more energy-intensive or metal employment adds 0.3 or 0.5 points. Employment shares are measured after the shock, so the estimate is descriptive. Election data: Vincent Heddesheimer, Hanno Hilbig, Florian Sichart and Andreas Wiedemann, "GERDA: The German Election Database," *Scientific Data* 12, article 618 (2025), <https://doi.org/10.1038/s41597-025-04811-5>.
 
-[^n46]: Bundesverfassungsgericht, "Zweites Nachtragshaushaltsgesetz 2021 ist nichtig," press release on the judgment of November 15, 2023, 2 BvF 1/22, Karlsruhe.
+[^n46]: Bundesverfassungsgericht, "Zweites Nachtragshaushaltsgesetz 2021 ist nichtig," press release on the judgment of November 15, 2023, 2 BvF 1/22, Karlsruhe, <https://www.bundesverfassungsgericht.de/SharedDocs/Pressemitteilungen/DE/2023/bvg23-101.html>.
 
-[^n47]: Deutscher Bundestag, "Mehrheit für Reform der Schuldenbremse: 512 Abgeordnete stimmen mit Ja," Textarchiv, Berlin, March 18, 2025.
+[^n47]: Deutscher Bundestag, "Mehrheit für Reform der Schuldenbremse: 512 Abgeordnete stimmen mit Ja," Textarchiv, Berlin, March 18, 2025, <https://www.bundestag.de/dokumente/textarchiv/2025/kw12-de-sondersitzung-1056916>.
 
 [^n48]: Deutscher Bundestag, Gesetzesbeschluss zur Aktivrente, Bundesrat printed paper 726/25, December 5, 2025, <https://dserver.bundestag.de/brd/2025/0726-25.pdf>; Deutscher Bundestag, Gesetzesbeschluss zur Grundsicherung für Arbeitsuchende, Bundesrat printed paper 116/26, March 5, 2026, <https://dserver.bundestag.de/brd/2026/0116-26.pdf>; Deutscher Bundestag, Gesetzesbeschluss zum Vergabebeschleunigungsgesetz, Bundesrat printed paper 225/26, April 23, 2026, <https://dserver.bundestag.de/brd/2026/0225-26.pdf>; Deutscher Bundestag, Gesetzesbeschluss zum Infrastruktur-Zukunftsgesetz, Bundesrat printed paper 390/26, June 26, 2026, <https://dserver.bundestag.de/brd/2026/0390-26.pdf>.
 
-[^n49]: Bundesministerium für Arbeit und Soziales, "Kabinett beschließt Arbeitsrechtspaket," press release, Berlin, November 18, 2026.
+[^n49]: Bundesministerium für Arbeit und Soziales, "Kabinett beschließt Arbeitsrechtspaket," press release, Berlin, November 18, 2026, <https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2026/kabinett-beschliesst-arbeitsrechtspaket.html>.
 
 [^n50]: Deutscher Bundestag, "Arbeitszeit," Textarchiv, week 21 (Berlin, 2026), <https://www.bundestag.de/dokumente/textarchiv/2026/kw21-de-arbeitszeit-1178888>.
 
@@ -248,11 +248,11 @@ Which returns the essay to Köcher's seven percent. The calmest reading of job s
 
 [^n52]: Baccaro and Pontusson, "Rethinking Comparative Political Economy.".
 
-[^n53]: Lucio Baccaro, Mark Blyth and Jonas Pontusson, eds., *Diminishing Returns: The New Politics of Growth and Stagnation* (New York: Oxford University Press, 2022).
+[^n53]: Lucio Baccaro, Mark Blyth and Jonas Pontusson, eds., *Diminishing Returns: The New Politics of Growth and Stagnation* (New York: Oxford University Press, 2022), <https://doi.org/10.1093/oso/9780197607855.001.0001>.
 
-[^n54]: Bundesministerium der Finanzen, *Bundeshaushalt*: Haushaltsrechnung 2025, Haushaltsplan 2026 and Regierungsentwurf 2027, Sondervermögen Infrastruktur und Klimaneutralität (Berlin, 2026).
+[^n54]: Bundesministerium der Finanzen, *Bundeshaushalt*: Haushaltsrechnung 2025, Haushaltsplan 2026 and Regierungsentwurf 2027, Sondervermögen Infrastruktur und Klimaneutralität (Berlin, 2026), <https://www.bundeshaushalt.de/DE/SVIK/sondervermoegen-infrastruktur-klimaneutralitaet.html>.
 
-[^n55]: Sebastian Dullien, Simon Gerards Iglesias, Michael Hüther and Katja Rietzler, *Herausforderungen für die Schuldenbremse: Investitionsbedarfe in der Infrastruktur und für die Transformation*, IMK Policy Brief 168 / IW-Policy Paper 2/2024 (Düsseldorf and Cologne, May 2024).
+[^n55]: Sebastian Dullien, Simon Gerards Iglesias, Michael Hüther and Katja Rietzler, *Herausforderungen für die Schuldenbremse: Investitionsbedarfe in der Infrastruktur und für die Transformation*, IMK Policy Brief 168 / IW-Policy Paper 2/2024 (Düsseldorf and Cologne, May 2024), <https://www.imk-boeckler.de/fpdf/HBS-008864/p_imk_pb_168_2024.pdf>.
 
 [^n56]: Bundeszentrale für politische Bildung, "Die Programmatik der AfD," dossier *Parteien in Deutschland* (Bonn, 2025), <https://www.bpb.de/themen/parteien/parteien-in-deutschland/afd/273132/die-programmatik-der-afd/>.
 
