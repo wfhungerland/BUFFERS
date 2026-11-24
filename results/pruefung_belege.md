@@ -35,3 +35,12 @@ Vorbehalt: Die Dateien im Dropbox-Ordner Pr_BUFFERS/Literatur sind /bib-Zusammen
 | C050 Kurzarbeit 2024 | weicht leicht ab | BA Jahresrückblick 2024: rund 320.000 im Jahresmittel | 320.000 |
 | C053b BA-Defizit 2025 | weicht ab | 5,23 Mrd. war die Planung; Ist laut Geschäftsbericht rund 4,23 Mrd. (nur sekundär) | „more than four billion“; Geschäftsbericht 2025 noch prüfen |
 | C052 Bürgergeld 2025 | bestätigt, stärker | BA: 5,42 Mio. (Dez. 2024) → 5,19 Mio. (Dez. 2025), −4,3 % | „fell by about four percent“ |
+
+## Teil C: Originale von Fabian (24.11.2026)
+
+| Claim | Ergebnis | Beleg | Änderung |
+|---|---|---|---|
+| C002 Köcher 7 % / 38 % | bestätigt | Allensbach FAZ-Monatsbericht Sept. 2023, Tabelle A 11: „Sorgen, ihn zu verlieren“ 2005: 38 %, 2023: 7 %; Text: „Lediglich 7 Prozent der Erwerbstätigen … zwischen 2000 und 2005 … zeitweise bei 38 Prozent“; IfD-Umfragen 9236, 12076 | Prüfvermerk gestrichen |
+| C039 Strompreis | ersetzt durch neuere Studie | vbw/FfE (10.11.2025): 2024 Deutschland 13 ct/kWh, USA und China je 8 ct/kWh (Überschrift: „doppelt so hoch“; die Zahlen ergeben gut das 1,6-Fache) | Satz mit Zahlen statt Faktor |
+| C053b BA-Defizit 2025 | bestätigt | Geschäftsbericht 2025: Defizit 4,23 Mrd. €, Rücklage 3,18 Mrd. € aufgelöst, Bundesdarlehen 1,44 Mrd. € | keine |
+| Nettotransfers Ost | bestätigt | IWH-PM 17/2014: „knapp zwei Billionen Euro“ netto 1991 bis 2013, „Größenordnung einigermaßen plausibel“ | „close to two trillion euros between 1991 and 2013“ |

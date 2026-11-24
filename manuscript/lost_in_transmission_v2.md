@@ -58,7 +58,7 @@ So the labour market has responded, if more softly than it used to. What differs
 
 The shock itself is not hidden. It is visible in every industrial statistic. What is hidden is its passage to households, and the mechanism that hides it.
 
-Start with the shock. Russia's war cut off the cheap pipeline gas on which German energy-intensive industry had been built. Prices fell back from their 2022 peak but settled at a new level: German industry pays around two and a half times what its American and Chinese competitors pay for electricity (Prognos/vbw 2023). At the same time, Chinese producers moved into the sectors where Germany had been strongest, chemicals, machinery and cars. By August 2025, Chinese export prices stood 17 percent below their 2022 average, while euro-area export prices had risen by 14 percent (SVR 2025). Neither change is cyclical. Neither will be reversed by a pick-up in demand.
+Start with the shock. Russia's war cut off the cheap pipeline gas on which German energy-intensive industry had been built. Prices fell back from their 2022 peak but settled at a new level: in 2024, German industry paid around 13 cents per kilowatt hour for electricity, against 8 cents in the United States and China (vbw 2025). At the same time, Chinese producers moved into the sectors where Germany had been strongest, chemicals, machinery and cars. By August 2025, Chinese export prices stood 17 percent below their 2022 average, while euro-area export prices had risen by 14 percent (SVR 2025). Neither change is cyclical. Neither will be reversed by a pick-up in demand.
 
 The industries at the centre of the shock show it. Between February 2022 and March 2026, output in Germany's energy-intensive branches, chemicals, metals, paper, glass and ceramics, fell by 15 percent. Employment in the same branches fell by six percent, from 848,000 to 794,000 (Destatis 2026a). Across manufacturing as a whole, real value added fell by almost seven percent between 2022 and 2025, and employment by three (European Commission 2026). Since 2022, output has fallen roughly twice as fast as jobs, although over the longer period since 2019 manufacturing employment has fallen faster than output. The economy-wide picture is clearer. Against its 2014-19 trend, German output in 2025 fell short by ten points. Missing employment accounts for more than five of them, weak output per hour for four, and shorter hours per worker for half a point (European Commission 2026, own calculation). Germany has not adjusted by cutting hours. It has adjusted by not hiring.
 
@@ -121,7 +121,7 @@ Time bought this way could be used for a transition. The 500-billion-euro infras
 
 Money is not the binding constraint. A new growth model needs a coalition that wants it: firms, workers and regions whose future depends on its success and who will defend it politically. The buffers work against the formation of such a coalition. They hold the old one together by protecting its members from the decline of the industries that sustained it. The workers who might gain most from a new model, the young, the precariously employed, the people in regions without a future in energy-intensive industry, are exactly those whom the buffers leave exposed, and their political voice is being channelled into a party with no interest in an investment-led transition.
 
-Eastern Germany shows what transfers can and cannot do. Net transfers since unification are estimated at between 1.5 and 2 trillion euros (IWH 2014). They have sustained incomes and infrastructure, yet output per head in the eastern states remains at about 72 percent of the western level, almost unchanged since 2020 (Röhl 2025). In 2023, 43 percent of eastern Germans described themselves as second-class citizens (Infratest dimap 2023), and the AfD is strongest there. Money preserved the standard of living. It did not build a new productive base, and it did not build political attachment to the order that provided it.
+Eastern Germany shows what transfers can and cannot do. Net transfers from west to east between 1991 and 2013 are estimated at close to two trillion euros (IWH 2014). They have sustained incomes and infrastructure, yet output per head in the eastern states remains at about 72 percent of the western level, almost unchanged since 2020 (Röhl 2025). In 2023, 43 percent of eastern Germans described themselves as second-class citizens (Infratest dimap 2023), and the AfD is strongest there. Money preserved the standard of living. It did not build a new productive base, and it did not build political attachment to the order that provided it.
 
 Streeck's account of bought time ended with the bill coming due: inflation, then debt, then a financial crisis. In Germany, the bill is not fiscal. The state can still borrow, and demography is a currency that is spent gradually. The bill comes as a political cost: a growing share of voters who experience the decline as their own but see no economic programme that speaks to them, and who answer in the currency available.
 
@@ -161,7 +161,7 @@ Bundesagentur für Arbeit (2025): *Jahresrückblick 2024: Wirtschaftliche Stagna
 
 Bundesagentur für Arbeit (2026): *Arbeitslosigkeit im Zeitverlauf*. Statistik der Bundesagentur für Arbeit, reporting month October 2026, Nuremberg.
 
-Bundesagentur für Arbeit (2026b): *Geschäftsbericht 2025*. Nuremberg. [check outturn deficit against the original]
+Bundesagentur für Arbeit (2026b): *Geschäftsbericht der Bundesagentur für Arbeit 2025*. Nuremberg, 2026.
 
 Bundesagentur für Arbeit (2026c): *Grundsicherung für Arbeitsuchende (SGB II): Bedarfsgemeinschaften und Regelleistungsberechtigte*. Statistik der Bundesagentur für Arbeit, Nuremberg, 28 April 2026.
 
@@ -215,18 +215,18 @@ IAB (2025): *Mit rund 1 Million offenen Stellen bleibt die Personalnachfrage sch
 
 Infratest dimap (2023): *33 Jahre Wiedervereinigung*. Survey for ARD, Berlin, fieldwork 28-30 August 2023.
 
-IWH (2014): Press release 17/2014 on net transfers to eastern Germany. Leibniz-Institut für Wirtschaftsforschung Halle. [check title and figure against the original]
+IWH (2014): *Auf welche Frage sind zwei Billionen die Antwort?* IWH-Pressemitteilung 17/2014, Leibniz-Institut für Wirtschaftsforschung Halle, 26 June 2014.
 
-Köcher, R. (2023): Das Vertrauen ist dahin. Halbzeitbilanz. *Frankfurter Allgemeine Zeitung*, 21 September 2023. [job-security figures still to be checked against the original]
+Köcher, R. (2023): Halbzeitbilanz. *Frankfurter Allgemeine Zeitung*, 21 September 2023 (Allensbach FAZ-Monatsbericht September 2023, IfD-Umfragen 9236 and 12076, Tabelle A 11).
 
 Palier, B. and K. Thelen (2010): Institutionalizing Dualism: Complementarities and Change in France and Germany. *Politics & Society* 38(1), pp. 119-148.
-
-Prognos/vbw (2023): *Internationaler Energiepreisvergleich für die Industrie*. Study by Prognos AG for vbw, Vereinigung der Bayerischen Wirtschaft, Munich, October 2023. [German price in Figure 1 still to be checked]
 
 Röhl, K.-H. (2025): 35 Jahre Wiedervereinigung: Was wurde in Ostdeutschland erreicht und wo liegen die größten ökonomischen Probleme? *IW-Trends* 52(3), pp. 61-80, doi:10.2373/1864-810X.25-03-04.
 
 Streeck, W. (2014): *Buying Time: The Delayed Crisis of Democratic Capitalism*. Verso, London.
 
 SVR (2025): *Perspektiven für morgen schaffen, Chancen nicht verspielen. Jahresgutachten 2025/26*. Sachverständigenrat zur Begutachtung der gesamtwirtschaftlichen Entwicklung, Wiesbaden, November 2025.
+
+vbw (2025): *Internationaler Energiepreisvergleich für die Industrie*. Study by FfE for vbw, Vereinigung der Bayerischen Wirtschaft, presentation, Munich, 10 November 2025 (Germany: mean of the 70-150 GWh and >150 GWh consumption bands).
 
 Volkswagen (2024): *Einigung erzielt: Volkswagen AG stellt sich wettbewerbsfähig für die Zukunft auf*. Press release, Wolfsburg, 20 December 2024.
