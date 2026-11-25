@@ -43,16 +43,24 @@ def main():
     afd_exposure.MACRO = MACRO
     afd_exposure.S = f"{MACRO}/data/static"
     d = load().join(inkar(), how="inner")
-    d = d.dropna(subset=["sec_2019", "d_foreign", "refugee_2023"])
+    import numpy as np
+    k = pd.read_csv(f"{MACRO}/data/static/kreisatlas_inkar.csv", dtype={"ags": str})
+    for key, col in (("akademiker", "degree"), ("alter", "mean_age"), ("dichte", "density")):
+        d = d.join(k[k.kennzahl == key].set_index("ags")["wert"].rename(col))
+    d["log_density"] = np.log(d.density)
+    d = d.dropna(subset=["sec_2019", "d_foreign", "refugee_2023", "degree", "mean_age", "log_density"])
     models = {
         "(1) industry 2019": "d_afd ~ d_u + sec_2019 + east + city + income_k + afd21",
         "(2) migration only": "d_afd ~ d_u + d_foreign + refugee_2023 + east + city + income_k + afd21",
         "(3) both": "d_afd ~ d_u + sec_2019 + d_foreign + refugee_2023 + east + city + income_k + afd21",
         "(4) both, West only": "d_afd ~ d_u + sec_2019 + d_foreign + refugee_2023 + city + income_k + afd21",
+        "(5) + education, age, density": "d_afd ~ d_u + sec_2019 + d_foreign + refugee_2023 + east + city + income_k + afd21 + degree + mean_age + log_density",
+        "(6) = (5), West only": "d_afd ~ d_u + sec_2019 + d_foreign + refugee_2023 + city + income_k + afd21 + degree + mean_age + log_density",
     }
     labels = {"d_u": "Δ unemployment rate 2022-25 (pp)", "sec_2019": "Secondary-sector share of employees 2019 (%)",
               "d_foreign": "Δ foreign share of population 2019-23 (pp)", "refugee_2023": "Protection seekers, share of population 2023 (%)",
-              "east": "East", "city": "City district", "income_k": "Income per head (€1,000/month)", "afd21": "AfD share 2021"}
+              "east": "East", "city": "City district", "income_k": "Income per head (€1,000/month)", "afd21": "AfD share 2021",
+              "degree": "Employees with a degree (%)", "mean_age": "Mean age (years)", "log_density": "Log population density"}
     res = {k: smf.ols(f, data=d if "West" not in k else d[d.east == 0]).fit(cov_type="HC1") for k, f in models.items()}
     L = ["# AfD gain 2021-2025: pre-shock industry and migration (districts)", "",
          f"N = {len(d)} districts (West: {int((d.east == 0).sum())}). OLS, robust standard errors (HC1).", "",
@@ -68,11 +76,14 @@ def main():
                 cells.append("")
         L.append(f"| {lab} | " + " | ".join(cells) + " |")
     L.append("| R² | " + " | ".join(f"{r.rsquared:.2f}" for r in res.values()) + " |")
-    sd = d[["sec_2019", "d_foreign", "refugee_2023", "d_u"]].std()
-    r3 = res["(3) both"]
-    L += ["", "## One standard deviation, model 3", ""]
-    for v in ["sec_2019", "d_foreign", "refugee_2023", "d_u"]:
-        L.append(f"- {labels[v]}: SD {sd[v]:.2f}, effect {r3.params[v] * sd[v]:+.2f} pp AfD")
+    keys = ["sec_2019", "d_foreign", "refugee_2023", "d_u", "income_k", "afd21", "degree", "mean_age", "log_density"]
+    for name in ["(3) both", "(5) + education, age, density", "(6) = (5), West only"]:
+        r = res[name]
+        sub = d if "West" not in name else d[d.east == 0]
+        L += ["", f"## One standard deviation, model {name}", ""]
+        for v in keys:
+            if v in r.params:
+                L.append(f"- {labels[v]}: SD {sub[v].std():.2f}, effect {r.params[v] * sub[v].std():+.2f} pp AfD (p = {r.pvalues[v]:.3f})")
     L += ["", f"Mean AfD gain {d.d_afd.mean():.1f} pp. Correlation of 2019 industry share with the 2026 manufacturing share: "
           f"{d.sec_2019.corr(d.sh_manuf):.2f}."]
     open("results/afd_exposure_v2.md", "w", encoding="utf-8").write("\n".join(L) + "\n")

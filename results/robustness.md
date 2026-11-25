@@ -39,3 +39,10 @@ Shortfall = lost potential (2025 vs own trend) + output gap 2025.
 | 2007-2009 | -8.0 | +1.2 | 0.15 |
 
 Japanese potential output in 1999 against its 1985-90 trend: -20.5 log points.
+
+## E. Alternative estimates of the German write-down (log points, 2025)
+
+- Commission (AMECO), 2014-19 trend: -5.1
+- OECD Economic Outlook potential, 2014-19 trend: -4.1; 2010-19 trend: -4.2; OECD output gap 2025: -1.7
+- Commission, but labour-force trend from 2010-14 (before the 2015-16 migration surge; 0.53 % a year instead of 0.77 %) and structural unemployment (NAWRU) held at its 2019 level (3.31 % in 2019, 3.42 % in 2025): -3.2
+- Range of the write-down: about 3 to 5 points; the Commission's figure is the upper end.

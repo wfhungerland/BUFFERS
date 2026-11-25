@@ -136,8 +136,40 @@ def japan():
     return L
 
 
+
+
+def alternatives():
+    """E. Alternative write-downs (referee point: the Commission's figure as an upper bound)."""
+    import csv
+    def load(f):
+        d = {}
+        for r in csv.DictReader(open(f, encoding="utf-8")):
+            d.setdefault((r["REF_AREA"], r["MEASURE"]), {})[int(r["TIME_PERIOD"])] = float(r["OBS_VALUE"])
+        return d
+    pot = load(f"{RAW}/oecd_GDPVTR_jpn.csv")[("DEU", "GDPVTR")]
+    gap = load(f"{RAW}/oecd_GAP_jpn.csv")[("DEU", "GAP")]
+    d = {k: fetch(v) for k, v in {"lf": "1.0.0.0.NLTN", "nawru": "1.0.0.0.ZNAWRU", "pot": "1.0.0.0.OVGDP"}.items()}
+    lf, nw, P = d["lf"]["Germany"], d["nawru"]["Germany"], d["pot"]["Germany"]
+    g1014 = (math.log(lf[2014]) - math.log(lf[2010])) / 4
+    lf_alt = 100 * (math.log(lf[2025]) - math.log(lf[2019]) - 6 * g1014)
+    lf_base = lost_potential(lf, 2014)
+    naw_base = lost_potential({y: 1 - nw[y] / 100 for y in nw}, 2014)
+    naw_alt = 100 * math.log((1 - nw[2025] / 100) / (1 - nw[2019] / 100))
+    base = lost_potential(P, 2014)
+    alt = base - 0.65 * (lf_base - lf_alt) - 0.65 * (naw_base - naw_alt)
+    return ["", "## E. Alternative estimates of the German write-down (log points, 2025)", "",
+            f"- Commission (AMECO), 2014-19 trend: {base:.1f}",
+            f"- OECD Economic Outlook potential, 2014-19 trend: {lost_potential(pot, 2014):.1f}; 2010-19 trend: {lost_potential(pot, 2010):.1f}; OECD output gap 2025: {gap[2025]:.1f}",
+            f"- Commission, but labour-force trend from 2010-14 (before the 2015-16 migration surge; {100 * g1014:.2f} % a year instead of "
+            f"{100 * ((math.log(lf[2019]) - math.log(lf[2014])) / 5):.2f} %) and structural unemployment (NAWRU) held at its 2019 level "
+            f"({nw[2019]:.2f} % in 2019, {nw[2025]:.2f} % in 2025): {alt:.1f}",
+            "- Range of the write-down: about 3 to 5 points; the Commission's figure is the upper end."]
+
+
+
 if __name__ == "__main__":
     main()
-    extra = japan()
-    open("results/robustness.md", "a", encoding="utf-8").write("\n".join(extra) + "\n")
-    print("\n".join(extra))
+    with open("results/robustness.md", "a", encoding="utf-8") as f:
+        for part in (japan(), alternatives()):
+            f.write("\n".join(part) + "\n")
+            print("\n".join(part))
