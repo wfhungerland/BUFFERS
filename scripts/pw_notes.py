@@ -104,3 +104,26 @@ NOTES = {
                         "Volkswagen, \"Einigung erzielt.\"",
                         "https://www.volkswagen-group.com/de/pressemitteilungen/einigung-erzielt-volkswagen-ag-stellt-sich-wettbewerbsfaehig-fuer-die-zukunft-auf-18911"),
 }
+
+NOTES.update({
+    "Acemoglu and Restrepo 2017": ("Daron Acemoglu and Pascual Restrepo, \"Secular Stagnation? The Effect of Aging on Economic Growth in the Age of Automation,\" *American Economic Review* 107, no. 5 (2017): 174-179.",
+                                   "Acemoglu and Restrepo, \"Secular Stagnation?\"", "https://doi.org/10.1257/aer.p20171101"),
+    "Kinder and Kiewiet 1981": ("Donald R. Kinder and D. Roderick Kiewiet, \"Sociotropic Politics: The American Case,\" *British Journal of Political Science* 11, no. 2 (1981): 129-161.",
+                                "Kinder and Kiewiet, \"Sociotropic Politics.\"", "https://doi.org/10.1017/S0007123400002544"),
+    "King et al. 2008": ("Gary King, Ori Rosen, Martin Tanner and Alexander F. Wagner, \"Ordinary Economic Voting Behavior in the Extraordinary Election of Adolf Hitler,\" *Journal of Economic History* 68, no. 4 (2008): 951-996.",
+                         "King et al., \"Ordinary Economic Voting Behavior.\"", "https://doi.org/10.1017/S0022050708000788"),
+    "European Commission 2019": ("European Commission, Directorate-General for Economic and Financial Affairs, *AMECO database*, autumn 2019 forecast vintage, AMECO archive (Brussels, 2019).",
+                                 "European Commission, *AMECO*, autumn 2019 vintage.",
+                                 "https://economy-finance.ec.europa.eu/economic-research-and-databases/economic-databases/ameco-database/ameco-archive_en"),
+    "OECD 2026": ("OECD, *Economic Outlook*, no. 119, database (Paris, 2026): output gap, potential output and unemployment rate for Japan.",
+                  "OECD, *Economic Outlook* 119.", "https://data-explorer.oecd.org/"),
+    "ECB 2023": ("European Central Bank, \"Key ECB Interest Rates,\" deposit facility rate, July 2022 to September 2023 (Frankfurt am Main).",
+                 "ECB, \"Key ECB Interest Rates.\"", "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"),
+    "Eurostat 2026": ("Eurostat, \"Employment by A*10 Industry Breakdowns,\" dataset nama_10_a10_e, persons, domestic concept (Luxembourg, 2026).",
+                      "Eurostat, nama_10_a10_e.", "https://ec.europa.eu/eurostat/databrowser/view/nama_10_a10_e/default/table"),
+    "Bundesagentur für Arbeit 2025": ("Statistik der Bundesagentur für Arbeit, *Chancen und Risiken am Arbeitsmarkt nach Personengruppen, Deutschland (Monatszahlen)*, December 2025 (Nuremberg, 2026). Annual averages of the monthly risk of entering unemployment from employment subject to social insurance and the monthly chance of leaving unemployment for a job.",
+                                      "Bundesagentur für Arbeit, *Chancen und Risiken am Arbeitsmarkt*.",
+                                      "https://statistik.arbeitsagentur.de/Statistikdaten/Detail/202512/analyse/analyse-d-chancen-risiken-personen/analyse-d-chancen-risiken-personen-d-0-202512-xlsx.xlsx?__blob=publicationFile&v=1"),
+    "Destatis 2026d": ("Statistisches Bundesamt, \"Neu abgeschlossene Ausbildungsverträge,\" table 21211-0004, GENESIS-Online (Wiesbaden, 2026).",
+                       "Statistisches Bundesamt, table 21211-0004.", "https://www-genesis.destatis.de/datenbank/online/statistic/21211/table/21211-0004"),
+})
