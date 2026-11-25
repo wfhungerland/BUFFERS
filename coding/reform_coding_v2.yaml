@@ -1,0 +1,1626 @@
+# Reform coding v2 - see fixed_rules and conventions below. Generated 2026-11-25.
+title: German labour-market and social-insurance legislation after economic downturns (coding v2)
+compiled: '2026-11-25'
+replaces: reform_coding.yaml (used only as a list of leads; every item below was re-checked, nothing copied unverified)
+fixed_rules:
+  1_episodes: 'Output-gap peak to trough (AMECO), taken as given: 1965-67, 1973-75, 1979-83, 1991-93, 2001-05, 2007-09, 2011-13, 2017-20, 2022-25.'
+  2_window: 'A law belongs to an episode if the Bundestag passed it (Gesetzesbeschluss = 2nd/3rd reading, or the 3rd reading where they were on different days) between 1 January of the peak year and 31
+    December of the third year after the trough year. Windows: 1965-67 -> 1965-01-01..1970-12-31; 1973-75 -> 1973-01-01..1978-12-31; 1979-83 -> 1979-01-01..1986-12-31; 1991-93 -> 1991-01-01..1996-12-31;
+    2001-05 -> 2001-01-01..2008-12-31; 2007-09 -> 2007-01-01..2012-12-31; 2011-13 -> 2011-01-01..2016-12-31; 2017-20 -> 2017-01-01..2023-12-31; 2022-25 -> 2022-01-01..2028-12-31 (i.e. up to today, 2026-11-25).
+    Overlaps are assigned to the EARLIER episode: 2007-2008 -> 2001-05; 2011-2012 -> 2007-09; 2022-2023 -> 2017-20. Applied mechanically. Where the Bundestag voted again after a Vermittlungsausschuss or
+    overrode a Bundesrat Einspruch, the first Gesetzesbeschluss date is used and the later vote is given in note. Ordinances (only for short-time-work duration) are placed by the date they were issued.
+    Laws passed outside all windows are listed under outside_windows.'
+  3_scope: Enacted federal laws (and ordinances only for short-time-work duration) changing (a) dismissal protection (KSchG), (b) level, duration or eligibility of Arbeitslosengeld (and Arbeitslosenhilfe
+    until 2004), (c) statutory sick pay, (d) statutory pension level/formula for current contributors, (e) short-time work, (f) fixed-term, agency or marginal employment, (g) basic income support / social
+    assistance for the unemployed (Sozialhilfe, ALG II, Buergergeld, Grundsicherung), (h) active labour-market policy funding. Pure tax, fiscal-rule and immigration laws are excluded (listed under excluded_by_scope).
+    Pending bills go to pending.
+  4_fields: id, episode, law (official, short), bundestag_passed, bgbl, in_force, area (a-h), what, direction (cut|expansion|buffer|deregulation), target (core|margin), source_text, source_url, source_type,
+    confirmed, note. core = KSchG, ALG level/duration/eligibility, sick pay, pension level/formula, short-time work. margin = fixed-term/agency/marginal work, Arbeitslosenhilfe/social assistance/ALG II/Buergergeld/Grundsicherung,
+    ALMP for the unemployed, new entrants.
+  5_episode_summary: Each episode carries core_cut (yes/no) and one sentence.
+conventions:
+  source_type: primary = Bundestag Drucksache, Plenarprotokoll, GESTA Gesetzesmaterialien of the Bundestag Parlamentsarchiv (dserver.bundestag.de/gm/...), BGBl, bundestag.de text archive / hib, or an official
+    agency publication (BMF Monatsbericht, Statistisches Bundesamt). secondary = IAB chronicle compilations (doku.iab.de/chronik, which reproduce ministry/BA press texts or an IG Metall seminar paper),
+    academic or press. source_type describes the source of the MAIN NUMBER; the passage date is always from a primary Bundestag source unless the note says otherwise.
+  confirmed: true only if the passage date AND the main number in `what` were seen in the cited source(s). Everything else in `what` that was not seen is flagged in note.
+  source_url: list; first entry = source of the date (GESTA or Plenarprotokoll), further entries = source of the content.
+  access_notes: dip.bundestag.de (JavaScript only), bgbl.de, gesetze-im-internet.de, arbeitsagentur.de, bmas.de, dejure.org and buzer.de were not reachable; dserver.bundestag.de (Drucksachen, Plenarprotokolle,
+    GESTA files for WP 8-19), doku.iab.de, bundestag.de, recht.bund.de, bundesfinanzministerium.de and statistischebibliothek.de were. Statutory text after 2023 checked on recht.bund.de where possible.
+episodes:
+- episode: 1965-67
+  window: 1965-01-01..1970-12-31
+  core_cut: 'no'
+  core_cut_sentence: 'No verified core cut: the two coded laws (AFG 1969, sick-pay law 1969) expanded rights; the 1967 budget measures were not verified and are not coded.'
+  n_items: 2
+  n_confirmed: 1
+  n_confirmed_primary: 0
+  items:
+  - id: E1-01
+    law:
+      official: Arbeitsförderungsgesetz
+      short: AFG
+    bundestag_passed: '1969-05-13'
+    bgbl: BGBl. I 1969 S. 582 (law of 25 June 1969)
+    in_force: July 1969 (IAB chronicle)
+    area: h
+    what: Replaced the 1927 unemployment-insurance law with the AFG, created a legal entitlement to further training and retraining support, and from October 1969 raised the training allowance (Unterhaltsgeld)
+      from 75% to 81.25% of net pay for the first six months and 87.5% thereafter.
+    direction: expansion
+    target: margin
+    source_text: 'PlPr 5/234 (13 May 1969): "Wer dem Arbeitsförderungsgesetz im ganzen zustimmen will, möge sich erheben ... Ich stelle einstimmige Annahme des Gesetzes fest." / IAB: "Der Hauptbetrag des
+      Uhg bei Maßnahmen zur beruflichen Fortbildung und Umschulung (FuU) wird ab Oktober von 75% ... angehoben auf 81,25% für die ersten sechs Monate und auf 87,5% für die weitere Dauer der Maßnahme."'
+    source_url:
+    - https://dserver.bundestag.de/btp/05/05234.pdf
+    - https://dserver.bundestag.de/btd/10/006/1000690.pdf
+    - https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf
+    source_type: secondary
+    confirmed: true
+    note: Date primary (PlPr 5/234, unanimous). BGBl citation seen in BT-Drs. 10/690. The 75/81.25/87.5% figures come from the IAB chronicle (based on J. Steffen 1993), not from the statute. Target margin
+      because the main expansion is ALMP/training; the AFG also re-enacted ALG and Kurzarbeitergeld rules, which are not coded as a change here.
+    episode: 1965-67
+  - id: E1-02
+    law:
+      official: Gesetz über die Fortzahlung des Arbeitsentgelts im Krankheitsfalle und über Änderungen des Rechts der gesetzlichen Krankenversicherung
+      short: Lohnfortzahlungsgesetz (LFZG)
+    bundestag_passed: '1969-06-12'
+    bgbl: BGBl. I 1969 S. 946 (law of 27 July 1969)
+    in_force: 1970-01-01 (not seen in a source; from earlier lead)
+    area: c
+    what: Obliged employers to continue paying blue-collar workers their wages for up to six weeks of sickness, as already applied to white-collar employees.
+    direction: expansion
+    target: core
+    source_text: 'PlPr 5/237 (12 June 1969) agenda: "Dritte Beratung des Entwurfs eines Gesetzes über die Fortzahlung des Arbeitsentgelts im Krankheitsfalle und über Änderungen des Rechts der gesetzlichen
+      Krankenversicherung — Drucksachen V/3983, V/3985". BT-Drs. 15/1728 cites "Lohnfortzahlungsgesetzes vom 27. Juli 1969 (BGBl. I S. 946)".'
+    source_url:
+    - https://dserver.bundestag.de/btp/05/05237.pdf
+    - https://dserver.bundestag.de/btp/05/05236.pdf
+    - https://dserver.bundestag.de/btd/15/017/1501728.pdf
+    source_type: primary
+    confirmed: false
+    note: Third reading 12 June 1969 (second reading 11 June, PlPr 5/236). The six-week / 100% content was not read in the statute text here (only in the earlier lead), so confirmed=false. In-force date
+      not seen.
+    episode: 1965-67
+- episode: 1973-75
+  window: 1973-01-01..1978-12-31
+  core_cut: 'yes'
+  core_cut_sentence: 'Yes, but modest: a tighter job-suitability rule (1975), Sperrzeit days deducted from ALG duration (1977) and fixed below-formula pension increases (1978), after ALG had been raised
+    to 68% in 1974.'
+  n_items: 5
+  n_confirmed: 5
+  n_confirmed_primary: 5
+  items:
+  - id: E2-01
+    law:
+      official: Einführungsgesetz zum Einkommensteuerreformgesetz (Art. on the AFG)
+      short: EGEStRG 1974
+    bundestag_passed: '1974-12-12'
+    bgbl: not confirmed
+    in_force: 1975-01-01 (with the tax and child-benefit reform; not seen in statute)
+    area: b
+    what: Set Arbeitslosengeld at 68% of net pay (tied to net wages only), with the BA-financed family supplements replaced by federal child benefit.
+    direction: expansion
+    target: core
+    source_text: 'BT-Drs. 7/2931 (Antrag des Finanzausschusses, 6.12.1974), Änderung des Arbeitsförderungsgesetzes: "(1) Das Arbeitslosengeld beträgt 68 vom Hundert ..." / PlPr 7/136 (12 Dec 1974): "Zweite
+      und dritte Beratung ... Entwurf eines Einführungsgesetzes zum Einkommensteuerreformgesetz — Drucksache 7/2722 ... Drucksachen 7/2931, 7/2945".'
+    source_url:
+    - https://dserver.bundestag.de/btp/07/07136.pdf
+    - https://dserver.bundestag.de/btd/07/029/0702931.pdf
+    - https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf
+    source_type: primary
+    confirmed: true
+    note: The IAB chronicle dates the rise to 1975 and describes it as an increase; the previous rate structure (table amounts plus family supplements) was not checked, so the size of the increase is not
+      stated.
+    episode: 1973-75
+  - id: E2-02
+    law:
+      official: Gesetz zur Verbesserung der Haushaltsstruktur im Geltungsbereich des Arbeitsförderungs- und des Bundesversorgungsgesetzes
+      short: HStruktG-AFG (Zumutbarkeit part)
+    bundestag_passed: '1975-11-06'
+    bgbl: not confirmed for HStruktG-AFG; the main HStruktG of 18 Dec 1975 is BGBl. I S. 3091
+    in_force: 1976-01-01 (IAB chronicle)
+    area: b
+    what: 'Tightened the suitability rule for ALG claimants (new § 103 (1a) AFG: jobs are not unsuitable merely because they differ from previous occupation; labour-market situation and interests of contributors
+      to be weighed).'
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 7/4359 (Vermittlungsausschuss): "Aus dem vom Deutschen Bundestag in seiner 200. Sitzung am 6. November 1975 beschlossenen Gesetz ... werden Artikel 20 (Arbeitsförderungsgesetz)
+      ganz ... herausgenommen und wird statt dessen ... (HStruktG — AFG) angenommen" ... "(1 a) Bei der Beurteilung der Zumutbarkeit sind die Lage und Entwicklung des Arbeitsmarktes, die Interessen der
+      Gesamtheit der Beitragszahler ... zu berücksichtigen. Beschäftigungen sind nicht allein deshalb unzumutbar, weil ..."'
+    source_url:
+    - https://dserver.bundestag.de/btp/07/07200.pdf
+    - https://dserver.bundestag.de/btd/07/043/0704359.pdf
+    - https://dserver.bundestag.de/btd/10/058/1005810.pdf
+    source_type: primary
+    confirmed: true
+    note: Coded as a mild core cut (eligibility via job-suitability). No numeric parameter; "main number" not applicable. Passage date = first Gesetzesbeschluss of the HStruktG (6 Nov 1975); the AFG part
+      was then split off by the Vermittlungsausschuss (Drs. 7/4359, 27 Nov 1975) and adopted as a separate law. The contribution-rate rise 2% -> 3% (IAB chronicle) is out of scope.
+    episode: 1973-75
+  - id: E2-03
+    law:
+      official: Gesetz zur Verbesserung der Haushaltsstruktur im Geltungsbereich des Arbeitsförderungs- und des Bundesversorgungsgesetzes
+      short: HStruktG-AFG (training and Arbeitslosenhilfe part)
+    bundestag_passed: '1975-11-06'
+    bgbl: not confirmed
+    in_force: 1976-01-01 (IAB chronicle)
+    area: h
+    what: Cut the training allowance to 80% of net pay for "necessary" and 58% for merely "useful" courses (from 90%), and excluded school and university leavers from Arbeitslosenhilfe unless they had at
+      least 26 weeks of paid work in the year before their education.
+    direction: cut
+    target: margin
+    source_text: 'BT-Drs. 7/4359: "(2) Das Unterhaltsgeld beträgt 80 vom ..." / "(2 a) Das Unterhaltsgeld beträgt 58 vom ..." / § 134: "innerhalb des letzten Jahres vor Beginn der Ausbildung mindestens
+      sechsundzwanzig Wochen in entlohnter Beschäftigung"'
+    source_url:
+    - https://dserver.bundestag.de/btp/07/07200.pdf
+    - https://dserver.bundestag.de/btd/07/043/0704359.pdf
+    - https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf
+    source_type: primary
+    confirmed: true
+    note: The previous 90% rate is from the IAB chronicle (secondary).
+    episode: 1973-75
+  - id: E2-04
+    law:
+      official: Viertes Gesetz zur Änderung des Arbeitsförderungsgesetzes
+      short: 4. AFG-ÄndG
+    bundestag_passed: '1977-10-27'
+    bgbl: BGBl. I 1977 S. 2557 (law of 12 Dec 1977)
+    in_force: 1978 (IAB chronicle; exact date not seen)
+    area: b
+    what: Days of a Sperrzeit (benefit sanction for quitting or refusing suitable work) are deducted from the ALG entitlement period; Arbeitslosenhilfe is granted for at most one year at a time.
+    direction: cut
+    target: core
+    source_text: 'GESTA VIII/35: "27.10.77 52.Sitz. BT II. und III.B. Gesetzesbeschluß" ... "Verkündung des Gesetzes Vom 12. Dezember 1977 BGBl.I S.2557" / BT-Drs. 8/1053: "In § 110 wird folgende Nummer
+      1 a eingefügt: 1 a. die Tage einer Sperrzeit nach § 119" ... "Die Arbeitslosenhilfe ist jeweils für längstens ein Jahr zu bewilligen."'
+    source_url:
+    - https://dserver.bundestag.de/gm/08/080035.pdf
+    - https://dserver.bundestag.de/btp/08/08052.pdf
+    - https://dserver.bundestag.de/btd/08/010/0801053.pdf
+    source_type: primary
+    confirmed: true
+    note: 'Core part = shortening of ALG duration by Sperrzeit days; the Arbeitslosenhilfe and youth benefit-base changes (IAB chronicle: base for post-apprenticeship youth cut by 25%) are margin and not
+      separately coded.'
+    episode: 1973-75
+  - id: E2-05
+    law:
+      official: Einundzwanzigstes Gesetz über die Anpassung der Renten aus der gesetzlichen Rentenversicherung ...
+      short: 21. Rentenanpassungsgesetz (21. RAG)
+    bundestag_passed: '1978-06-08'
+    bgbl: BGBl. I 1978 S. 1089 (law of 25 July 1978)
+    in_force: 1979-01-01 (first fixed adjustment)
+    area: d
+    what: Replaced formula-based (gross-wage) pension adjustments by fixed increases of 4.5% (1 Jan 1979) and 4% (1 Jan 1980 and 1 Jan 1981), and set the general assessment base for new pensions so that
+      new pensions stay at the level of existing pensions.
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 8/1842: "Die Renten aus der gesetzlichen Rentenversicherung ... werden zum 1. Januar 1979 um 4,5 v. H. und zum 1. Januar 1980 und 1. Januar 1981 um jeweils 4 v. H. erhöht. 2. Die
+      allgemeine Bemessungsgrundlage für die Zugangsrenten wird künftig so festgesetzt, daß die Zugangsrenten sich jeweils auf demselben Niveau befinden wie die Bestandsrenten." / GESTA VIII/93: "08.06.78
+      95.Sitz. BT II.und III.B."'
+    source_url:
+    - https://dserver.bundestag.de/gm/08/080093.pdf
+    - https://dserver.bundestag.de/btd/08/018/0801842.pdf
+    - https://dserver.bundestag.de/btd/08/018/0801871.pdf
+    source_type: primary
+    confirmed: true
+    note: A CDU/CSU amendment (Drs. 8/1871) put the adjustment under the existing method at 7.2% for 1979, i.e. the law cut the 1979 adjustment by about 2.7 points (search snippet of 8/1871 only; the 7.2%
+      was not read in the PDF). Coded core because the assessment-base change affects future pensions of current contributors.
+    episode: 1973-75
+- episode: 1979-83
+  window: 1979-01-01..1986-12-31
+  core_cut: 'yes'
+  core_cut_sentence: 'Yes, repeatedly: qualifying period doubled to 360 days (1981), tighter contribution-to-duration ratio (1982), ALG for the childless cut from 68% to 63% (1983) and Kug/ALG denied to
+    strike-hit workers (1986), partly offset by longer ALG for older workers (1984-85).'
+  n_items: 9
+  n_confirmed: 9
+  n_confirmed_primary: 8
+  items:
+  - id: E3-01
+    law:
+      official: Fünftes Gesetz zur Änderung des Arbeitsförderungsgesetzes
+      short: 5. AFG-ÄndG
+    bundestag_passed: '1979-06-01'
+    bgbl: BGBl. I 1979 S. 1189 (law of 23 July 1979)
+    in_force: August 1979 (IAB chronicle)
+    area: h
+    what: Raised the maximum training-subsidy (Einarbeitungszuschuss) rate from 60% to 80% and widened training support for the unemployed, while codifying a stricter suitability rule than the 1977 law.
+    direction: expansion
+    target: margin
+    source_text: 'GESTA VIII/181: "01.06.79 158.Sitz. BT II.und III.B. Gesetzesbeschluß" / IAB: "Anhebung des Höchstsatzes beim EaZ von 60% auf 80%" ... "Verschärfung gegenüber der 4. AFG-Novelle".'
+    source_url:
+    - https://dserver.bundestag.de/gm/08/080181.pdf
+    - https://dserver.bundestag.de/btd/08/029/0802914.pdf
+    - https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf
+    source_type: secondary
+    confirmed: true
+    note: 'Mixed law; the Zumutbarkeit codification (Drs. 8/2914: "der Begriff der Zumutbarkeit weiter konkretisiert") eased the BA decree 230/78 but tightened relative to 1977 (IAB). Not coded as a core
+      cut.'
+    episode: 1979-83
+  - id: E3-02
+    law:
+      official: Gesetz zur Konsolidierung der Arbeitsförderung
+      short: Arbeitsförderungs-Konsolidierungsgesetz (AFKG)
+    bundestag_passed: '1981-11-12'
+    bgbl: BGBl. I 1981 S. 1497 (law of 22 Dec 1981)
+    in_force: 1982-01-01 (IAB chronicle)
+    area: b
+    what: Doubled the ALG qualifying period from 180 to 360 calendar days of contributory work and the basic Sperrzeit from four to eight weeks.
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 9/1144 (Vermittlungsausschuss): "In Satz 1 werden die Worte „hundertachtzig Kalendertage" durch die Worte „dreihundertsechzig Kalendertage" ersetzt." / BT-Drs. 9/966: "Die Worte
+      „Sperrzeit von vier Wochen" ... durch die Worte „Sperrzeit von acht Wochen" ersetzt." / GESTA IX/42: "12.11.81 64.Sitz. BT II.und III.B."'
+    source_url:
+    - https://dserver.bundestag.de/gm/09/090042.pdf
+    - https://dserver.bundestag.de/btp/09/09064.pdf
+    - https://dserver.bundestag.de/btd/09/009/0900966.pdf
+    - https://dserver.bundestag.de/btd/09/011/0901144.pdf
+    source_type: primary
+    confirmed: true
+    note: The committee version had set 300 days; the Vermittlungsausschuss raised it to 360, adopted by the Bundestag on 10 Dec 1981 (73rd sitting). Also raised the contribution rate 3% -> 4% (out of scope)
+      and cut training allowance (IAB).
+    episode: 1979-83
+  - id: E3-03
+    law:
+      official: Gesetz zur Wiederbelebung der Wirtschaft und Beschäftigung und zur Entlastung des Bundeshaushalts
+      short: Haushaltsbegleitgesetz 1983
+    bundestag_passed: '1982-12-16'
+    bgbl: BGBl. I 1982 S. 1857 (law of 20 Dec 1982)
+    in_force: 1983-01-01 (IAB chronicle)
+    area: b
+    what: 'Tied ALG duration more tightly to contributions: 360 days of contributory work now give 104 days of ALG and the maximum 312 days requires 1,080 days within a four-year frame (three contribution
+      months per benefit month instead of two).'
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 9/2283, § 106 Abs. 1 AFG: "Beschäftigungszeiten von insgesamt mindestens dreihundertsechzig Kalendertagen innerhalb der Rahmenfrist begründen eine Anspruchsdauer von hundertvier
+      Tagen ... 4. tausendachtzig Kalendertagen begründen eine Anspruchsdauer von dreihundertzwölf Tagen." / GESTA IX/106: "16.12.82 140.Sitz. BT Forts. der II.B. und III.B. ... Gesetzesbeschluß"'
+    source_url:
+    - https://dserver.bundestag.de/gm/09/090106.pdf
+    - https://dserver.bundestag.de/btd/09/022/0902283.pdf
+    - https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf
+    source_type: primary
+    confirmed: true
+    note: The "two to three months" framing is from the IAB chronicle. Contribution rate 4.0% -> 4.6% (out of scope).
+    episode: 1979-83
+  - id: E3-04
+    law:
+      official: Gesetz über Maßnahmen zur Entlastung der öffentlichen Haushalte und zur Stabilisierung der Finanzentwicklung in der Rentenversicherung ...
+      short: Haushaltsbegleitgesetz 1984
+    bundestag_passed: '1983-12-09'
+    bgbl: BGBl. I 1983 S. 1532 (law of 22 Dec 1983)
+    in_force: '1984-01-01'
+    area: b
+    what: Cut ALG (and Kurzarbeitergeld) for claimants without children from 68% to 63% of net pay and Arbeitslosenhilfe for claimants without children from 58% to 56%.
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 10/690, § 111 (1) AFG: "Das Arbeitslosengeld beträgt 1. für Arbeitslose, die mindestens ein Kind ... haben, 68 vom Hundert, 2. für die übrigen Arbeitslosen 63 vom Hundert"; § 136:
+      "58 vom Hundert ... 56 vom Hundert" / GESTA X/12: "09.12.83 45.Sitz. BT III.B. Gesetzesbeschluß" / IAB 1984: "Der Leistungssatz beim Arbeitslosengeld, beim Kurzarbeitergeld und beim Schlechtwettergeld
+      wird um 5 Prozentpunkte von 68 auf 63% ... gesenkt."'
+    source_url:
+    - https://dserver.bundestag.de/gm/10/100012.pdf
+    - https://dserver.bundestag.de/btd/10/006/1000690.pdf
+    - https://doku.iab.de/chronik/31/1984_01_01_31_haus.pdf
+    source_type: primary
+    confirmed: true
+    note: Second reading 6-8 Dec 1983, third reading 9 Dec 1983. Arbeitslosenhilfe part is margin.
+    episode: 1979-83
+  - id: E3-05
+    law:
+      official: Gesetz zur Änderung von Vorschriften des Arbeitsförderungsgesetzes und der gesetzlichen Rentenversicherung
+      short: AF/RVÄndG 1984 (ALG duration part)
+    bundestag_passed: '1984-12-06'
+    bgbl: BGBl. I 1984 S. 1713
+    in_force: 1985-01-01 (IAB chronicle)
+    area: b
+    what: Extended maximum ALG duration from 12 to 18 months for claimants aged 49+ with long contribution records.
+    direction: expansion
+    target: core
+    source_text: 'BT-Drs. 10/2569: "... auf Arbeitslosengeld von bisher zwölf Monaten auf 18 Monate für Arbeitnehmer, die das 49. Lebensjahr vollendet haben ..." / GESTA X/86: "06.12.84 108.Sitz. BT II.
+      und III.B."'
+    source_url:
+    - https://dserver.bundestag.de/gm/10/100086.pdf
+    - https://dserver.bundestag.de/btd/10/025/1002569.pdf
+    source_type: primary
+    confirmed: true
+    note: Same law also lengthened Sperrzeit (item E3-06).
+    episode: 1979-83
+  - id: E3-06
+    law:
+      official: Gesetz zur Änderung von Vorschriften des Arbeitsförderungsgesetzes und der gesetzlichen Rentenversicherung
+      short: AF/RVÄndG 1984 (Sperrzeit part)
+    bundestag_passed: '1984-12-06'
+    bgbl: BGBl. I 1984 S. 1713
+    in_force: 1985-01-01 (IAB chronicle)
+    area: b
+    what: Temporarily lengthened the Sperrzeit for self-induced unemployment from eight to twelve weeks.
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 10/2569: "Befristete Verschärfung der Sperrzeit in der Arbeitslosenversicherung von acht auf zwölf Wochen für Arbeitnehmer, die die Arbeitslosigkeit schuldhaft selbst herbeigeführt
+      ha[ben]"'
+    source_url:
+    - https://dserver.bundestag.de/gm/10/100086.pdf
+    - https://dserver.bundestag.de/btd/10/025/1002569.pdf
+    source_type: primary
+    confirmed: true
+    note: ''
+    episode: 1979-83
+  - id: E3-07
+    law:
+      official: Beschäftigungsförderungsgesetz 1985
+      short: BeschFG 1985
+    bundestag_passed: '1985-04-19'
+    bgbl: BGBl. I 1985 S. 710 (law of 26 April 1985)
+    in_force: 1985-05-01 (fixed-term rule valid until 1 Jan 1990)
+    area: f
+    what: Allowed a single fixed-term contract without objective reason of up to 18 months for new hires (1 May 1985 to 1 Jan 1990) and raised the maximum temp-agency assignment to six months.
+    direction: deregulation
+    target: margin
+    source_text: 'BT-Drs. 10/3206: "(1) Vom 1. Mai 1985 bis zum 1. Januar 1990 ist es zulässig, die einmalige Befristung des Arbeitsvertrages bis zur Dauer von achtzehn Monaten zu vereinbaren, wenn 1. der
+      Arbeitnehmer neu eingestellt wird" ... "übersteigt die Dauer der Überlassung im Einzelfall sechs Monate" / GESTA X/125: "19.04.85 133.Sitz. BT II. und III.B."'
+    source_url:
+    - https://dserver.bundestag.de/gm/10/100125.pdf
+    - https://dserver.bundestag.de/btd/10/032/1003206.pdf
+    source_type: primary
+    confirmed: true
+    note: The previous three-month agency limit is from the earlier lead, not seen.
+    episode: 1979-83
+  - id: E3-08
+    law:
+      official: Siebtes Gesetz zur Änderung des Arbeitsförderungsgesetzes
+      short: 7. AFG-ÄndG
+    bundestag_passed: '1985-12-06'
+    bgbl: BGBl. I 1985 S. 2484 (law of 20 Dec 1985)
+    in_force: 1986-01-01 (IAB chronicle)
+    area: b
+    what: Extended maximum ALG duration to 16 months from age 44, 20 months from 49 and 24 months from 54.
+    direction: expansion
+    target: core
+    source_text: 'BT-Drs. 10/4451: "Die Höchstdauer des Bezuges von Arbeitslosengeld wird für Arbeitslose ab vollendetem 44. Lebensjahr stufenweise erhöht, und zwar ab vollendetem 44. Lebensjahr auf 16
+      Monate, ab vollendetem 49. Lebensjahr auf 20 Monate, ab vollendetem 54. Lebensjahr auf 24 Monate." / GESTA X/197: "06.12.85 182.Sitz. BT II. und III.B."'
+    source_url:
+    - https://dserver.bundestag.de/gm/10/100197.pdf
+    - https://dserver.bundestag.de/btd/10/044/1004451.pdf
+    source_type: primary
+    confirmed: true
+    note: ''
+    episode: 1979-83
+  - id: E3-09
+    law:
+      official: Gesetz zur Sicherung der Neutralität der Bundesanstalt für Arbeit bei Arbeitskämpfen
+      short: § 116 AFG Neutralitätsgesetz
+    bundestag_passed: '1986-03-20'
+    bgbl: BGBl. I 1986 S. 740 (law of 15 May 1986)
+    in_force: 1986 (exact date not seen)
+    area: e
+    what: Denied ALG and Kurzarbeitergeld to workers laid off indirectly by a strike outside the strike district but within the same industry ("cold lockout") when the union demands there are essentially
+      the same.
+    direction: cut
+    target: core
+    source_text: 'GESTA X/226: "20.03.86 207.Sitz. BT II.und III.B.; Ann.des GesEntw.i.d.F.der Beschlußempfehlung" / BT-Drs. 10/5214 (committee): Anspruch eines "außerhalb des räumlichen, aber innerhalb
+      des fachlichen Geltungsbereichs" ... / IAB: "Durch Änderung des § 116 AFG haben mittelbar von Streiks betroffene Arbeitnehmer (kalte Aussperrung) keinen Anspruch mehr auf Lohnersatzleistungen der
+      BA."'
+    source_url:
+    - https://dserver.bundestag.de/gm/10/100226.pdf
+    - https://dserver.bundestag.de/btd/10/052/1005214.pdf
+    - https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf
+    source_type: primary
+    confirmed: true
+    note: No numeric parameter; confirmed refers to date and rule content.
+    episode: 1979-83
+- episode: 1991-93
+  window: 1991-01-01..1996-12-31
+  core_cut: 'yes'
+  core_cut_sentence: 'Yes: Kug conditions tightened (1993), ALG cut to 67%/60% (1993), and in 1996 the KSchG threshold rose to ten employees, sick pay fell to 80% and pension education credits were cut.'
+  n_items: 8
+  n_confirmed: 7
+  n_confirmed_primary: 5
+  items:
+  - id: E4-01
+    law:
+      official: Gesetz zur Änderung von Fördervoraussetzungen im Arbeitsförderungsgesetz und in anderen Gesetzen
+      short: 10. AFG-Novelle
+    bundestag_passed: '1992-10-15'
+    bgbl: BGBl. I 1992 S. 2044 (law of 18 Dec 1992)
+    in_force: 1993-01-01 (IAB chronicle)
+    area: h
+    what: 'Cut active labour-market support: the training subsidy (Einarbeitungszuschuss) fell from 50% to 30% and from one year to six months, a second training course required waiting periods, and the
+      1988 programme for young unemployed was ended.'
+    direction: cut
+    target: margin
+    source_text: 'GESTA XII/138: "15.10.92 113. Sitz. BT II. u. III.B." ... "09.12.92 127. Sitz. BT ... Zurückweisung d. Einspruchs" / IAB: "Die Förderungshöhe beim EaZ wird von 50% auf 30% und die Förderungsdauer
+      von einem auf ein halbes Jahr gesenkt".'
+    source_url:
+    - https://dserver.bundestag.de/gm/12/120138.pdf
+    - https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf
+    source_type: secondary
+    confirmed: true
+    note: Bundesrat Einspruch overruled on 9 Dec 1992. Also reintroduced employer refunds of ALG for dismissed older workers (§ 128) combined with shorter ALG for those affected (IAB; not separately coded).
+    episode: 1991-93
+  - id: E4-02
+    law:
+      official: Gesetz zur Umsetzung des Föderalen Konsolidierungsprogramms
+      short: FKPG
+    bundestag_passed: '1993-05-27'
+    bgbl: BGBl. I 1993 S. 944 (law of 23 June 1993)
+    in_force: 1993 (exact date not seen)
+    area: e
+    what: Made Kurzarbeitergeld beyond six months conditional on the worker being available for placement elsewhere and dropped the BA subsidy to employers' pension contributions after six months of short-time
+      work.
+    direction: cut
+    target: core
+    source_text: 'GESTA XII/204: "27.05.93 161.Sitz. BT II. und III. B." / IAB: "Länger als 6 Monate wird Kug nur gezahlt, wenn der Empfänger von Kug der Arbeitsvermittlung zur Verfügung steht ... Bei Kug-Bezug
+      von über 6 Monaten entfällt der Zuschuß der BA zu den Aufwendungen für die RV-Beiträge des Arbeitgebers."'
+    source_url:
+    - https://dserver.bundestag.de/gm/12/120204.pdf
+    - https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf
+    source_type: secondary
+    confirmed: true
+    note: Content only from the IAB chronicle. The FKPG is mainly a fiscal-equalisation law (German unity fund); only the Kug part is coded.
+    episode: 1991-93
+  - id: E4-03
+    law:
+      official: Erstes Gesetz zur Umsetzung des Spar-, Konsolidierungs- und Wachstumsprogramms
+      short: 1. SKWPG
+    bundestag_passed: '1993-10-22'
+    bgbl: BGBl. I 1993 S. 2353 (law of 21 Dec 1993)
+    in_force: 1994-01-01 (earlier lead / BSG; not seen in statute)
+    area: b
+    what: Cut ALG from 68% to 67% (with children) and from 63% to 60% (without children) of net pay, and Arbeitslosenhilfe from 58% to 57% and 56% to 53%.
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 12/5902: "27. In § 111 Abs. 1 werden die Zahl „68" durch die Zahl „67" und die Zahl „63" durch die Zahl „60" ..." / GESTA XII/286: "22.10.93 183.Sitz. BT II. und III. B." ... "17.12.93
+      664.Sitz. BR Plenarberatung kein Einspruch"'
+    source_url:
+    - https://dserver.bundestag.de/gm/12/120286.pdf
+    - https://dserver.bundestag.de/btd/12/059/1205902.pdf
+    source_type: primary
+    confirmed: true
+    note: Passage 22 Oct 1993 per GESTA (the earlier lead said 21 Oct). Arbeitslosenhilfe figures from the earlier lead quote of Drs. 12/5902; the Vermittlungsausschuss stage was not checked for changes.
+    episode: 1991-93
+  - id: E4-04
+    law:
+      official: Zweites Gesetz zur Umsetzung des Spar-, Konsolidierungs- und Wachstumsprogramms
+      short: 2. SKWPG
+    bundestag_passed: '1993-10-22'
+    bgbl: BGBl. I 1993 S. 2374 (law of 21 Dec 1993)
+    in_force: not seen
+    area: g
+    what: Capped social-assistance standard rates (Regelsätze) at a total 2% rise between July 1993 and June 1994, froze them from July 1994 to June 1995 and limited the 1995/96 rise to at most 3%.
+    direction: cut
+    target: margin
+    source_text: 'BT-Drs. 12/5510 (government draft): "Die seit dem 1. Juli 1992 geltenden Regelsätze erhöhen sich im Zeitraum vom 1. Juli 1993 bis zum 30. Juni 1994 halbjährlich um insgesamt 2 vom Hundert.
+      Eine Neufestsetzung der Regelsätze ist im Zeitraum vom 1. Juli 1994 bis zum 30. Juni 1995 ausgeschlossen. ... um bis zu 3 vom Hundert" / GESTA XII/287: "22.10.93 183.Sitz. BT II. und III. B."'
+    source_url:
+    - https://dserver.bundestag.de/gm/12/120287.pdf
+    - https://dserver.bundestag.de/btd/12/055/1205510.pdf
+    - https://dserver.bundestag.de/btd/12/059/1205930.pdf
+    source_type: primary
+    confirmed: false
+    note: Numbers seen only in the government draft; the final text after the Vermittlungsausschuss (Drs. 12/6266, 12/6376) was not checked, so confirmed=false.
+    episode: 1991-93
+  - id: E4-05
+    law:
+      official: Arbeitsrechtliches Gesetz zur Förderung von Wachstum und Beschäftigung
+      short: Arbeitsrechtliches Beschäftigungsförderungsgesetz 1996 (KSchG part)
+    bundestag_passed: '1996-06-28'
+    bgbl: BGBl. I 1996 S. 1476 (law of 25 Sept 1996)
+    in_force: 1996-10-01 (earlier lead; not seen)
+    area: a
+    what: Raised the KSchG small-firm threshold from five to ten employees.
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 13/5107: "In Satz 2 wird die Zahl „fünf" durch die Zahl „zehn" ersetzt." ... "von fünf auf zehn Arbeitnehmer heraufgesetzt" / GESTA XIII/153: "28.06.96 117.Sitzg BT II. u. III.B"
+      ... "13.09.96 123.Sitzg BT ... somit wird der Einspruch zurück[gewiesen]"'
+    source_url:
+    - https://dserver.bundestag.de/gm/13/130153.pdf
+    - https://dserver.bundestag.de/btd/13/051/1305107.pdf
+    source_type: primary
+    confirmed: true
+    note: Bundesrat Einspruch overruled 13 Sept 1996. Reversed by the Korrekturgesetz of Dec 1998 (outside windows).
+    episode: 1991-93
+  - id: E4-06
+    law:
+      official: Arbeitsrechtliches Gesetz zur Förderung von Wachstum und Beschäftigung
+      short: Arbeitsrechtliches Beschäftigungsförderungsgesetz 1996 (sick-pay part)
+    bundestag_passed: '1996-06-28'
+    bgbl: BGBl. I 1996 S. 1476
+    in_force: 1996-10-01 (BT-Drs. 14/45 says "im Oktober 1996 eingeführte Absenkung")
+    area: c
+    what: Cut statutory sick pay from 100% to 80% of pay.
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 13/5107 (EFZG): "Die Höhe des fortzuzahlenden Arbeitsentgelts im Krankheitsfall für den in § 3 Abs. 1 bezeichneten Zeitraum beträgt 80 vom Hundert des dem Arbeitnehmer ... zustehenden
+      Arbeitsentgelts"'
+    source_url:
+    - https://dserver.bundestag.de/gm/13/130153.pdf
+    - https://dserver.bundestag.de/btd/13/051/1305107.pdf
+    source_type: primary
+    confirmed: true
+    note: Collective agreements kept 100% for most employees (BT-Drs. 14/45, from earlier lead). Reversed Dec 1998.
+    episode: 1991-93
+  - id: E4-07
+    law:
+      official: Arbeitsrechtliches Gesetz zur Förderung von Wachstum und Beschäftigung
+      short: Arbeitsrechtliches Beschäftigungsförderungsgesetz 1996 (fixed-term part)
+    bundestag_passed: '1996-06-28'
+    bgbl: BGBl. I 1996 S. 1476
+    in_force: 1996-10-01 (not seen)
+    area: f
+    what: Allowed fixed-term contracts without objective reason for up to two years with up to three extensions.
+    direction: deregulation
+    target: margin
+    source_text: 'BT-Drs. 13/5107 (BeschFG § 1): "Die Befristung eines Arbeitsvertrages ist bis zur Dauer von zwei Jahren zulässig. Bis zur Gesamtdauer von zwei Jahren ist auch die höchstens dreimalige
+      Verlängerung eines befristeten Arbeitsvertrages ..."'
+    source_url:
+    - https://dserver.bundestag.de/gm/13/130153.pdf
+    - https://dserver.bundestag.de/btd/13/051/1305107.pdf
+    source_type: primary
+    confirmed: true
+    note: Previously 18 months (BeschFG 1985/1990).
+    episode: 1991-93
+  - id: E4-08
+    law:
+      official: Gesetz zur Umsetzung des Programms für mehr Wachstum und Beschäftigung in den Bereichen der Rentenversicherung und Arbeitsförderung
+      short: Wachstums- und Beschäftigungsförderungsgesetz (WFG)
+    bundestag_passed: '1996-07-09'
+    bgbl: BGBl. I 1996 S. 1461
+    in_force: 1997 (not seen)
+    area: d
+    what: Cut pension credits for education (Anrechnungszeiten for schooling limited to at most three years and valued at 75%) and brought forward the rise to age 65 of the early-retirement ages for the
+      unemployed, women and long-insured.
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 13/4610: "§ 58 Anrechnungszeiten ... höchstens bis zu drei Jahren" ... "mit Anrechnungszeiten wegen beruflicher oder schulischer Ausbildung auf 75 vom Hundert" / BT-Drs. 13/5108:
+      "Die vorzeitige Erhöhung der Altersgrenzen für Arbeitslose, Frauen und langjährig Versicherte auf das 65. Lebensjahr" / GESTA XIII/152: "28.06.96 117. Sitzg BT II. ... B" ; "09.07.96 118. Sitzg BT
+      III. B." ; "13.09.96 123. Sitzg BT ... Einspruchs des BR"'
+    source_url:
+    - https://dserver.bundestag.de/gm/13/130152.pdf
+    - https://dserver.bundestag.de/btd/13/046/1304610.pdf
+    - https://dserver.bundestag.de/btd/13/051/1305108.pdf
+    source_type: primary
+    confirmed: true
+    note: Second reading 28 June 1996, third reading 9 July 1996 (date used); Einspruch overruled 13 Sept 1996. Numbers read in the draft (13/4610) and in the committee report; the exact phase-in schedule
+      of the age limits was not read.
+    episode: 1991-93
+- episode: 2001-05
+  window: 2001-01-01..2008-12-31
+  core_cut: 'yes'
+  core_cut_sentence: 'Yes, the largest cluster: pension formula cuts (2001, 2004), retirement at 67 (2007), KSchG threshold for new hires and ALG duration cut to 12/18 months (2003), and a shorter reference
+    period (2003; the 2002 end of ALG indexation is coded but unconfirmed), with a partial reversal for older workers in 2008.'
+  n_items: 15
+  n_confirmed: 9
+  n_confirmed_primary: 7
+  items:
+  - id: E5-01
+    law:
+      official: Gesetz zur Ergänzung des Gesetzes zur Reform der gesetzlichen Rentenversicherung und zur Förderung eines kapitalgedeckten Altersvorsorgevermögens
+      short: Altersvermögensergänzungsgesetz (AVmEG)
+    bundestag_passed: '2001-01-26'
+    bgbl: BGBl. I 2001 S. 403
+    in_force: 2001 (not seen)
+    area: d
+    what: Changed the pension adjustment formula (deduction of a private-pension contribution share, the Altersvorsorgeanteil) so that contributions stay at most 20% until 2020 and 22% until 2030, while
+      the net replacement level for new pensioners should not fall below 64%.
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 14/5146: "... ein Steuerungsinstrument geschaffen werden, das bei einem Beitragssatz nicht über 20 % bis zum Jahr 2020 und nicht über 22 % bis zum Jahr 2030 das Rentenniveau langfristig
+      sichert und auch für Neuzugänge nicht unter 64 % absinken lässt" ... "Altersvorsorgeanteil" / GESTA XIV/215: "26.01.01 147. Sitzg BT II. u. III. Beratung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/14/140215.pdf
+    - https://dserver.bundestag.de/btd/14/051/1405146.pdf
+    source_type: primary
+    confirmed: true
+    note: Companion law AVmG (Riester subsidy, BGBl. I 2001 S. 1310) passed the same day; the formula cut is in the AVmEG. The 64% refers to the former net-level definition.
+    episode: 2001-05
+  - id: E5-02
+    law:
+      official: Gesetz zur Reform der arbeitsmarktpolitischen Instrumente
+      short: Job-AQTIV-Gesetz
+    bundestag_passed: '2001-11-09'
+    bgbl: BGBl. I 2001 S. 3443 (law of 10 Dec 2001)
+    in_force: 2002-01-01 (main parts, IAB chronicle)
+    area: h
+    what: Re-oriented ALMP towards early profiling and integration agreements (Eingliederungsvereinbarung) for every unemployed person.
+    direction: expansion
+    target: margin
+    source_text: 'GESTA XIV/320: "09.11.01 199. Sitzg BT II. u. III. Beratung" / IAB: "... wird künftig spätestens bei der Arbeitslosmeldung im Rahmen einer Chancenprognose das Bewerberprofil des Arbeitslosen
+      ermittelt (Profiling)."'
+    source_url:
+    - https://dserver.bundestag.de/gm/14/140320.pdf
+    - https://doku.iab.de/chronik/32/2001_12_10_32_jobaqtivgesetz.pdf
+    source_type: secondary
+    confirmed: false
+    note: No numeric parameter was confirmed; direction is a judgement (procedural ALMP reform). Kept for completeness.
+    episode: 2001-05
+  - id: E5-03
+    law:
+      official: Erstes Gesetz für moderne Dienstleistungen am Arbeitsmarkt
+      short: Hartz I (ALG indexation part)
+    bundestag_passed: '2002-11-15'
+    bgbl: BGBl. I 2002 S. 4607 (law of 23 Dec 2002)
+    in_force: '2003-01-01'
+    area: b
+    what: Ended the annual adjustment of ALG and Arbeitslosenhilfe to wage growth from 1 January 2003.
+    direction: cut
+    target: core
+    source_text: 'GESTA XV/3: "15.11.02 11. Sitzg BT II. u. III. Beratung" / IAB (after BA press release 06/03): "Arbeitslosengeld und die Arbeitslosenhilfe werden ab 1. Januar 2003 nicht mehr jährlich
+      an die allgemeine Lohnentwicklung angepasst."'
+    source_url:
+    - https://dserver.bundestag.de/gm/15/150003.pdf
+    - https://doku.iab.de/chronik/31/2003_01_01_31_algalhi.pdf
+    source_type: secondary
+    confirmed: false
+    note: 'Attribution of the indexation change to Hartz I is from the earlier lead and general knowledge; the IAB entry states the change but not the law, so confirmed=false. Hartz I also deregulated temp-agency
+      work (AÜG) and created PSAs (IAB 2002_11_05: "Änderungen im Arbeitnehmerüberlassungsgesetz"); not coded separately because no number was seen. Einspruch overruled 20 Dec 2002 after Vermittlungsausschuss.'
+    episode: 2001-05
+  - id: E5-04
+    law:
+      official: Zweites Gesetz für moderne Dienstleistungen am Arbeitsmarkt
+      short: Hartz II
+    bundestag_passed: '2002-11-15'
+    bgbl: BGBl. I 2002 S. 4621 (law of 23 Dec 2002)
+    in_force: 2003-04-01 (mini-job rules, IAB)
+    area: f
+    what: Raised the marginal-employment (mini-job) threshold from 325 to 400 euros a month and introduced a reduced-contribution zone for earnings of 400-800 euros.
+    direction: deregulation
+    target: margin
+    source_text: 'GESTA XV/4: "15.11.02 11. Sitzg BT II. u. III. Beratung" / IAB: "Früher lag die Grenze bei 325 Euro im Mo[nat]" ... "seit dem 01. April 2003 eine „Gleitzone" für Beschäftigungen zwischen
+      über 400 und 800 Euro/Monat"'
+    source_url:
+    - https://dserver.bundestag.de/gm/15/150004.pdf
+    - https://doku.iab.de/chronik/31/2003_04_02_31_minijobs.pdf
+    source_type: secondary
+    confirmed: true
+    note: Final version after Vermittlungsausschuss (Drs. 15/202). Also introduced the Ich-AG start-up subsidy (not coded).
+    episode: 2001-05
+  - id: E5-05
+    law:
+      official: Gesetz zu Reformen am Arbeitsmarkt
+      short: Arbeitsmarktreformgesetz 2003 (KSchG part)
+    bundestag_passed: '2003-09-26'
+    bgbl: BGBl. I 2003 S. 3002 (law of 24 Dec 2003)
+    in_force: 2004-01-01 (not seen)
+    area: a
+    what: Raised the KSchG threshold to more than ten employees for workers hired after the law took effect (existing staff in firms of 6-10 keep protection).
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 15/2245 (Vermittlungsausschuss): "In Betrieben und Verwaltungen, in denen in der Regel zehn oder weniger Arbeitnehmer ... beschäftigt werden, gelten die Vorschriften des Ersten
+      Abschnitts ... nicht für Arbeitnehmer, deren Arbeitsverhältnis nach dem ... begonnen hat" / GESTA XV/93: "26.09.03 64. Sitzg BT II. u. III. Beratung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/15/150093.pdf
+    - https://dserver.bundestag.de/btd/15/022/1502245.pdf
+    - https://dserver.bundestag.de/btd/15/015/1501587.pdf
+    source_type: primary
+    confirmed: true
+    note: Bundestag adopted the Vermittlungsausschuss version on 19 Dec 2003.
+    episode: 2001-05
+  - id: E5-06
+    law:
+      official: Gesetz zu Reformen am Arbeitsmarkt
+      short: Arbeitsmarktreformgesetz 2003 (ALG duration part)
+    bundestag_passed: '2003-09-26'
+    bgbl: BGBl. I 2003 S. 3002
+    in_force: 2006-02-01 (claims arising from that date; IAB)
+    area: b
+    what: Cut maximum ALG duration to 12 months (18 months from age 55, with 36 months of insurance).
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 15/1587, § 127 (2) SGB III table: "12 ... 6; 16 ... 8; 20 ... 10; 24 ... 12; 30 ... 55. ... 15; 36 ... 55. ... 18" / IAB 2006: "Die Anspruchsdauer auf Arbeitslosengeld wird bei
+      unter 55-jährigen Personen auf 12 Monate begrenzt. Über 55-jährige Personen erhalten Arbeitslosengeld I maximal 18 Monate."'
+    source_url:
+    - https://dserver.bundestag.de/gm/15/150093.pdf
+    - https://dserver.bundestag.de/btd/15/015/1501587.pdf
+    - https://doku.iab.de/chronik/32/2006_02_02_32_aenderungarbeitslosengeld.pdf
+    source_type: primary
+    confirmed: true
+    note: The previous maximum (32 months from age 57) is from general knowledge, not seen.
+    episode: 2001-05
+  - id: E5-07
+    law:
+      official: Drittes Gesetz für moderne Dienstleistungen am Arbeitsmarkt
+      short: Hartz III
+    bundestag_passed: '2003-10-17'
+    bgbl: BGBl. I 2003 S. 2848 (law of 23 Dec 2003)
+    in_force: 2006-02-01 (Rahmenfrist; IAB)
+    area: b
+    what: Shortened the reference period in which the 12-month ALG qualifying period must be met from three to two years.
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 15/1728: "insbesondere infolge der Verkürzung der für einen Anspruch auf Arbeitslosengeld maßgeblichen Rahmenfrist von drei auf zwei Jahre" / GESTA XV/86: "17.10.03 67. Sitzg BT
+      II. u. III. Beratung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/15/150086.pdf
+    - https://dserver.bundestag.de/btd/15/017/1501728.pdf
+    - https://doku.iab.de/chronik/32/2006_02_02_32_aenderungarbeitslosengeld.pdf
+    source_type: primary
+    confirmed: true
+    note: Einspruch overruled 19 Dec 2003. Hartz III also restructured the BA.
+    episode: 2001-05
+  - id: E5-08
+    law:
+      official: Viertes Gesetz für moderne Dienstleistungen am Arbeitsmarkt
+      short: Hartz IV
+    bundestag_passed: '2003-10-17'
+    bgbl: BGBl. I 2003 S. 2954 (law of 24 Dec 2003)
+    in_force: 2005-01-01 (not seen in statute)
+    area: g
+    what: Merged Arbeitslosenhilfe and social assistance for employable people into a flat-rate Arbeitslosengeld II with a standard benefit of 345 euros (West) and 331 euros (East) a month.
+    direction: cut
+    target: margin
+    source_text: 'GESTA XV/92: "17.10.03 67. Sitzg BT II. u. III. Beratung" ... "19.12.03 84. Sitzg BT ... Ann der Beschlussempfehlung" / IAB: "Bundesweit gibt es zwei unterschiedliche Pauschalen für Regelleistungen:
+      345 € monatlich (West)/331 € monatlich (Ost)."'
+    source_url:
+    - https://dserver.bundestag.de/gm/15/150092.pdf
+    - https://dserver.bundestag.de/btd/15/017/1501728.pdf
+    - https://doku.iab.de/chronik/31/2004_01_01_31_arbeitslosengeldii.pdf
+    source_type: secondary
+    confirmed: true
+    note: Coded cut because earnings-related Arbeitslosenhilfe was abolished; for former social-assistance recipients it was partly an expansion. Bundestag adopted the Vermittlungsausschuss result on 19
+      Dec 2003.
+    episode: 2001-05
+  - id: E5-09
+    law:
+      official: Gesetz zur Sicherung der nachhaltigen Finanzierungsgrundlagen der gesetzlichen Rentenversicherung
+      short: RV-Nachhaltigkeitsgesetz
+    bundestag_passed: '2004-03-11'
+    bgbl: BGBl. I 2004 S. 1791 (law of 21 July 2004)
+    in_force: 2005 adjustment (not seen)
+    area: d
+    what: Added a sustainability factor to the pension adjustment formula to limit the contribution rate to 22% by 2030; the committee added a duty to act if the pre-tax benefit level falls below 46% after
+      2020.
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 15/2149: "... bis zum Jahr 2030 der Beitragssatzanstieg auf 22 Prozent begrenzt" ... "3. dem Nachhaltigkeitsfaktor" / BT-Drs. 15/2678: "Maßnahmen zur Beibehaltung eines Sicherungsniveauziels
+      vor Steuern von 46 Prozent auch über das Jahr 2020 hinaus ... vorzuschlagen" / GESTA XV/174: "11.03.04 97. Sitzg BT II. u. III. Beratung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/15/150174.pdf
+    - https://dserver.bundestag.de/btd/15/021/1502149.pdf
+    - https://dserver.bundestag.de/btd/15/026/1502678.pdf
+    source_type: primary
+    confirmed: true
+    note: Einspruch overruled 16 June 2004.
+    episode: 2001-05
+  - id: E5-10
+    law:
+      official: Gesetz zur Änderung des Zweiten Buches Sozialgesetzbuch und anderer Gesetze
+      short: SGB II-Änderungsgesetz 2006
+    bundestag_passed: '2006-02-17'
+    bgbl: BGBl. I 2006 S. 558
+    in_force: 2006 (not seen)
+    area: g
+    what: Amended ALG II rules (including treatment of under-25s living with parents and equalisation of the East and West standard benefit).
+    direction: cut
+    target: margin
+    source_text: 'GESTA XVI/19: "17. Februar 2006 20. Sitzung ... Zweite und Dritte Beratung ... Annahme des Gesetzentwurfs"'
+    source_url:
+    - https://dserver.bundestag.de/gm/16/160019.pdf
+    - https://dserver.bundestag.de/btd/16/006/1600688.pdf
+    source_type: primary
+    confirmed: false
+    note: Date and BGBl confirmed; content NOT read in a source (taken from general knowledge), so confirmed=false and direction tentative.
+    episode: 2001-05
+  - id: E5-11
+    law:
+      official: Gesetz zur Fortentwicklung der Grundsicherung für Arbeitsuchende
+      short: SGB II-Fortentwicklungsgesetz
+    bundestag_passed: '2006-06-01'
+    bgbl: BGBl. I 2006 S. 1706
+    in_force: 2006-08-01 (not seen)
+    area: g
+    what: Tightened ALG II rules (sanctions and checks on benefit receipt).
+    direction: cut
+    target: margin
+    source_text: 'GESTA XVI/67: "1. Juni 2006 37. Sitzung ... Zweite und dritte Beratung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/16/160067.pdf
+    - https://dserver.bundestag.de/btd/16/016/1601696.pdf
+    source_type: primary
+    confirmed: false
+    note: Date and BGBl confirmed; content not read, confirmed=false.
+    episode: 2001-05
+  - id: E5-12
+    law:
+      official: Gesetz zur Anpassung der Regelaltersgrenze an die demografische Entwicklung und zur Stärkung der Finanzierungsgrundlagen der gesetzlichen Rentenversicherung
+      short: RV-Altersgrenzenanpassungsgesetz
+    bundestag_passed: '2007-03-09'
+    bgbl: BGBl. I 2007 S. 554
+    in_force: 2012 start of phase-in
+    area: d
+    what: Raises the standard retirement age in steps from 65 to 67, starting with the 1947 cohort in 2012 and ending in 2029.
+    direction: cut
+    target: core
+    source_text: 'BT-Drs. 16/3794: "die stufenweise Anhebung der Altersgrenze für die Regelaltersrente von bisher 65 Jahren auf das 67. Lebensjahr" ... "2012 an mit dem Jahrgang 1947 bis zum Jahr 2029"
+      / GESTA XVI/179: "9. März 2007 86. Sitzung ... Zweite und dritte Beratung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/16/160179.pdf
+    - https://dserver.bundestag.de/btd/16/037/1603794.pdf
+    source_type: primary
+    confirmed: true
+    note: Passed in 2007, inside both the 2001-05 and 2007-09 windows; assigned to 2001-05 under the overlap rule.
+    episode: 2001-05
+  - id: E5-13
+    law:
+      official: Siebtes Gesetz zur Änderung des Dritten Buches Sozialgesetzbuch
+      short: 7. SGB III-ÄndG
+    bundestag_passed: '2008-01-25'
+    bgbl: BGBl. I 2008 S. 681 (law of 8 April 2008)
+    in_force: 2008-01-01 (retroactive; not seen)
+    area: b
+    what: Extended maximum ALG duration to 15 months from age 50, 18 months from 55 and 24 months from 58 (with 30/36/48 months of insurance).
+    direction: expansion
+    target: core
+    source_text: 'BT-Drs. 16/7460: "... nach Versicherungspflichtverhältnissen mit einer Dauer von insgesamt mindestens 30 Monaten und nach Vollendung des 50. Lebensjahres auf 15 Monate ... mindestens 36
+      Monaten und nach Vollendung des 55. Lebensjahres auf 18 Monate und ... mindestens 48 Monaten und nach Vollendung des 58. Lebensjahres auf 24 Monate verlängert." / GESTA XVI/313: "25. Januar 2008 140.
+      Sitzung ... Zweite und dritte Beratung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/16/160313.pdf
+    - https://dserver.bundestag.de/btd/16/074/1607460.pdf
+    - https://dserver.bundestag.de/btd/16/078/1607866.pdf
+    source_type: primary
+    confirmed: true
+    note: 2008 is inside both the 2001-05 and 2007-09 windows; assigned to 2001-05 under the overlap rule.
+    episode: 2001-05
+  - id: E5-14
+    law:
+      official: Verordnung über die Bezugsfrist für das Kurzarbeitergeld (2008)
+      short: Kug duration ordinance 2008
+    bundestag_passed: n/a (ordinance; issued Nov 2008, exact date not seen)
+    bgbl: not confirmed
+    in_force: 2009-01-01 (not seen)
+    area: e
+    what: Extended the maximum duration of Kurzarbeitergeld from 12 to 18 months for one year.
+    direction: buffer
+    target: core
+    source_text: 'IAB (after the federal government package "Beschäftigungssicherung durch Wachstumsstärkung", 5 Nov 2008): "Die Bundesregierung wird befristet auf ein Jahr die Bezugsdauer von Kurzarbeitergeld
+      von bisher 12 Monaten auf 18 Monate verlängern."'
+    source_url:
+    - https://doku.iab.de/chronik/31/2008_11_05_31_beschaeftigungssicherung.pdf
+    source_type: secondary
+    confirmed: false
+    note: Only the announcement was seen; issue date (26 Nov 2008 per earlier lead) and BGBl not confirmed. Placed in 2001-05 by issue year (2008, overlap rule).
+    episode: 2001-05
+  - id: E5-15
+    law:
+      official: Gesetz zur Neuausrichtung der arbeitsmarktpolitischen Instrumente
+      short: Instrumentenneuausrichtung 2008
+    bundestag_passed: '2008-12-05'
+    bgbl: BGBl. I 2008 S. 2917 (law of 21 Dec 2008)
+    in_force: 2009 (not seen)
+    area: h
+    what: Re-organised ALMP instruments (consolidation of instruments, placement budget).
+    direction: buffer
+    target: margin
+    source_text: 'GESTA XVI/419: "5. Dezember 2008 194. Sitzung ... Zweite und dritte Beratung Annahme des Gesetzentwurfs 16/10810 in der Fassung der Beschlussempfehlung 16/11233"'
+    source_url:
+    - https://dserver.bundestag.de/gm/16/160419.pdf
+    - https://dserver.bundestag.de/btd/16/112/1611233.pdf
+    source_type: primary
+    confirmed: false
+    note: Date confirmed; content and direction not read in a source (direction tentative). Overlap rule -> 2001-05.
+    episode: 2001-05
+- episode: 2007-09
+  window: 2007-01-01..2012-12-31 (2007-08 laws assigned to 2001-05)
+  core_cut: 'no'
+  core_cut_sentence: 'No core cut: core workers were buffered through short-time work (2009), while cuts fell on ALG II recipients and ALMP (2010-11).'
+  n_items: 6
+  n_confirmed: 3
+  n_confirmed_primary: 3
+  items:
+  - id: E6-01
+    law:
+      official: Gesetz zur Sicherung von Beschäftigung und Stabilität in Deutschland
+      short: Konjunkturpaket II (Kurzarbeit part)
+    bundestag_passed: '2009-02-13'
+    bgbl: BGBl. I 2009 S. 416 (law of 2 March 2009)
+    in_force: 2009 (not seen)
+    area: e
+    what: Made short-time work easier to use and had the BA refund employers half of the social contributions on short-time work in 2009-2010 (all of them if workers are trained).
+    direction: buffer
+    target: core
+    source_text: 'BT-Drs. 16/11740: "Bei der Kurzarbeit werden den Arbeitgebern in den Jahren 2009 und 2010 die Sozialversicherungsbeiträge durch die Bundesagentur für Arbeit hälftig erstattet." / GESTA
+      XVI/445: "13. Februar 2009 206. Sitzung ... Zweite und dritte Beratung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/16/160445.pdf
+    - https://dserver.bundestag.de/btd/16/117/1611740.pdf
+    - https://dserver.bundestag.de/btd/16/118/1611801.pdf
+    source_type: primary
+    confirmed: true
+    note: Main fiscal parts of the package (tax, investment) are out of scope.
+    episode: 2007-09
+  - id: E6-02
+    law:
+      official: Erste Verordnung zur Änderung der Verordnung über die Bezugsfrist für das Kurzarbeitergeld (2009)
+      short: Kug duration ordinance 2009
+    bundestag_passed: n/a (ordinance; May 2009, exact date not seen)
+    bgbl: not confirmed
+    in_force: 2009 (not seen)
+    area: e
+    what: Extended the maximum duration of Kurzarbeitergeld from 18 to 24 months for workers entering short-time work by 31 December 2009.
+    direction: buffer
+    target: core
+    source_text: 'IAB 2009: "Die Bezugsdauer des Kurzarbeitergeldes wird von 18 auf 24 Monate verlängert. Dies gilt für alle Beschäftigte, die bis zum 31. Dezember 2009 in Kurzarbeit gehen."'
+    source_url:
+    - https://doku.iab.de/chronik/31/2009_05_20_31_kurzarbeitergeldplus.pdf
+    source_type: secondary
+    confirmed: false
+    note: Issue date (29 May 2009 per earlier lead) and BGBl not confirmed.
+    episode: 2007-09
+  - id: E6-03
+    law:
+      official: Haushaltsbegleitgesetz 2011
+      short: HBeglG 2011
+    bundestag_passed: '2010-10-28'
+    bgbl: BGBl. I 2010 S. 1885 (law of 9 Dec 2010)
+    in_force: 2011-01-01 (not seen)
+    area: g
+    what: Abolished the temporary supplement for people moving from ALG to ALG II and ended statutory pension insurance for ALG II recipients, and cut parental benefit for ALG II recipients.
+    direction: cut
+    target: margin
+    source_text: 'BT-Drs. 17/3406: "– Wegfall des befristeten Zuschlags für Empfänger der Grundsicherung für Arbeitsuchende; – Wegfall der Versicherungspflicht von Empfängern der Grundsicherung für Arbeitsuchende
+      zur gesetzlichen Rentenversicherung; ... – Änderungen im Bereich des Elterngeldes" / GESTA XVII/76: "28. Oktober 2010 68. Sitzung ... Zweite und dritte Beratung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/17/170076.pdf
+    - https://dserver.bundestag.de/btd/17/034/1703406.pdf
+    source_type: primary
+    confirmed: true
+    note: No euro amounts read; confirmed refers to date and the listed rule changes.
+    episode: 2007-09
+  - id: E6-04
+    law:
+      official: Gesetz zur Ermittlung von Regelbedarfen und zur Änderung des Zweiten und Zwölften Buches Sozialgesetzbuch
+      short: Regelbedarfsermittlungsgesetz 2011
+    bundestag_passed: '2010-12-03'
+    bgbl: BGBl. I 2011 S. 453
+    in_force: 2011 (retroactive to 1 Jan 2011; not seen)
+    area: g
+    what: Re-based the ALG II standard benefit on the 2008 income and consumption survey after the 2010 Constitutional Court ruling.
+    direction: expansion
+    target: margin
+    source_text: 'GESTA XVII/110: "3. Dezember 2010 79. Sitzung ... Zweite und dritte Beratung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/17/170110.pdf
+    source_type: primary
+    confirmed: false
+    note: Bundesrat refused consent; final adoption after Vermittlungsausschuss in Feb 2011. The size of the increase (+5 euros per earlier lead) was not seen; direction tentative. 2010 passage -> 2007-09
+      (inside window, no overlap issue).
+    episode: 2007-09
+  - id: E6-05
+    law:
+      official: Gesetz zur Verbesserung der Eingliederungschancen am Arbeitsmarkt
+      short: Instrumentenreform 2011
+    bundestag_passed: '2011-09-23'
+    bgbl: BGBl. I 2011 S. 2854 (law of 20 Dec 2011)
+    in_force: 2012 (not seen)
+    area: h
+    what: Cut ALMP spending, including turning the start-up subsidy (Gründungszuschuss) from an entitlement into a discretionary benefit.
+    direction: cut
+    target: margin
+    source_text: 'GESTA XVII/230: "23. September 2011 128. Sitzung ... Zweite und dritte Beratung" / BT-Drs. 17/7065 (report): "... die Umwandlung des Gründungszuschusses in ..." ... "Minderausgaben beim
+      Gründungszuschuss"'
+    source_url:
+    - https://dserver.bundestag.de/gm/17/170230.pdf
+    - https://dserver.bundestag.de/btd/17/070/1707065.pdf
+    source_type: primary
+    confirmed: false
+    note: The Ermessensleistung change is only partly visible in the extracted text; savings figures not read. 2011 is in both 2007-09 and 2011-13 windows; assigned to 2007-09.
+    episode: 2007-09
+  - id: E6-06
+    law:
+      official: Gesetz zu Änderungen im Bereich der geringfügigen Beschäftigung
+      short: Minijob-Gesetz 2012
+    bundestag_passed: '2012-10-25'
+    bgbl: BGBl. I 2012 S. 2474 (law of 5 Dec 2012)
+    in_force: '2013-01-01'
+    area: f
+    what: Raised the mini-job earnings limit from 400 to 450 euros a month (and the midi-job limit to 850 euros), with pension-insurance liability unless the worker opts out.
+    direction: deregulation
+    target: margin
+    source_text: 'BT-Drs. 17/11174: "... 2013 auf 450 Euro angehoben werden" ... "die Grenzen bei geringfügiger Beschäftigung von 400 auf 450 Euro und bei Beschäftigung in der Gleitzone von ..." ... "Midijobs
+      um jeweils 50 Euro auf 450 Euro bzw. 850 Euro" / GESTA XVII/352: "25. Oktober 2012 201. Sitzung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/17/170352.pdf
+    - https://dserver.bundestag.de/btd/17/111/1711174.pdf
+    source_type: primary
+    confirmed: true
+    note: The opt-out detail is from general knowledge (not read). 2012 overlap -> 2007-09.
+    episode: 2007-09
+- episode: 2011-13
+  window: 2011-01-01..2016-12-31 (2011-12 laws assigned to 2007-09)
+  core_cut: 'no'
+  core_cut_sentence: 'No core cut: the 2014 pension package expanded core rights and agency work was re-regulated in 2016.'
+  n_items: 5
+  n_confirmed: 3
+  n_confirmed_primary: 3
+  items:
+  - id: E7-01
+    law:
+      official: Gesetz über Leistungsverbesserungen in der gesetzlichen Rentenversicherung
+      short: RV-Leistungsverbesserungsgesetz 2014
+    bundestag_passed: '2014-05-23'
+    bgbl: BGBl. I 2014 S. 787
+    in_force: 2014-07-01 (not seen)
+    area: d
+    what: Allowed a deduction-free old-age pension from age 63 after 45 contribution years and raised child-rearing credits for children born before 1992.
+    direction: expansion
+    target: core
+    source_text: 'BT-Drs. 18/1489: "... vorübergehend eine abschlagsfreie Altersrente ab Vollendung des 63. Lebensjahres beziehen. Voraussetzung hierfür sind 45 Jahre an ..." / GESTA XVIII/15: "23. Mai
+      2014 37. Sitzung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/18/180015.pdf
+    - https://dserver.bundestag.de/btd/18/014/1801489.pdf
+    source_type: primary
+    confirmed: true
+    note: ''
+    episode: 2011-13
+  - id: E7-02
+    law:
+      official: Gesetz zur Stärkung der beruflichen Weiterbildung und des Versicherungsschutzes in der Arbeitslosenversicherung
+      short: AWStG 2016
+    bundestag_passed: '2016-06-02'
+    bgbl: BGBl. I 2016 S. 1710
+    in_force: 2016 (not seen)
+    area: h
+    what: Expanded training support for low-skilled and unemployed workers.
+    direction: expansion
+    target: margin
+    source_text: 'GESTA XVIII/270: "2. Juni 2016 173. Sitzung ... Zweite und dritte Beratung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/18/180270.pdf
+    - https://dserver.bundestag.de/btd/18/086/1808647.pdf
+    source_type: primary
+    confirmed: false
+    note: Content not read; direction tentative.
+    episode: 2011-13
+  - id: E7-03
+    law:
+      official: Neuntes Gesetz zur Änderung des Zweiten Buches Sozialgesetzbuch – Rechtsvereinfachung
+      short: 9. SGB II-ÄndG (Rechtsvereinfachung)
+    bundestag_passed: '2016-06-23'
+    bgbl: BGBl. I 2016 S. 1824
+    in_force: 2016-08-01 (not seen)
+    area: g
+    what: Simplified ALG II administration, including extending the standard award period to 12 months.
+    direction: buffer
+    target: margin
+    source_text: 'BT-Drs. 18/8909: "Verlängerung des Regelbewilligungszeitraums auf 12 Monate" / GESTA XVIII/280: "23. Juni 2016 179. Sitzung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/18/180280.pdf
+    - https://dserver.bundestag.de/btd/18/089/1808909.pdf
+    source_type: primary
+    confirmed: true
+    note: 'Direction "buffer" is a judgement: mostly administrative; neither a clear cut nor an expansion.'
+    episode: 2011-13
+  - id: E7-04
+    law:
+      official: Gesetz zur Änderung des Arbeitnehmerüberlassungsgesetzes und anderer Gesetze
+      short: AÜG-Reform 2016
+    bundestag_passed: '2016-10-21'
+    bgbl: BGBl. I 2017 S. 258 (law of 21 Feb 2017)
+    in_force: 2017-04-01 (not seen)
+    area: f
+    what: Limited temp-agency assignments to 18 months and required equal pay after nine months.
+    direction: expansion
+    target: margin
+    source_text: 'BT-Drs. 18/10064: "... Überlassungshöchstdauer von 18 Monaten ..." ... "spätestens nach neun Monaten hinsichtlich des Arbeitsentgelts mit Stammarbeitnehmern (Equal Pay)" / GESTA XVIII/369:
+      "21. Oktober 2016 197. Sitzung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/18/180369.pdf
+    - https://dserver.bundestag.de/btd/18/100/1810064.pdf
+    source_type: primary
+    confirmed: true
+    note: Re-regulation of agency work; "expansion" = expansion of worker protection at the margin.
+    episode: 2011-13
+  - id: E7-05
+    law:
+      official: Gesetz zur Flexibilisierung des Übergangs vom Erwerbsleben in den Ruhestand ...
+      short: Flexirentengesetz
+    bundestag_passed: '2016-10-21'
+    bgbl: BGBl. I 2016 S. 2838
+    in_force: 2017 (not seen)
+    area: d
+    what: Made partial pensions and work beyond retirement age more flexible.
+    direction: buffer
+    target: core
+    source_text: 'GESTA XVIII/329: "21. Oktober 2016 197. Sitzung ... Zweite und dritte Beratung unveränderte Annahme des Gesetzentwurfs 18/09787"'
+    source_url:
+    - https://dserver.bundestag.de/gm/18/180329.pdf
+    source_type: primary
+    confirmed: false
+    note: Content not read; coding tentative. Does not change the pension level formula.
+    episode: 2011-13
+- episode: 2017-20
+  window: 2017-01-01..2023-12-31 (2022-23 laws assigned here)
+  core_cut: 'no'
+  core_cut_sentence: 'No core cut: pension floor and wider ALG eligibility (2018), large short-time-work buffers (2020) and Bürgergeld (2022).'
+  n_items: 10
+  n_confirmed: 8
+  n_confirmed_primary: 8
+  items:
+  - id: E8-01
+    law:
+      official: Gesetz über Leistungsverbesserungen und Stabilisierung in der gesetzlichen Rentenversicherung
+      short: Rentenpaket 2018 (RV-Leistungsverbesserungs- und -Stabilisierungsgesetz)
+    bundestag_passed: '2018-11-08'
+    bgbl: BGBl. I 2018 S. 2016
+    in_force: 2019-01-01 (not seen)
+    area: d
+    what: Guaranteed a pre-tax pension level of at least 48% until 2025 by adding a level-floor clause to the adjustment formula.
+    direction: expansion
+    target: core
+    source_text: 'BT-Drs. 19/5586: "... wird gewährleistet, dass das Sicherungsniveau vor Steuern bis zum Jahr 2025 mindestens 48 Prozent beträgt. Hierfür wird die Rentenanpassungsformel um eine Niveausicherungsklausel
+      ergänzt" / GESTA XIX/20: "8. November 2018 61. Sitzung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/19/190020.pdf
+    - https://dserver.bundestag.de/btd/19/055/1905586.pdf
+    source_type: primary
+    confirmed: true
+    note: Contribution ceiling of 20% to 2025 not read.
+    episode: 2017-20
+  - id: E8-02
+    law:
+      official: Zehntes Gesetz zur Änderung des Zweiten Buches Sozialgesetzbuch – Schaffung neuer Teilhabechancen für Langzeitarbeitslose ...
+      short: Teilhabechancengesetz
+    bundestag_passed: '2018-11-08'
+    bgbl: BGBl. I 2018 S. 2583
+    in_force: 2019-01-01 (not seen)
+    area: h
+    what: Created a wage subsidy for long-term ALG II recipients (25+, at least six of the last seven years on benefits) covering 100% of the minimum wage in the first two years.
+    direction: expansion
+    target: margin
+    source_text: 'BT-Drs. 19/5588: "... Personen, die das 25. Lebensjahr vollendet haben, seit mindestens sieben Jahren ... Der Lohnkostenzuschuss beträgt in den ersten beiden Jahren des Arbeitsverhältnisses
+      100 Prozent des gesetzlichen Mindestlohns und sinkt da[nach]" / GESTA XIX/46: "8. November 2018 61. Sitzung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/19/190046.pdf
+    - https://dserver.bundestag.de/btd/19/055/1905588.pdf
+    source_type: primary
+    confirmed: true
+    note: '"six of seven years" partly from general knowledge; the snippet shows "seit mindestens sieben Jahren".'
+    episode: 2017-20
+  - id: E8-03
+    law:
+      official: Gesetz zur Stärkung der Chancen für Qualifizierung und für mehr Schutz in der Arbeitslosenversicherung
+      short: Qualifizierungschancengesetz
+    bundestag_passed: '2018-11-30'
+    bgbl: BGBl. I 2018 S. 2651
+    in_force: 2019-01-01 (contribution); Rahmenfrist 2020 (not seen)
+    area: b
+    what: Widened ALG eligibility by extending the reference period for the qualifying period to 30 months (from 24) and lowered the UI contribution from 3% to 2.6%.
+    direction: expansion
+    target: core
+    source_text: 'BT-Drs. 19/6146: "Die Rahmenfrist, innerhalb derer die Mindestversicherungszeit für einen Anspruch auf Arbeitslosengeld zurückzulegen ist, wird auf 30 Monate erweitert. ... Der Beitragssatz
+      zur Arbeitsförderung wird von 3 Prozent auf 2,6 Prozent gesenkt" / GESTA XIX/54: "30. November 2018 69. Sitzung ... Zweite und dritte Beratung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/19/190054.pdf
+    - https://dserver.bundestag.de/btd/19/061/1906146.pdf
+    source_type: primary
+    confirmed: true
+    note: Also expanded training support for employed workers (h).
+    episode: 2017-20
+  - id: E8-04
+    law:
+      official: Gesetz zur befristeten krisenbedingten Verbesserung der Regelungen für das Kurzarbeitergeld
+      short: Kurzarbeitergeld-Krisengesetz März 2020
+    bundestag_passed: '2020-03-13'
+    bgbl: not confirmed
+    in_force: March 2020 (with the KugV; not seen)
+    area: e
+    what: Empowered the government to lower the share of affected workers needed for Kurzarbeit to as little as 10% and to refund employers' social contributions, and opened Kurzarbeitergeld to agency workers.
+    direction: buffer
+    target: core
+    source_text: 'BT-Drs. 19/17893: "... den Anteil der ... Arbeitnehmerinnen und Arbeitnehmer, die vom Entgeltausfall betroffen sein müssen, auf bis zu 10 Prozent herabzusetzen" / PlPr 19/153 (13 March
+      2020): "Erste sowie zweite und dritte Beratung des ... Entwurfs eines Gesetzes zur befristeten krisenbedingten Verbesserung der Regelungen für das Kurzarbeitergeld Drucksache 19/17893"'
+    source_url:
+    - https://dserver.bundestag.de/btp/19/19153.pdf
+    - https://dserver.bundestag.de/btd/19/178/1917893.pdf
+    source_type: primary
+    confirmed: true
+    note: The previous one-third threshold is from general knowledge.
+    episode: 2017-20
+  - id: E8-05
+    law:
+      official: Gesetz für den erleichterten Zugang zu sozialer Sicherung ... aufgrund des Coronavirus SARS-CoV-2
+      short: Sozialschutz-Paket I
+    bundestag_passed: '2020-03-25'
+    bgbl: BGBl. I 2020 S. 575 (law of 27 March 2020)
+    in_force: March 2020 (not seen)
+    area: g
+    what: Eased access to basic income support during the pandemic (temporary suspension of asset and housing-cost checks).
+    direction: buffer
+    target: margin
+    source_text: 'GESTA XIX/206: "25. März 2020 154. Sitzung ... Zweite und dritte Beratung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/19/190206.pdf
+    source_type: primary
+    confirmed: false
+    note: Content not read in a source (general knowledge); BMF Jan 2021 mentions "die erleichterten Zugangsvoraussetzungen zu den Leistungen der Grundsicherung für Arbeitsuchende".
+    episode: 2017-20
+  - id: E8-06
+    law:
+      official: Gesetz zu sozialen Maßnahmen zur Bekämpfung der Corona-Pandemie
+      short: Sozialschutz-Paket II
+    bundestag_passed: '2020-05-14'
+    bgbl: not confirmed
+    in_force: 2020 (not seen)
+    area: e
+    what: Raised Kurzarbeitergeld to 70% (77% with children) of the net pay gap from the fourth month and 80% (87%) from the seventh month until end-2020, and extended ALG by three months for claims expiring
+      May-December 2020.
+    direction: buffer
+    target: core
+    source_text: 'BT-Drs. 19/18966: "... ab dem vierten Bezugsmonat 77 Prozent und ab dem siebten Bezugsmonat 87 Prozent, 2. für die übrigen Arbeitnehmerinnen und Arbeitnehmer ab dem vierten Bezugsmonat
+      70 Prozent und ab dem siebten Bezugsmonat 80 Prozent" ... "Anspruchsdauer einmalig um drei Monate verlängert" / PlPr 19/160 (14 May 2020), agenda: "Drucksachen 19/18966, 19/19204"'
+    source_url:
+    - https://dserver.bundestag.de/btp/19/19160.pdf
+    - https://dserver.bundestag.de/btd/19/189/1918966.pdf
+    source_type: primary
+    confirmed: true
+    note: Area e; the ALG extension is also area b (core).
+    episode: 2017-20
+  - id: E8-07
+    law:
+      official: Gesetz zur Einführung der Grundrente für langjährige Versicherung in der gesetzlichen Rentenversicherung mit unterdurchschnittlichem Einkommen ...
+      short: Grundrentengesetz
+    bundestag_passed: '2020-07-02'
+    bgbl: BGBl. I 2020 S. 1879
+    in_force: 2021-01-01 (not seen)
+    area: d
+    what: Introduced a pension top-up for insured people with at least 33 years of qualifying periods and below-average earnings.
+    direction: expansion
+    target: core
+    source_text: 'BT-Drs. 19/20711: "33 Jahre Grundrentenzeiten vorliegen" / GESTA XIX/262: "2. Juli 2020 170. Sitzung"'
+    source_url:
+    - https://dserver.bundestag.de/gm/19/190262.pdf
+    - https://dserver.bundestag.de/btd/19/207/1920711.pdf
+    source_type: primary
+    confirmed: true
+    note: ''
+    episode: 2017-20
+  - id: E8-08
+    law:
+      official: Gesetz zur Beschäftigungssicherung infolge der COVID-19-Pandemie
+      short: Beschäftigungssicherungsgesetz
+    bundestag_passed: '2020-11-20'
+    bgbl: not confirmed (law of 3 Dec 2020 per later BT report)
+    in_force: 2021-01-01 (per bill)
+    area: e
+    what: Extended the higher Kurzarbeitergeld rates (70/77% from month 4, 80/87% from month 7) to 31 December 2021 for claims arising by 31 March 2021.
+    direction: buffer
+    target: core
+    source_text: 'bundestag.de: "Der Bundestag hat am Freitag, 20. November 2020, den Weg frei gemacht für die Verlängerung der Kurzarbeit- und anderer pandemiebedingter Sonderregelungen." / BT-Drs. 19/23480:
+      "Die Regelung zur Erhöhung des Kurzarbeitergeldes wird bis zum 31. Dezember 2021 verlängert für alle Beschäftigten, deren Anspruch auf Kurzarbeitergeld bis zum 31. März 2021 entstanden ist."'
+    source_url:
+    - https://www.bundestag.de/webarchiv/textarchiv/2020/kw47-de-beschaeftigungssicherungsgesetz-804252
+    - https://dserver.bundestag.de/btd/19/234/1923480.pdf
+    source_type: primary
+    confirmed: false
+    note: Seen only in search snippets of official pages (not opened), so confirmed=false.
+    episode: 2017-20
+  - id: E8-09
+    law:
+      official: Gesetz zur Erhöhung des Schutzes durch den gesetzlichen Mindestlohn und zu Änderungen im Bereich der geringfügigen Beschäftigung
+      short: Mindestlohn-/Minijobgesetz 2022
+    bundestag_passed: '2022-06-03'
+    bgbl: BGBl. I 2022 S. 969 (law of 28 June 2022; citation from a later Drucksache snippet)
+    in_force: '2022-10-01'
+    area: f
+    what: Raised the mini-job limit from 450 to 520 euros a month and indexed it to ten weekly hours at the minimum wage (raised to 12 euros).
+    direction: deregulation
+    target: margin
+    source_text: 'hib (committee): "Künftig orientiert sich die Geringfügigkeitsgrenze an einer Wochenarbeitszeit von zehn Stunden zu Mindestlohnbedingungen. Sie wird dementsprechend mit der Anhebung des
+      gesetzlichen Mindestlohns auf 12 Euro pro Stunde auf 520 Euro monatlich erhöht und dynamisch ausgestaltet." / PlPr 20/42 (3 June 2022) contains the debate and vote on the bill.'
+    source_url:
+    - https://dserver.bundestag.de/btp/20/20042.pdf
+    - https://www.bundestag.de/presse/hib/kurzmeldungen-896002
+    - https://dserver.bundestag.de/btd/20/014/2001408.pdf
+    source_type: primary
+    confirmed: true
+    note: 'Passed in 2022: inside both 2017-20 and 2022-25 windows -> assigned to 2017-20 (earlier episode). The minimum-wage part is out of scope.'
+    episode: 2017-20
+  - id: E8-10
+    law:
+      official: Zwölftes Gesetz zur Änderung des Zweiten Buches Sozialgesetzbuch und anderer Gesetze – Einführung eines Bürgergeldes
+      short: Bürgergeld-Gesetz
+    bundestag_passed: '2022-11-10'
+    bgbl: not confirmed
+    in_force: '2023-01-01'
+    area: g
+    what: 'Replaced ALG II by Bürgergeld: standard rates up 53 euros (449 to 502), one-year grace period for housing and assets, protected assets of 40,000 euros, and graduated sanctions of up to 30%.'
+    direction: expansion
+    target: margin
+    source_text: 'bundestag.de: earlier vote 10 Nov 2022 (385 yes, 261 no, 33 abstentions); final 25 Nov 2022 (557 yes, 98 no, 2 abstentions) on Drs. 20/4600: "Die bisherige Karenzzeit von zwei Jahren wird
+      auf ein Jahr verkürzt." ... "Das Schonvermögen bleibt künftig nur noch bis zu 40.000 Euro (statt 60.000 Euro) vor Anrechnung geschützt." ... "Statt nur um zehn Prozent sollen die Regelleistungen von
+      Beginn an in Stufen um bis zu 30 Prozent gekürzt werden können." ... "plus 53 Euro"'
+    source_url:
+    - https://www.bundestag.de/dokumente/textarchiv/2022/kw45-de-buergergeld-917430
+    source_type: primary
+    confirmed: true
+    note: The 449 -> 502 euro figures are from a Bundestag WD paper snippet (WD 6 - 105/22), the page itself says "+53 Euro". Karenzzeit and Schonvermögen figures describe the compromise relative to the
+      government draft. Assigned to 2017-20 (overlap rule).
+    episode: 2017-20
+- episode: 2022-25
+  window: 2022-01-01..2028-12-31 (only 2024 onwards remain here); coded to 2026-11-25
+  core_cut: 'no'
+  core_cut_sentence: 'No enacted core cut so far: the pension level was extended at 48% and Kug duration doubled, while cuts targeted basic income support (2024, 2026); a KSchG change for high earners is
+    only a pending bill.'
+  n_items: 5
+  n_confirmed: 3
+  n_confirmed_primary: 3
+  items:
+  - id: E9-01
+    law:
+      official: Zweites Haushaltsfinanzierungsgesetz 2024
+      short: 2. HHFinG 2024
+    bundestag_passed: '2024-02-02'
+    bgbl: not confirmed (promulgated 27 March 2024 per search snippet)
+    in_force: 2024-03 (not seen)
+    area: g
+    what: Abolished the Bürgergeld bonus and allowed full withdrawal of the standard benefit for up to two months for recipients who refuse suitable work (limited to two years).
+    direction: cut
+    target: margin
+    source_text: 'Search snippets of bundestag.de (textarchiv kw05 2024; WD 6 - 051/24): "Durch das Zweite Haushaltsfinanzierungsgesetz wurde die Möglichkeit einer sogenannten Vollsanktionierung geschaffen,
+      wonach ... eine vollständige Kürzung des Regelbedarfs für bis zu zwei Monate erfolgen kann."'
+    source_url:
+    - https://www.bundestag.de/dokumente/textarchiv/2024/kw05-de-haushaltsgesetz-2024-dritte-lesung-977666
+    - https://www.bundestag.de/resource/blob/1020128/a4aa76396bf019b670c0779a2a9fcd47/WD-6-051-24-pdf.pdf
+    source_type: primary
+    confirmed: false
+    note: Only search snippets were seen, so confirmed=false.
+    episode: 2022-25
+  - id: E9-02
+    law:
+      official: Dritte Verordnung über die Bezugsdauer für das Kurzarbeitergeld
+      short: 3. KugBeV (2025)
+    bundestag_passed: n/a (ordinance; cabinet 18 Dec 2024 per earlier lead)
+    bgbl: not confirmed
+    in_force: 2025-01-01 to 2025-12-31
+    area: e
+    what: Extended the maximum Kurzarbeitergeld duration from 12 to 24 months for 2025.
+    direction: buffer
+    target: core
+    source_text: Search snippets only (BA regional press releases, bundesregierung.de).
+    source_url:
+    - https://www.bundesregierung.de/breg-de/aktuelles/bezugsdauer-kurzarbeitergeld-2326616
+    source_type: secondary
+    confirmed: false
+    note: Not read in BGBl.
+    episode: 2022-25
+  - id: E9-03
+    law:
+      official: Gesetz zur Stabilisierung des Rentenniveaus und zur vollständigen Gleichstellung der Kindererziehungszeiten
+      short: Rentenpaket 2025
+    bundestag_passed: '2025-12-05'
+    bgbl: not confirmed
+    in_force: not seen
+    area: d
+    what: Kept the pension level at 48% beyond 2025 (sustainability factor suspended until 2031) and extended child-rearing credits for children born before 1992 by six months to three years.
+    direction: expansion
+    target: core
+    source_text: 'bundestag.de (roll call 318 yes, 225 no, 53 abstentions, Drs. 21/1929, 21/3112): "Der beschlossene Gesetzentwurf belässt das Rentenniveau über 2025 hinaus bei 48 Prozent („Haltelinie")."
+      ... "für vor 1992 geborene Kinder um weitere sechs Monate auf insgesamt drei Jahre verlängert."'
+    source_url:
+    - https://www.bundestag.de/dokumente/textarchiv/2025/kw49-de-rentenpaket-1128720
+    - https://dserver.bundestag.de/btd/21/019/2101929.pdf
+    source_type: primary
+    confirmed: true
+    note: 'End point of the Haltelinie: 1 July 2031 adjustment per Drs. 21/3080 (snippet only).'
+    episode: 2022-25
+  - id: E9-04
+    law:
+      official: Vierte Verordnung über die Bezugsdauer für das Kurzarbeitergeld
+      short: 4. KugBeV (2026)
+    bundestag_passed: n/a (ordinance of 17 Dec 2025)
+    bgbl: BGBl. 2025 I Nr. 338
+    in_force: 2026-01-01 to 2026-12-31
+    area: e
+    what: Extended the maximum Kurzarbeitergeld duration beyond the statutory 12 months to up to 24 months, at most until 31 December 2026.
+    direction: buffer
+    target: core
+    source_text: 'BGBl. 2025 I Nr. 338: "Die Bezugsdauer für das Kurzarbeitergeld wird über die Bezugsdauer nach § 104 Absatz 1 Satz 1 des Dritten Buches Sozialgesetzbuch hinaus auf bis zu 24 Monate, längstens
+      bis zum 31. Dezember 2026, verlängert." ... "Diese Verordnung tritt am 1. Januar 2026 in Kraft."'
+    source_url:
+    - https://www.recht.bund.de/bgbl/1/2025/338/regelungstext.pdf?__blob=publicationFile&v=3
+    source_type: primary
+    confirmed: true
+    note: ''
+    episode: 2022-25
+  - id: E9-05
+    law:
+      official: Dreizehntes Gesetz zur Änderung des Zweiten Buches Sozialgesetzbuch und anderer Gesetze
+      short: Neue Grundsicherung (Grundsicherungsgeld)
+    bundestag_passed: '2026-03-05'
+    bgbl: not confirmed
+    in_force: summer 2026 (per bundestag.de)
+    area: g
+    what: Renamed Bürgergeld "Grundsicherungsgeld", allowed 30% benefit cuts for three months for missed training or applications and 30% for one month from the second missed appointment, and dropped the
+      grace period for protected assets.
+    direction: cut
+    target: margin
+    source_text: 'bundestag.de (roll call 320 yes, 268 no, 2 abstentions; Drs. 21/3541, 21/4522): "Der Regelbedarf kann um 30 Prozent für jeweils drei Monate gemindert werden." ... "Ab dem zweiten Versäumnis
+      kann die Geldleistung dann um 30 Prozent für einen Monat gekürzt werden." ... "Die Karenzzeit beim Schonvermögen wird gestrichen"'
+    source_url:
+    - https://www.bundestag.de/dokumente/textarchiv/2026/kw10-de-grundsicherung-1150460
+    - https://dserver.bundestag.de/btd/21/045/2104522.pdf
+    source_type: primary
+    confirmed: true
+    note: BGBl citation and exact in-force date not seen.
+    episode: 2022-25
+outside_windows:
+- law: Gesetz zur Verlängerung des Versicherungsschutzes bei Arbeitslosigkeit und Kurzarbeit
+  bundestag_passed: '1987-06-05'
+  bgbl: BGBl. I 1987 S. 1542
+  area: b
+  direction: expansion
+  target: core
+  what: Raised maximum ALG duration up to 32 months for claimants aged 54+ and restored the two-to-one contribution ratio (IAB chronicle).
+  source_url:
+  - https://dserver.bundestag.de/gm/11/110001.pdf
+  - https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf
+  confirmed: true
+  source_type: secondary
+  note: Between the 1979-83 window (ends 1986) and the 1991-93 window.
+- law: Achtes Gesetz zur Änderung des Arbeitsförderungsgesetzes
+  bundestag_passed: '1987-11-12'
+  bgbl: BGBl. I S. 2602
+  area: h
+  direction: expansion
+  target: margin
+  what: Shifted language courses for resettlers and youth programmes from the federal budget to the BA (IAB chronicle).
+  source_url:
+  - https://dserver.bundestag.de/gm/11/110019.pdf
+  - https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf
+  confirmed: false
+  source_type: secondary
+  note: BGBl year not checked.
+- law: Gesetz zur Änderung des AFG und zur Förderung eines gleitenden Übergangs älterer Arbeitnehmer in den Ruhestand (9. AFG-Novelle)
+  bundestag_passed: '1988-12-02'
+  bgbl: BGBl. I 1988 S. 2343
+  area: h
+  direction: cut
+  target: margin
+  what: Cut ABM maximum subsidy to 75% of wage costs and made training-cost refunds discretionary; ALG received during sickness counts against duration (IAB chronicle).
+  source_url:
+  - https://dserver.bundestag.de/gm/11/110093.pdf
+  - https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf
+  confirmed: true
+  source_type: secondary
+  note: ''
+- law: Rentenreformgesetz 1992
+  bundestag_passed: '1989-11-09'
+  bgbl: BGBl. I 1989 S. 2261
+  area: d
+  direction: cut
+  target: core
+  what: Pension reform (net-wage indexation, higher retirement ages); content not read.
+  source_url:
+  - https://dserver.bundestag.de/gm/11/110186.pdf
+  confirmed: false
+  source_type: primary
+  note: Date confirmed only.
+- law: Beschäftigungsförderungsgesetz 1990
+  bundestag_passed: '1989-11-15'
+  bgbl: BGBl. I 1989 S. 2406
+  area: f
+  direction: deregulation
+  target: margin
+  what: Extended the 1985 fixed-term rules (content not read).
+  source_url:
+  - https://dserver.bundestag.de/gm/11/110190.pdf
+  confirmed: false
+  source_type: primary
+  note: Date confirmed only.
+- law: Arbeitsförderungs-Reformgesetz (AFRG, SGB III)
+  bundestag_passed: '1997-01-31'
+  bgbl: BGBl. I 1997 S. 594
+  area: b
+  direction: cut
+  target: core
+  what: Replaced the AFG with SGB III (content not re-read here).
+  source_url:
+  - https://dserver.bundestag.de/gm/13/130221.pdf
+  confirmed: false
+  source_type: primary
+  note: Passed 31 Jan 1997, one month after the 1991-93 window closed; Einspruch overruled 20 March 1997. BGBl also confirmed in BGBl. 2025 I Nr. 338.
+- law: Rentenreformgesetz 1999
+  bundestag_passed: '1997-10-10'
+  bgbl: BGBl. I 1997 S. 2998
+  area: d
+  direction: cut
+  target: core
+  what: Introduced a demographic factor into the pension formula (content not re-read).
+  source_url:
+  - https://dserver.bundestag.de/gm/13/130320.pdf
+  confirmed: false
+  source_type: primary
+  note: Einspruch overruled 11 Dec 1997; demographic factor suspended by the Korrekturgesetz.
+- law: Gesetz zu Korrekturen in der Sozialversicherung und zur Sicherung der Arbeitnehmerrechte (Korrekturgesetz)
+  bundestag_passed: '1998-12-10'
+  bgbl: BGBl. I 1998 S. 3843
+  area: a, c, d
+  direction: expansion
+  target: core
+  what: Reversed the 1996 KSchG threshold and sick-pay cut and suspended the demographic factor (BT-Drs. 14/45 per earlier lead; not re-read).
+  source_url:
+  - https://dserver.bundestag.de/gm/14/140006.pdf
+  confirmed: false
+  source_type: primary
+  note: Date confirmed only.
+- law: Gesetz zur Neuregelung der geringfügigen Beschäftigungsverhältnisse (630-DM-Gesetz)
+  bundestag_passed: not confirmed (Gesetzesbeschluss sent to Bundesrat 5 March 1999)
+  bgbl: BGBl. I 1999 S. 388
+  area: f
+  direction: cut
+  target: margin
+  what: Re-regulated mini-jobs (content not read).
+  source_url:
+  - https://dserver.bundestag.de/gm/14/140013.pdf
+  confirmed: false
+  source_type: primary
+  note: ''
+- law: Gesetz über Teilzeitarbeit und befristete Arbeitsverträge (TzBfG)
+  bundestag_passed: '2000-11-16'
+  bgbl: BGBl. I 2000 S. 1966
+  area: f
+  direction: deregulation
+  target: margin
+  what: Codified fixed-term and part-time rules (content not read).
+  source_url:
+  - https://dserver.bundestag.de/gm/14/140192.pdf
+  confirmed: false
+  source_type: primary
+  note: Passed 16 Nov 2000, before the 2001-05 window.
+pending:
+- bill: Gesetz zur Änderung bestimmter arbeitsrechtlicher Vorschriften und zum Schutz der Unternehmensmitbestimmung (Arbeitsrechtspaket)
+  status: Cabinet decision 18 Nov 2026 (per BMAS/bundesregierung.de search snippets); not passed by the Bundestag
+  content: Easier court dissolution against severance for employees earning above 1.75 times the pension contribution ceiling (KSchG, core); fixed-term contracts without reason up to four years with up
+    to six extensions for hires until 31 Dec 2030 (margin).
+  source_url:
+  - https://www.bmas.de/DE/Service/Presse/Pressemitteilungen/2026/kabinett-beschliesst-arbeitsrechtspaket.html
+  - https://dserver.bundestag.de/btd/21/072/2107226.pdf
+  confirmed: false
+- bill: Reform of fixed-term contracts in science (WissZeitVG)
+  status: First reading 8 Oct 2026 (Drs. 21/8281, search snippet)
+  content: Minimum contract lengths; outside scope (a)-(h) except (f) for a special sector.
+  source_url:
+  - https://dserver.bundestag.de/btd/21/082/2108281.pdf
+  confirmed: false
+- bill: Änderung des Arbeitszeitgesetzes
+  status: Referentenentwurf 16 June 2026 (lobby register snippet)
+  content: Working-time reform; outside scope (a)-(h).
+  source_url: []
+  confirmed: false
+excluded_by_scope:
+- law: Stabilitäts- und Wachstumsgesetz 1967
+  reason: fiscal framework (rule 3)
+- law: Konjunkturpaket I (Gesetz zur Umsetzung steuerrechtlicher Regelungen des Maßnahmenpakets "Beschäftigungssicherung durch Wachstumsstärkung", 2008)
+  reason: tax law; its Kug element was the 2008 ordinance (E5-14)
+- law: Föderalismusreform II / Schuldenbremse 2009
+  reason: fiscal rule
+- law: Gesetz zur Änderung des Grundgesetzes (Art. 109, 115, 143h) 2025
+  reason: fiscal rule
+- law: Fachkräfteeinwanderungsgesetz 2023
+  reason: immigration
+- law: Aktivrentengesetz 2025
+  reason: tax law
+- law: Tarifautonomiestärkungsgesetz 2014 (minimum wage)
+  reason: minimum wage not in scope (a)-(h)
+leads_not_coded:
+- 'Vorruhestandsgesetz 1984 (IAB chronicle: BA subsidy of 35% for early retirement from 58) - passage date not checked.'
+- Erstes Arbeitsrechtsbereinigungsgesetz 1969 (KSchG changes, BGBl. I S. 1106 per search snippet) - content not verified.
+- Finanzänderungsgesetz 1967 and pension measures 1966-69 - not verified.
+- Kurzarbeitergeld duration ordinances 1974-75 - not found.
+- Beschäftigungsförderungsgesetz 1994 (BT 27 May 1994, BGBl. I 1994 S. 1786), Arbeitslosenhilfe-Reformgesetz (BT 9 Feb 1996, BGBl. I 1996 S. 878) and Gesetz zur Reform des Sozialhilferechts (BT 29 Feb 1996,
+  BGBl. I 1996 S. 1088) - dates confirmed from GESTA, content not read; all margin, 1991-93 window.
+- Haushaltsbegleitgesetz 2006 (BT 19 May 2006; mini-job employer flat rate) - content not read.
+- Beschäftigungschancengesetz 2010 (Kug special rules extended) - not found in the GESTA download.
+- Arbeit-von-morgen-Gesetz 2020, Kug extension laws 2021-2022, Weiterbildungsgesetz 2023 - not verified.
+ba_budget_before_core_cuts:
+  source: ba_budget.csv in this folder (Statistisches Jahrbuch tables 1965-2007, BT-Drs. 19/9668 for 2008-18, BMF Monatsberichte and BT-Drs. 21/7611 for 2020-25)
+  1973-75: BA ran deficits from 1974 (-2.4 bn DM from own assets); 1975 needed 7.3 bn DM federal loans/grants (§ 187 AFG) - the year the Zumutbarkeit cut passed; 1976 another 3.0 bn DM; 1977-78 surpluses
+    before the 4. AFG-ÄndG passed (Oct 1977).
+  1979-83: Deficits from 1979 drained the reserve (3.4 -> 0.4 bn DM by end-1980); federal money 1.84 bn DM in 1980 and, implied, about 8.2 bn DM (1981), 7.0 (1982) and 1.6 (1983) - every core cut of 1981-83
+    followed a year of federal deficit cover. The 1986 strike-neutrality cut came with the BA in surplus.
+  1991-93: Reserve exhausted in 1992 (4.97 -> 0.07 bn DM); implied federal cover about 8.9 bn DM (1992) and 24.4 bn DM (1993) before/at the SKWPG cut, and 6.9 bn DM (1995) / 13.8 bn DM (1996) before the
+    1996 KSchG/sick-pay/pension cuts.
+  2001-05: Deficits needing federal money every year 2001-2005 (implied 1.9, 5.6, 6.2, 4.2, 0.4 bn EUR) before the 2002-04 ALG and KSchG cuts; pension cuts (2001, 2004, 2007) concern the pension fund, not
+    the BA.
+  later: No core cuts in 2007-09, 2011-13, 2017-20 or (so far) 2022-25, although the BA needed federal money in 2010 (one-off grant), 2020 (6.9 bn loan, later forgiven), 2021 (16.9 bn grant), 2022 (0.4
+    bn loan) and 2025 (1.4 bn loan).
+totals:
+  coded_items: 65
+  confirmed: 48
+  confirmed_primary: 42
