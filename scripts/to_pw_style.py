@@ -114,6 +114,22 @@ def make_all(m):
 body = re.sub(r"@@([^@]+)@@|\[\^(refugees|manuf|afd)\]", make_all, body)
 head = head.replace("## How Germany buys time with demography and a hiring freeze, and why its growth model has no coalition left to change it",
                     "## How Germany buys time with demography and a hiring freeze")
+# merge adjacent markers into one note (Chicago: one note per place), then renumber
+def merge(m):
+    ids = [int(x) for x in re.findall(r"\[\^n(\d+)\]", m.group(0))]
+    first = ids[0]
+    for k in ids[1:]:
+        notes[first - 1] = notes[first - 1].rstrip() + " " + notes[k - 1]
+        notes[k - 1] = None
+    return f"[^n{first}]"
+
+
+body = re.sub(r"(?:\[\^n\d+\]){2,}", merge, body)
+order = {}
+for old in re.findall(r"\[\^n(\d+)\]", body):
+    order.setdefault(int(old), len(order) + 1)
+body = re.sub(r"\[\^n(\d+)\]", lambda m: f"[^n{order[int(m.group(1))]}]", body)
+notes = [notes[old - 1] for old in sorted(order, key=order.get)]
 notes_md = "\n\n".join(f"[^n{i}]: {t}" for i, t in enumerate(notes, 1))
 open(out, "w", encoding="utf-8").write(head + body.rstrip() + "\n\n" + notes_md + "\n")
 left = re.findall(r"\([A-Z][^()]{2,60} (?:19|20)\d\d[a-z]?\)", body)

@@ -54,7 +54,7 @@ So the labour market has responded, if more softly than it used to. What differs
 
 ## 3. How a supply shock stays invisible
 
-[CASE BASF]
+Ludwigshafen, on the Rhine, is home to BASF's headquarters and, by the company's own account, the world's largest integrated chemical site. In February 2023, the company announced that it would close one of its two ammonia plants there, along with plants for caprolactam, TDI and their precursors. The closures took out about a tenth of the site's asset base and about 700 production jobs (BASF 2023). Further closures followed in 2024 (BASF 2024). Yet in December 2025 the company signed a new site agreement that rules out compulsory redundancies in Ludwigshafen until the end of 2028 (BASF 2025a). Over the same years, BASF completed a new integrated site in Zhanjiang, in southern China, at a cost of about 8.7 billion euros; it opened officially in March 2026 (BASF 2025b, 2026). Capacity was not mothballed in Germany. It was closed there and built elsewhere, while the people who ran it were mostly kept on, moved or retired. A tenth of the site's plant went; a far smaller share of its workforce did.
 
 That is the pattern of the past four years in miniature. The shock itself is not hidden. It is visible in every industrial statistic. What is hidden is its passage to households, and the mechanism that hides it.
 
@@ -90,13 +90,13 @@ The buffers are not neutral. Hoarding protects the workers firms most want to ke
 
 The data show the pattern. Between 2022 and 2025, registered unemployment rose by about a fifth; among people under 25 it rose by a third, and their chance of finding a job fell more steeply than anyone else's (Bundesagentur für Arbeit 2025, 2026). Foreign nationals make up about one in six employees, but account for half of the increase in unemployment, partly because refugees from Ukraine entered the statistics, partly because migrants are over-represented in the jobs that go first.
 
-[CASE VW]
+Volkswagen shows the same logic in contractual form. Its December 2024 agreement with IG Metall cuts more than 35,000 jobs in Germany by 2030 and capacity by about 734,000 vehicles a year, without compulsory redundancies until the end of 2030 (Volkswagen 2024). Insiders paid in part: a collectively agreed pay rise was deferred and bonuses were suspended for two years (IG Metall 2024). The exits are mostly retirements. By November 2025, more than 25,000 departures had been agreed, about seven in ten of them through early-retirement schemes (autohaus 2025). The workforce shrinks by not being replaced. The job that disappears is the one a young worker would have taken.
 
-[CASE SUPPLIER]
+The suppliers show the other side. ZF, the largest German supplier, announced in 2024 that it would cut 11,000 to 14,000 of its roughly 54,000 jobs in Germany by 2028, also through partial retirement and severance (Börsen-Zeitung 2024). Smaller firms often cannot pay for that. WKW, a car-parts maker with about 1,500 employees in and around Wuppertal, filed for insolvency in September 2024 after its orders had fallen by about a third (autohaus 2024). The buyer kept about 1,050 jobs, with pay cuts, and about 450 were lost (echo24 2025). Insolvencies in manufacturing rose by ten percent in 2025 (Creditreform 2025). Where the balance sheet cannot carry the buffer, the adjustment arrives as it used to.
 
 None of this is new to students of German political economy. The literature on dualisation describes how Germany protected its industrial core in the 1990s and 2000s by shifting flexibility onto a growing periphery of part-time, temporary and low-wage work (Palier and Thelen 2010; Emmenegger et al. 2012). Hassel (2014) argued that this dualism was the condition of the model's recovery. What has changed is the direction of travel. In the 2000s, dualisation bought competitiveness for an expanding export sector. Today it buys time for a contracting one.
 
-[CASE RUHR]
+Germany has managed a decline this way before. Employment in West German hard-coal mining, most of it in the Ruhr, peaked in 1957 (Jopp 2021). Its retreat was negotiated over six decades: through Ruhrkohle AG, founded in 1968 to shrink the industry in a socially acceptable way, through adjustment payments that bridged older miners into retirement, and through the promise that no miner would be dismissed into unemployment, which company and union say held until the last mine closed in Bottrop in December 2018 (RAG 2018; SteinkohleFinG 2007). It was paid for with decades of public subsidies. The result was social peace and a region that still lags: in 2025, unemployment in the Ruhr was 10.5 percent, against 6.3 percent for Germany (Bundesagentur für Arbeit 2026e). The Ruhr is the best precedent for the present strategy, and its warning. Buffering a decline preserves the people. It does not, by itself, build what replaces the industry.
 
 ## 5. What reaches politics
 

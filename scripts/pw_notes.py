@@ -127,3 +127,19 @@ NOTES.update({
     "Destatis 2026d": ("Statistisches Bundesamt, \"Neu abgeschlossene Ausbildungsverträge,\" table 21211-0004, GENESIS-Online (Wiesbaden, 2026).",
                        "Statistisches Bundesamt, table 21211-0004.", "https://www-genesis.destatis.de/datenbank/online/statistic/21211/table/21211-0004"),
 })
+
+NOTES.update({
+    "BASF 2024": ("BASF, press release P-24-269 on the closure of adipic acid, cyclododecanone and cyclopentanone plants in Ludwigshafen, August 29, 2024.", "BASF, P-24-269.", "https://www.basf.com/global/en/media/news-releases/2024/08/p-24-269"),
+    "BASF 2025a": ("BASF, \"Zukunft gestalten für einen starken Standort,\" press release P-25-250 on the new site agreement for Ludwigshafen, December 15, 2025.", "BASF, P-25-250.", "https://www.basf.com/global/en/media/news-releases/2025/12/p-25-250"),
+    "BASF 2025b": ("BASF, Capital Market Update, press release on the Zhanjiang Verbund site, October 2025.", "BASF, Capital Market Update 2025.", "https://www.basf.com/sg/en/media/news-releases/asia-pacific/2025/10/apac-25-114"),
+    "BASF 2026": ("BASF, press release P-26-045 on the inauguration of the Zhanjiang Verbund site, March 26, 2026.", "BASF, P-26-045.", "https://www.basf.com/global/en/media/news-releases/2026/03/p-26-045"),
+    "IG Metall 2024": ("IG Metall, \"Tarifrunde Volkswagen 2024,\" Frankfurt am Main, December 2024.", "IG Metall, \"Tarifrunde Volkswagen 2024.\"", "https://www.igmetall.de/tarif/tarifrunden/tarifrunde-volkswagen-2024"),
+    "autohaus 2025": ("\"VW-Sparkurs: Mehr als 25.000 Job-Abgänge vertraglich fixiert,\" *autohaus.de*, November 2025.", "autohaus.de, \"VW-Sparkurs.\"", "https://www.autohaus.de/nachrichten/autohersteller/vw-sparkurs-mehr-als-25-000-job-abgaenge-vertraglich-fixiert-3736417"),
+    "Börsen-Zeitung 2024": ("\"ZF streicht in Deutschland jede vierte Stelle,\" *Börsen-Zeitung*, July 2024.", "Börsen-Zeitung, \"ZF streicht.\"", "https://www.boersen-zeitung.de/unternehmen-branchen/zf-streicht-in-deutschland-jede-vierte-stelle"),
+    "autohaus 2024": ("\"Autozulieferer WKW ist insolvent,\" *autohaus.de*, September 2024.", "autohaus.de, \"WKW ist insolvent.\"", "https://www.autohaus.de/nachrichten/autohandel/autozulieferer-wkw-ist-insolvent-investoren-deal-geplatzt-3556858"),
+    "echo24 2025": ("\"WKW: Autozulieferer verkauft, 450 Jobs gestrichen,\" *echo24.de*, 2025.", "echo24.de, \"WKW.\"", "https://www.echo24.de/welt/wkw-autozulieferer-insolvenz-verkauf-450-jobs-gestrichen-mitarbeiter-gehaltsverzicht-zr-94579327.html"),
+    "Jopp 2021": ("Tobias A. Jopp, article on productivity in German hard-coal mining, *Der Anschnitt* 73, no. 1-2 (2021).", "Jopp, *Der Anschnitt* (2021).", "https://www.bergbaumuseum.de/fileadmin/forschung/zeitschriften/der-anschnitt/2021/2021-01-02/anschnitt-1-2-2021-jopp-produktivitaet.pdf"),
+    "RAG 2018": ("RAG Aktiengesellschaft, *Glück auf: Werte*, company publication (Essen, 2018).", "RAG, *Glück auf: Werte*.", "https://www.rag.de/fileadmin/user_upload/03_Kommunikation/02_Publikationen/2018_10_06_Glueck_auf_Werte.pdf"),
+    "SteinkohleFinG 2007": ("Steinkohlefinanzierungsgesetz of December 20, 2007, section 5 (Anpassungsgeld).", "SteinkohleFinG, section 5.", "https://www.gesetze-im-internet.de/steinkohlefing/__5.html"),
+    "Bundesagentur für Arbeit 2026e": ("Agentur für Arbeit Gelsenkirchen, \"Jahresbilanz 2025 zum Arbeitsmarkt,\" press release, January 2026 (unemployment rate 2025: Ruhr 10.5 percent, Germany 6.3 percent).", "Agentur für Arbeit Gelsenkirchen, \"Jahresbilanz 2025.\"", "https://www.arbeitsagentur.de/vor-ort/gelsenkirchen/presse/2026-2-jahresbilanz-2025-zum-arbeitsmarkt-im-agenturbezirk-gelsenkirchen"),
+})
