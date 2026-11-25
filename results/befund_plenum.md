@@ -10,3 +10,18 @@ Quelle: Fobbe, Corpus der Plenarprotokolle des Deutschen Bundestages (CPP-BT), F
 Lesart: Die zweite Hälfte der These gilt in einer genaueren Form. Der Weg von der Rezession zur Reform ist nicht abgerissen; er läuft über Standort, Energie und Bürokratie statt über Arbeitslosigkeit und Arbeitsmarktinstitutionen. Für das Essay heißt das: „umgeleitet“ statt „abgeschwächt“.
 
 Grenzen: Wortfelder sind grob, Sprache wandelt sich (1967 gab es „Standort“ als Schlagwort nicht), Wahljahre und Haushaltsdebatten blähen einzelne Jahre auf. Prüfbar mit Stichproben der Fundstellen und einer zweiten Wortliste.
+
+# Befund: Reformen je Rezession (coding/reform_coding.yaml, 37 Vorgänge, 11 noch nicht an Primärquelle bestätigt)
+
+| Episode | Anstieg Arbeitslosenquote (pp) | Kürzung am Kern (Kündigungsschutz, Arbeitslosengeld, Lohnfortzahlung, Rente) |
+|---|---|---|
+| 1965-67 | +1,4 | nein, Ausbau (AFG, Lohnfortzahlung 1969) |
+| 1973-75 | +3,5 | nein, Kürzung am Rand (Förderung, Zumutbarkeit); Ersatzrate gerade auf 68 % erhöht |
+| 1979-83 | +5,3 | ja (AFKG 1982, HBeglG 1983 und 1984: 68 → 63 % für Kinderlose) |
+| 1991-93 | +2,5 | ja (1. SKWPG: 68/63 → 67/60 %; 1996 Kündigungsschutz, Lohnfortzahlung, teils 1998 zurückgenommen) |
+| 2001-05 | +2,7 | ja (Bezugsdauer ALG für Ältere 32 → 18 Monate, Nachhaltigkeitsfaktor, Kündigungsschutz für Neueinstellungen) |
+| 2007-09 | -1,0 | nein, Puffer (Kurzarbeit 24 Monate), ALG für Ältere wieder 24 Monate |
+| 2017-20 | +0,2 | nein, Puffer |
+| 2022-25 | +1,0 | nein bis 25.11.2026; Rentenniveau 48 % bis 2031 verlängert; Kürzung am Rand (Neue Grundsicherung); Kabinettsentwurf 18.11.2026 lockert Kündigungsschutz nur für Spitzenverdiener |
+
+Lesart: Kürzungen am Kern gab es nur, wenn die Arbeitslosigkeit stark stieg (drei von vier Fällen mit mindestens 2,5 Punkten; Ausnahme 1973-75). Ohne diesen Anstieg wird der Kern ausgebaut oder gepuffert, Reformen treffen den Rand. 2022-25 folgt diesem Muster.

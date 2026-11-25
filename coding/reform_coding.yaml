@@ -1,0 +1,486 @@
+# German labour-market and social-policy reforms: verified coding
+# Compiled 2026-11-25. Every item was checked against the sources given.
+# verified: true  = the core facts (date, numbers, direction) are confirmed by the cited source(s).
+# verified: false = at least one material detail could not be confirmed; the note says which.
+# Dates: "BT" = Bundestag final passage; "Ausfertigung" = date the law carries (signature);
+#        "BGBl" = Bundesgesetzblatt citation.
+# The proxy blocked de.wikipedia.org, bpb.de, buzer.de, gesetze-im-internet.de (503), beck-aktuell,
+# zdfheute and cms.law for direct fetching. Facts from them come only from search snippets.
+# Directly read sources: dserver.bundestag.de / bundestag.de, doku.iab.de, bundesregierung.de.
+
+meta:
+  coding_rules:
+    direction: [retrenchment, expansion, buffer, deregulation]
+    target:
+      core: rights of incumbent standard employees (employment protection, UI benefit level/duration, sick pay, pensions of current contributors)
+      margin: fixed-term/temp/mini-jobs, social assistance or long-term-unemployed benefits, migrants, new entrants
+      macro: fiscal/monetary frameworks
+  key_source_iab_afg_chronicle: "https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf"
+  key_source_iab_afg_chronicle_desc: "IAB chronicle 'Die wesentlichen Änderungen im Bereich des AFG seit 1969' (after J. Steffen 1993), covers AFG changes 1969-1993 in detail"
+
+episodes:
+
+  - episode: "1966-67"
+    summary: >-
+      No retrenchment. All three measures expand or stabilise, and the Lohnfortzahlungsgesetz expands a core
+      right (employer-paid sick pay for blue-collar workers). The AFG and LFZG date from 1969, after the
+      recession itself. They are coded here as its policy response.
+    items:
+      - law: "Gesetz zur Förderung der Stabilität und des Wachstums der Wirtschaft (Stabilitäts- und Wachstumsgesetz, StabG)"
+        date: "BT 10 May 1967; Ausfertigung 8 June 1967 (BGBl. I S. 582)"
+        in_force: "June 1967 (still in force)"
+        what: "Committed federal and Länder economic policy to the 'magic square' of price stability, high employment, external balance and steady growth, and gave the government counter-cyclical fiscal tools (e.g. Konjunkturausgleichsrücklage, medium-term financial planning)."
+        direction: buffer
+        target: macro
+        source_text: "Am 10. Mai 1967 verabschiedete der Deutsche Bundestag mit großer Mehrheit das 'Gesetz zur Förderung der Stabilität und des Wachstums der Wirtschaft'."
+        source_url: "https://www.bundestag.de/dokumente/textarchiv/1967-05-10-stabilitaetsgesetz-505290"
+        verified: true
+        note: "Your 'June 1967' is right for the law's date (8 June 1967). The Bundestag vote was 10 May 1967. The BGBl page (I S. 582) comes from my own knowledge and was not confirmed by a fetched source. 'macro' is the target as you specified. 'buffer' is my direction call, since the law is a stabilisation framework."
+
+      - law: "Arbeitsförderungsgesetz (AFG)"
+        date: "Ausfertigung 25 June 1969 (BGBl. I S. 582)"
+        in_force: "1 July 1969 (AFG repealed 1 Jan 1998 by SGB III)"
+        what: "Replaced the 1927 AVAVG with a comprehensive active labour-market framework, gave a legal entitlement to training measures, and from October 1969 raised the training allowance (Unterhaltsgeld) from 75 % to 81.25 % of net pay for the first six months and 87.5 % thereafter."
+        direction: expansion
+        target: core
+        source_text: "Im Juli 1969 tritt das AFG in Kraft ... Ausgebaut wird insbesondere die berufliche Bildung, und auf die im AFG vorgesehenen Maßnahmen wird ein Rechtsanspruch eingeräumt."
+        source_url: "https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf"
+        verified: true
+        note: "The target is ambiguous: training rights went to contributors and the unemployed alike. I coded 'core' because the entitlement attaches to insured employees. Code 'margin' instead if active labour-market policy (ALMP) should count as margin. The BGBl citation comes from a search snippet. The name AVAVG for the predecessor law is from my own knowledge; the sources describe it only as 'the 1927 law'."
+
+      - law: "Gesetz über die Fortzahlung des Arbeitsentgelts im Krankheitsfalle und über Änderungen des Rechts der gesetzlichen Krankenversicherung (Lohnfortzahlungsgesetz, LFZG)"
+        date: "Ausfertigung 27 July 1969 (BGBl. I S. 946)"
+        in_force: "1 Jan 1970 (some Art. 2 provisions 1 Aug 1969); repealed 2005 (sick-pay rules for all employees had been in the EFZG since 1994)"
+        what: "Obliged employers to continue paying blue-collar workers 100 % of wages for up to six weeks of sickness, equalising them with white-collar employees."
+        direction: expansion
+        target: core
+        source_text: "Dieses Gesetz tritt am 1. Januar 1970 in Kraft. Artikel 2 Nr. 2, 3, 5, 6 ... treten am 1. August 1969 in Kraft. (gesetze-im-internet.de, via search) / bpb: Arbeiter mit Angestellten im Krankheitsfall gleichgestellt ... für die Dauer von sechs Wochen."
+        source_url: "https://www.gesetze-im-internet.de/lfz_kvr_ndg/BJNR009469969.html"
+        verified: true
+        note: "Confirmed through search snippets of gesetze-im-internet.de and the bpb chronicle for 1 Jan 1970. I could not open either page directly."
+
+  - episode: "1973-75"
+    summary: >-
+      Retrenchment, mostly at the margin: training support was cut and tied to contributions, and
+      non-contributors and school-leavers lost access. It also touched the core indirectly: the contribution
+      rate rose from 2 % to 3 % and Zumutbarkeit (job-suitability rules) was tightened for all claimants. The core
+      UI replacement rate was not cut; it had just been raised to 68 % in 1975.
+    items:
+      - law: "Haushaltsstrukturgesetz (HStruktG) of 18 Dec 1975. Its AFG part was enacted as a separate law via the Vermittlungsausschuss: Gesetz zur Verbesserung der Haushaltsstruktur im Geltungsbereich des Arbeitsförderungs- und des Bundesversorgungsgesetzes (HStruktG-AFG)"
+        date: "BT 6 Nov 1975 (first passage); Vermittlungsausschuss result Dec 1975; Ausfertigung 18 Dec 1975 (HStruktG: BGBl. I S. 3091)"
+        in_force: "1 Jan 1976"
+        what: "Raised the UI contribution rate from 2 % to 3 %, cut the training allowance from 90 % to 80 % of net pay for 'necessary' and to 58 % for merely 'useful' courses, restricted training support to people with 2 years of contributions in 3 years, excluded school/university leavers without 26 weeks of paid work from Arbeitslosenhilfe, and tightened Zumutbarkeit."
+        direction: retrenchment
+        target: margin
+        source_text: "1976 Haushaltsstrukturgesetz − Erhöhung des Beitragssatzes zur BA von 2% auf 3% ... Kürzung des Uhg von 90% auf 80% ... und auf 58% bei arbeitsmarktpolitisch 'zweckmäßigen' Maßnahmen ... Ausschluß von Alhi für Schul- und Hochschulabsolventen ... Verschärfung der Zumutbarkeitsregelung."
+        source_url: "https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf"
+        verified: true
+        note: "Answer to 'which target?': mainly margin (new entrants, non-contributors, training participants). The Zumutbarkeit tightening and the contribution increase affected core employees too, but the ALG replacement rate (68 %) and duration were not cut. The exact title and BGBl page of the separate HStruktG-AFG were not confirmed (search snippet of BT-Drs. 7/4359 only)."
+
+  - episode: "1979-83"
+    summary: >-
+      Yes, retrenchment hit the core repeatedly. The AFKG 1982 doubled the qualifying period (6 to 12 months) and the
+      basic suspension period (4 to 8 weeks). The HBeglG 1983 required 3 instead of 2 contribution months per benefit month.
+      The HBeglG 1984 cut the ALG rate for claimants without children from 68 % to 63 %. From 1985 to 1987, maximum ALG
+      duration for older workers was extended in steps up to 32 months. Fixed-term contracts were deregulated at the margin.
+    items:
+      - law: "Gesetz zur Konsolidierung der Arbeitsförderung (Arbeitsförderungs-Konsolidierungsgesetz, AFKG)"
+        date: "Ausfertigung 22 Dec 1981 (BGBl. I S. 1497)"
+        in_force: "1 Jan 1982"
+        what: "Raised the UI contribution rate from 3 % to 4 %, lengthened the ALG qualifying period from 6 to 12 months of contributions, extended the basic suspension period (Sperrzeit) from 4 to 8 weeks and the severance-related suspension from up to 6 to up to 12 months, excluded overtime pay and one-off payments from the benefit base, tightened Zumutbarkeit, and cut the training allowance from 80 % to 75 %/68 %."
+        direction: retrenchment
+        target: core
+        source_text: "1982 Arbeitsförderungs-Konsolidierungsgesetz − Erhöhung des Beitragssatzes zur BA von 3,0% (1981) auf 4% ... Verlängerung der Anwartschaftszeit für den Bezug von Alg von sechs auf zwölf Monate ... Verlängerung der Sperrzeit von vier auf acht Wochen − Verschärfung der Zumutbarkeitsregelung."
+        source_url: "https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf"
+        verified: true
+        note: "The date and BGBl citation come from BSG case-law snippets. The content comes from the IAB chronicle. Court rulings put the final qualifying period at 360 calendar days."
+
+      - law: "Haushaltsbegleitgesetz 1983"
+        date: "Ausfertigung 20 Dec 1982 (BGBl. I S. 1857), not confirmed"
+        in_force: "1 Jan 1983"
+        what: "Raised the UI contribution rate from 4.0 % to 4.6 %, required 3 instead of 2 contribution months per month of ALG entitlement, cut the rehabilitation allowance from 90/75 % to 80/70 %, and lowered the ALG/Alhi benefit tables."
+        direction: retrenchment
+        target: core
+        source_text: "1983 Haushaltsbegleitgesetz − Erhöhung des Beitragssatzes zur BA von 4,0% (1982) auf 4,6% ... reichten bislang für einen Monat Alg-Bezug zwei Beitrags-Monate aus, so sind jetzt drei Beitrags-Monate erforderlich."
+        source_url: "https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf"
+        verified: false
+        note: "Added item: it was not on your list but is a core cut. The content is verified from the IAB chronicle. The law's date and BGBl page are from my own knowledge and were not confirmed. The 68 % to 63 % cut was NOT in this law but in the HBeglG 1984 (next item)."
+
+      - law: "Haushaltsbegleitgesetz 1984 (HBeglG 1984)"
+        date: "Ausfertigung 22 Dec 1983 (BGBl. I S. 1532)"
+        in_force: "1 Jan 1984"
+        what: "For recipients without children, cut the ALG (and Kurzarbeit/bad-weather pay) rate from 68 % to 63 % and the Arbeitslosenhilfe rate from 58 % to 56 % of net pay. It also cut the training allowance from 75/68 % to 70/63 % and the benefit base for post-apprenticeship claimants to 50 % of the skilled wage."
+        direction: retrenchment
+        target: core
+        source_text: "Der Leistungssatz beim Arbeitslosengeld, beim Kurzarbeitergeld und beim Schlechtwettergeld wird um 5 Prozentpunkte von 68 auf 63%, der Leistungssatz bei der Arbeitslosenhilfe um 2 Punkte von 58 auf 56% gesenkt. Beide Regelungen gelten jedoch ausschließlich für Leistungsempfänger ohne Kinder."
+        source_url: "https://doku.iab.de/chronik/31/1984_01_01_31_haus.pdf"
+        verified: true
+        note: "Your 'HBeglG 1983 and/or 1984': it is the 1984 act (passed Dec 1983). Your numbers are confirmed. Recipients with children kept 68 %/58 %. The Alhi part is margin (long-term unemployed). The item is coded core for its ALG part."
+
+      - law: "Gesetz zur Erleichterung des Übergangs vom Arbeitsleben in den Ruhestand (Vorruhestandsgesetz, VRG)"
+        date: "Ausfertigung 13 April 1984 (BGBl. I S. 601)"
+        in_force: "May 1984 (subsidy for new entrants until end-1988)"
+        what: "The Bundesanstalt reimbursed employers 35 % of the cost of collectively agreed early-retirement pay of at least 65 % of gross wages for workers aged 58+, provided the job was refilled with an unemployed person or a young labour-market entrant."
+        direction: buffer
+        target: core
+        source_text: "Befristet für Neuzugänge bis Ende 1988 zahlt die BA Arbeitgebern Zuschüsse zu den Aufwendungen für Vorruhestandsleistungen an Arbeitnehmer, die das 58. Lebensjahr vollendet ... Der Zuschuß beträgt 35% der Aufwendungen."
+        source_url: "https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf"
+        verified: true
+        note: "The BGBl citation comes from a search snippet of gesetze-im-internet.de. It was replaced in 1989 by the Altersteilzeit scheme."
+
+      - law: "Gesetz über arbeitsrechtliche Vorschriften zur Beschäftigungsförderung (Beschäftigungsförderungsgesetz 1985, BeschFG 1985)"
+        date: "Ausfertigung 26 April 1985 (BGBl. I S. 710)"
+        in_force: "1 May 1985 (not confirmed); fixed-term rule initially limited to 1 Jan 1990, extended by BeschFG 1990 to 1995 and in 1996 to 2000"
+        what: "Allowed fixed-term contracts without objective reason for up to 18 months for new hires (24 months for new small firms), deregulated temp agency work (maximum assignment raised from 3 to 6 months), and eased part-time rules."
+        direction: deregulation
+        target: margin
+        source_text: "BT-Drs. 11/4952 (via search): Das Gesetz ... erlaubt den Abschluss befristeter Arbeitsverträge ohne sachlichen Grund für bis zu 18 Monate."
+        source_url: "https://dserver.bundestag.de/btd/11/049/1104952.pdf"
+        verified: false
+        note: "The 18 months and the 26 April 1985 date are confirmed. The in-force date of 1 May 1985, the 24-month rule for new firms, and the temp-work change (3 to 6 months) are from my own knowledge and were not confirmed by a source."
+
+      - law: "Three AFG amendments extending ALG duration for older workers: (1) Gesetz zur Änderung von Vorschriften des AFG und der gesetzlichen Rentenversicherung (in force 1 Jan 1985); (2) 7. Gesetz zur Änderung des AFG (1 Jan 1986); (3) Gesetz zur Verlängerung des Versicherungsschutzes bei Arbeitslosigkeit und Kurzarbeit (1 July 1987)"
+        date: "Ausfertigung dates not confirmed (laws of late 1984, late 1985, mid-1987)"
+        in_force: "1 Jan 1985 / 1 Jan 1986 / 1 July 1987"
+        what: "Raised maximum ALG duration in steps: 49+ up to 18 months (1985); 44+ 16, 49+ 20, 54+ 24 months (1986); 42+ 18, 44+ 22, 49+ 26, 54+ 32 months (July 1987). The 1987 law also restored the 2:1 ratio of contribution to benefit months."
+        direction: expansion
+        target: core
+        source_text: "Die Höchstdauer für den Bezug von Alg wird ... wie folgt erhöht: ab 42 Jahre auf bis zu 18 Monate, ab 44 Jahre auf bis zu 22 Monate, ab 49 Jahre auf bis zu 26 Monate, ab 54 Jahre auf bis zu 32 Monate."
+        source_url: "https://doku.iab.de/chronik/31/1993_06_20_31_Diew.pdf"
+        verified: true
+        note: "Your '1985-87 up to 32 months' is confirmed, with 32 months for claimants aged 54+ from July 1987. The content and in-force months come from the IAB chronicle. The exact Ausfertigung dates were not confirmed."
+
+  - episode: "1991-93"
+    summary: >-
+      Yes, retrenchment hit the core: the 1st SKWPG cut ALG from 68/63 % to 67/60 % from 1994. More core cuts
+      followed after the episode window: in 1996, the KSchG small-firm threshold was raised from 5 to 10 and statutory
+      sick pay cut from 100 % to 80 %. The AFRG 1997 tightened Zumutbarkeit and raised the age thresholds for long ALG
+      durations by 3 years. The RRG 1999 introduced the demographic factor. The Korrekturgesetz of December 1998 reversed
+      the KSchG, sick-pay and demographic-factor changes but not the AFRG or the SKWPG rate cuts.
+    items:
+      - law: "Erstes Gesetz zur Umsetzung des Spar-, Konsolidierungs- und Wachstumsprogramms (1. SKWPG)"
+        date: "BT 3rd reading 21 Oct 1993; Bundesrat rejected it and called the Vermittlungsausschuss (recommendation 9 Dec 1993); Ausfertigung 21 Dec 1993 (BGBl. I S. 2353, published 29 Dec 1993)"
+        in_force: "1 Jan 1994"
+        what: "Cut ALG from 68 % to 67 % (with children) and from 63 % to 60 % (without), cut Arbeitslosenhilfe from 58 % to 57 % and from 56 % to 53 %, and limited 'original' Arbeitslosenhilfe to 312 days."
+        direction: retrenchment
+        target: core
+        source_text: "BT-Drs. 12/5902 (Beschlüsse des 8. Ausschusses): In § 111 Abs. 1 werden die Zahl '68' durch die Zahl '67' und die Zahl '63' durch die Zahl '60' ersetzt ... In § 136 Abs. 1 werden in Nummer 1 die Zahl '58' durch die Zahl '57' und in Nummer 2 die Zahl '56' durch die Zahl '53' ersetzt."
+        source_url: "https://dserver.bundestag.de/btd/12/059/1205902.pdf"
+        verified: true
+        note: "Your 68 to 67 and 63 to 60 numbers are correct. BSG rulings confirm the cuts took effect on 1 Jan 1994. Only the FIRST SKWPG changed the AFG rates; the Zweites SKWPG (also 21 Dec 1993, BGBl. I S. 2374) dealt mainly with other benefits, including social assistance, and its content was not verified here. The government draft had proposed a duration-degressive ALG scale (68 down to 64 % and 63 down to 59 %), which the committee replaced with the flat cut. The Alhi figures are taken from the committee version; the Vermittlungsausschuss stage was not checked for changes to them."
+
+      - law: "Gesetz zur Vereinheitlichung und Flexibilisierung des Arbeitszeitrechts (Arbeitszeitrechtsgesetz, ArbZRG), Art. 1: Arbeitszeitgesetz (ArbZG)"
+        date: "Ausfertigung 6 June 1994 (BGBl. I S. 1170)"
+        in_force: "1 July 1994"
+        what: "Replaced the 1938 Arbeitszeitordnung: keeps an 8-hour working day but allows up to 10 hours if the average stays at 8 hours over 6 calendar months or 24 weeks, and broadens the exceptions for Sunday and holiday work."
+        direction: deregulation
+        target: core
+        source_text: "Artikel 1 G v. 6.6.1994 I 1170 (ArbZRG) ... trat am 1.7.1994 in Kraft."
+        source_url: "https://www.gesetze-im-internet.de/arbzg/BJNR117100994.html"
+        verified: false
+        note: "The date, BGBl citation and in-force date are confirmed (search snippet of gesetze-im-internet.de). The averaging rules (6 months / 24 weeks) and the reference to the 1938 AZO are from my own knowledge and were not confirmed. This is working-time flexibilisation, not a benefit cut. 'core' reflects that it applies to standard employees."
+
+      - law: "Arbeitsrechtliches Gesetz zur Förderung von Wachstum und Beschäftigung (Arbeitsrechtliches Beschäftigungsförderungsgesetz)"
+        date: "Ausfertigung 25 Sept 1996 (BGBl. I S. 1476)"
+        in_force: "1 Oct 1996"
+        what: "Raised the KSchG small-firm threshold from 5 to 10 employees, restricted social selection in redundancies, cut statutory sick pay (EFZG) from 100 % to 80 % of pay (or 1 day of leave per 5 sick days instead), and extended reason-free fixed-term contracts from 18 to 24 months."
+        direction: retrenchment
+        target: core
+        source_text: "BT-Drs. 14/45: Die im Oktober 1996 eingeführte Absenkung der gesetzlichen Entgeltfortzahlung auf 80 Prozent des Arbeitsentgelts wird zurückgenommen ... Für etwa 80 Prozent der Beschäftigten gilt eine Entgeltfortzahlung in Höhe von 100 Prozent aufgrund ... Tarifverträge. / bpb chronicle 25.9.1996: Für Betriebe mit bis zu zehn (bisher fünf) Arbeitnehmern gilt kein gesetzlicher Kündigungsschutz."
+        source_url: "https://dserver.bundestag.de/btd/14/000/1400045.pdf"
+        verified: true
+        note: "Your claims are confirmed. Collective agreements kept 100 % sick pay for about 80 % of employees, per BT-Drs. 14/45. The 18 to 24 month fixed-term extension (a margin deregulation) rests on search snippets only. The law is grouped here although it falls outside the 1991-93 window."
+
+      - law: "Gesetz zur Reform der Arbeitsförderung (Arbeitsförderungs-Reformgesetz, AFRG), introducing SGB III"
+        date: "Ausfertigung 24 March 1997 (BGBl. I S. 594); bill BT-Drs. 13/4941 (June 1996)"
+        in_force: "SGB III 1 Jan 1998 (some provisions earlier or later; parts of the AFG were amended from April 1997)"
+        what: "Replaced the AFG with SGB III. It tightened Zumutbarkeit (a job paying up to 20 % less than before is suitable in the first 3 months, up to 30 % less in months 4-6, and from month 7 any job paying at least the ALG amount), raised the age thresholds for extended ALG duration by 3 years (32 months now from 57), and offset severance pay against ALG more strictly."
+        direction: retrenchment
+        target: core
+        source_text: "Sell (MittAB 3/1998): in den ersten drei Monaten bis zu 20%, vom vierten bis zum sechsten Monat 30% und ab dem siebten Monat sind alle Beschäftigungen zumutbar, sofern das ... Arbeitsentgelt mindestens die Höhe des Arbeitslosengeldes erreicht."
+        source_url: "https://doku.iab.de/mittab/1998/1998_3_MittAB_Sell.pdf"
+        verified: true
+        note: "Your list had no direction for this law. I coded it as core retrenchment. The +3-year age-threshold rise rests on a snippet of BT-Drs. 13/4941 (bill stage). The exact date the Zumutbarkeit change took effect (1 Apr 1997 vs 1 Jan 1998) was not confirmed. The Korrekturgesetz 1998 did NOT reverse the AFRG."
+
+      - law: "Gesetz zur Reform der gesetzlichen Rentenversicherung (Rentenreformgesetz 1999, RRG 1999)"
+        date: "BT 10 Oct 1997; Bundesrat objection overruled by BT 11 Dec 1997; Ausfertigung 16 Dec 1997 (BGBl. I S. 2998, issue of 22 Dec 1997)"
+        in_force: "1 Jan 1999 (main parts)"
+        what: "Added a demographic factor, based on life expectancy at 65, to the pension adjustment formula, intended to lower the standard pension level gradually from about 70 % to 64 % net."
+        direction: retrenchment
+        target: core
+        source_text: "Bundesrat 7.11.1997: zu dem vom Deutschen Bundestag am 10. Oktober 1997 verabschiedeten Gesetz ... / Der Einspruch des Bundesrates ... am 11. 12. 1997 ... zurückgewiesen."
+        source_url: "https://dserver.bundestag.de/btd/13/089/1308955.pdf"
+        verified: false
+        note: "Your 'passed 1997' is correct. The passage dates and BGBl citation are confirmed by search snippets. The 70 % to 64 % target path is from my own knowledge and was not confirmed. The source_url is one of the Bundestag documents returned by the search; I did not open it."
+
+      - law: "Gesetz zu Korrekturen in der Sozialversicherung und zur Sicherung der Arbeitnehmerrechte (Korrekturgesetz)"
+        date: "Ausfertigung 19 Dec 1998 (BGBl. I S. 3843); committee report BT-Drs. 14/151"
+        in_force: "1 Jan 1999 (some articles 1 Apr 1999 or 1 Jan 2000)"
+        what: "Suspended the RRG 1999 demographic factor for 1999 and 2000, cut the KSchG small-firm threshold back from 10 to 5 employees, largely reversed the 1996 limits on social selection, and restored 100 % statutory sick pay for all employees."
+        direction: expansion
+        target: core
+        source_text: "BT-Drs. 14/151: Der mit dem Rentenreformgesetz 1999 eingeführte demographische Faktor in der Rentenformel wird für die Jahre 1999 und 2000 ausgesetzt ... wird von zehn Arbeitnehmern wieder auf fünf Arbeitnehmer herabgesetzt ... Entgeltfortzahlung ... von 100 Prozent wieder für alle Arbeitnehmer sichergestellt."
+        source_url: "https://dserver.bundestag.de/btd/14/001/1400151.pdf"
+        verified: true
+        note: "Your claim is confirmed, with one detail: the factor was 'suspended for 1999 and 2000'. It was replaced, not revived, by the 2001 Riester reform; that is from my own knowledge and was not checked. The Bundestag passage date was not found; 19 Dec 1998 is the Ausfertigung date. The law is outside the 1991-93 window and grouped here as its reversal."
+
+  - episode: "2001-05"
+    summary: >-
+      Yes, retrenchment hit the core. The Gesetz zu Reformen am Arbeitsmarkt cut maximum ALG duration for older
+      workers from 32 to 18 months (for claims arising from 1 Feb 2006) and the general maximum to 12 months. It also
+      exempted new hires in firms of up to 10 employees from the KSchG, at the boundary of core and margin. The
+      RV-Nachhaltigkeitsgesetz added the sustainability factor to pensions. Hartz I/II deregulated the margin (temp work,
+      mini-jobs). Hartz IV cut benefits for the long-term unemployed (margin) by merging earnings-related Arbeitslosenhilfe
+      into flat-rate ALG II.
+    items:
+      - law: "Gesetz zur Reform der arbeitsmarktpolitischen Instrumente (Job-AQTIV-Gesetz)"
+        date: "Ausfertigung 10 Dec 2001 (BGBl. I S. 3443); bill BT-Drs. 14/6944"
+        in_force: "1 Jan 2002"
+        what: "Introduced profiling and mandatory integration agreements for the unemployed, job rotation, and earlier placement activity (Aktivieren, Qualifizieren, Trainieren, Investieren, Vermitteln)."
+        direction: expansion
+        target: margin
+        source_text: "Artikel 8 des Gesetzes zur Reform der arbeitsmarktpolitischen Instrumente (Job-AQTIV-Gesetz) vom 10. Dezember 2001 (BGBl. I S. 3443)."
+        source_url: "https://dserver.bundestag.de/btd/15/011/1501182.pdf"
+        verified: false
+        note: "The date and citation are confirmed. The content list (profiling, Eingliederungsvereinbarung, job rotation) and the 1 Jan 2002 in-force date are from my own knowledge and were not confirmed. Direction and target are judgment calls: it mixes ALMP expansion with stronger obligations for the unemployed."
+
+      - law: "Erstes Gesetz für moderne Dienstleistungen am Arbeitsmarkt (Hartz I)"
+        date: "Ausfertigung 23 Dec 2002 (BGBl. I S. 4607)"
+        in_force: "mainly 1 Jan 2003; AÜG protective rules repealed from 1 Jan 2004"
+        what: "Deregulated temp agency work: from 2004 it removed the 24-month maximum assignment, the synchronisation ban, the special fixed-term ban and the re-hiring ban, in exchange for equal pay/treatment unless a collective agreement deviates. It also created Personal-Service-Agenturen."
+        direction: deregulation
+        target: margin
+        source_text: "Die besonderen Schutznormen des AÜG (besonderes Befristungsverbot, Wiedereinstellungsverbot, Synchronisationsverbot, Begrenzung der Überlassungsdauer auf 24 Monate) werden ab 2004 aufgehoben (sozialpolitik-aktuell, via search)."
+        source_url: "https://www.sozialpolitik-aktuell.de/id-2002.html"
+        verified: true
+        note: "Hartz I also contained changes affecting ALG claimants: tighter Zumutbarkeit, early job-search registration and Sperrzeit rules. Those are from my own knowledge and were not confirmed, so they are not coded here. The equal-pay rule with its collective-agreement opt-out is likewise from my own knowledge."
+
+      - law: "Zweites Gesetz für moderne Dienstleistungen am Arbeitsmarkt (Hartz II)"
+        date: "Ausfertigung 23 Dec 2002 (BGBl. I S. 4621)"
+        in_force: "1 April 2003 (mini-job rules); Ich-AG start-up subsidy 1 Jan 2003"
+        what: "Raised the mini-job earnings ceiling from 325 to 400 euros a month, dropped the 15-hour weekly limit, and created a 'Gleitzone' (midi-jobs) for 400.01-800 euros with gradually phased-in employee contributions."
+        direction: deregulation
+        target: margin
+        source_text: "Die Entgeltgrenze stieg von 325 auf 400 Euro ... Gleitzone 400,01 bis 800 Euro (DIW / BA circular via search)."
+        source_url: "https://doku.iab.de/mittab/2003/2003_3_MittAB_Arntz_Feil_Spermann.pdf"
+        verified: true
+        note: "Your '400 euro, 2003' is confirmed (from 1 April 2003). The Ich-AG date is from my own knowledge and was not confirmed."
+
+      - law: "Gesetz zu Reformen am Arbeitsmarkt"
+        date: "Ausfertigung 24 Dec 2003 (BGBl. I S. 3002)"
+        in_force: "1 Jan 2004 (KSchG); ALG duration for claims arising from 1 Feb 2006"
+        what: "Exempted firms with up to 10 employees from the KSchG for employees hired from 1 Jan 2004 (incumbents counted under the old 5-employee rule keep protection), limited social selection to four criteria, added an optional severance claim (§ 1a KSchG), and cut maximum ALG duration to 12 months (18 months at 55+) from 32 months previously for older workers."
+        direction: retrenchment
+        target: core
+        source_text: "IAB/Bundesregierung: Die Anspruchsdauer auf Arbeitslosengeld wird bei unter 55-jährigen Personen auf 12 Monate begrenzt. Über 55-jährige Personen erhalten Arbeitslosengeld I maximal 18 Monate ... ab dem 1. Februar 2006 ... Bisher haben ältere Arbeitnehmer einen Anspruch auf Arbeitslosengeld für die Dauer von bis zu 32 Monaten."
+        source_url: "https://doku.iab.de/chronik/32/2006_02_02_32_aenderungarbeitslosengeld.pdf"
+        verified: true
+        note: "Your claims are confirmed: KSchG 5 to 10 for new hires from 2004; ALG max for older workers 32 to 18 months, effective for claims arising from 1 Feb 2006. Before the cut, 32 months applied at age 57+, and 18 months applied at 55+ afterwards. The four-criteria social selection and § 1a are from WSI/law-firm snippets. The KSchG part is arguably margin, since it hits only new hires; the item is coded core because of the ALG duration cut. Also from 1 Feb 2006: reference period shortened from 3 to 2 years and special 6-month qualifying periods abolished."
+
+      - law: "Viertes Gesetz für moderne Dienstleistungen am Arbeitsmarkt (Hartz IV)"
+        date: "Ausfertigung 24 Dec 2003 (BGBl. I 2003 Nr. 66 of 29 Dec 2003, S. 2954)"
+        in_force: "1 Jan 2005"
+        what: "Merged earnings-related Arbeitslosenhilfe and social assistance for employable people into means-tested, flat-rate Arbeitslosengeld II (SGB II), with a standard rate of 345 euros (West) / 331 euros (East) for a single adult and a temporary 2-year supplement capped at 160 euros for former ALG recipients."
+        direction: retrenchment
+        target: margin
+        source_text: "Bekanntmachung zu § 20 Abs. 2 SGB II: Alleinstehende ... alte Bundesländer einschließlich Berlin (Ost) 345 Euro, neue Bundesländer 331 Euro. / IAB chronicle: Der Zuschlag ist bei Alleinstehenden auf 160 Euro ... begrenzt."
+        source_url: "https://www.gesetze-im-internet.de/sgb2_20abs2bek/BJNR271800005.html"
+        verified: true
+        note: "Your claim is confirmed. The page number S. 2954 was not confirmed by a source (Nr. 66 of 29 Dec 2003 was). Some Alhi recipients were long-tenure former standard workers, but Alhi was a long-term-unemployed benefit, hence margin. The East rate was raised to 345 euros in 2006; sources disagree on whether that was 1 Jan or 1 Apr 2006."
+
+      - law: "Gesetz zur Sicherung der nachhaltigen Finanzierungsgrundlagen der gesetzlichen Rentenversicherung (RV-Nachhaltigkeitsgesetz)"
+        date: "Ausfertigung 21 July 2004 (BGBl. I S. 1791, Nr. 38 of 26 July 2004)"
+        in_force: "1 Aug 2004 (sustainability factor applied from the July 2005 adjustment)"
+        what: "Added a sustainability factor, based on the ratio of pensioners to contributors, to the pension adjustment formula, dampening annual pension increases."
+        direction: retrenchment
+        target: core
+        source_text: "Bundesgesetzblatt Jahrgang 2004 Teil I Nr. 38, ausgegeben am 26.07.2004, Seite 1791 ... tritt am 1. August 2004 in Kraft (dejure/sadaba, via search)."
+        source_url: "https://dejure.org/BGBl/BGBl%20I%202004,%201791"
+        verified: true
+        note: "Confirmed by search snippets. Other content of the law (e.g. phasing out credit for school/university years, the 2005 tax change) was not checked."
+
+  - episode: "2007-09"
+    summary: >-
+      No core retrenchment. The core gained: ALG for 58+ went back to 24 months in 2008. Buffers dominated, through
+      Kurzarbeit up to 24 months and social-contribution refunds, plus two stimulus packages. The Schuldenbremse set a
+      binding macro-fiscal constraint for the future.
+    items:
+      - law: "Siebtes Gesetz zur Änderung des Dritten Buches Sozialgesetzbuch (7. SGB III-ÄndG)"
+        date: "Ausfertigung 8 April 2008 (BGBl. I S. 681), not confirmed; cabinet 14 Dec 2007"
+        in_force: "retroactive to 1 Jan 2008"
+        what: "Raised maximum ALG duration for older workers to 15 months at 50+, 18 months at 55+ and 24 months at 58+ (with 30/36/48 months of insurance in a 5-year window), up from the 12/18-month maximum of 2006."
+        direction: expansion
+        target: core
+        source_text: "§ 439 SGB III (formerly § 434r) ... Lebensjahr vollendet haben, auf 24 Monate. Comparison table: 30 | 50 | 15 ... 48 | 58 | 24; amendments to § 127 SGB III mWv 1. Januar 2008."
+        source_url: "https://webarchiv.bundestag.de/archive/2008/1010/ausschuesse/a11/berichte/1607151.pdf"
+        verified: false
+        note: "You listed this under 2001-05; it is placed here by date (2008) as a partial reversal of the 2003 cut. The 24 months at 58+ and the 1 Jan 2008 effect are confirmed. The law's exact Ausfertigung date and BGBl page are from my own knowledge and were not confirmed. The source_url is a Bundestag archive document returned by the search that I did not open."
+
+      - law: "Kurzarbeit crisis rules: § 421t SGB III in Konjunkturpaket II, plus the 'Verordnung über die Bezugsfrist für das Kurzarbeitergeld' (26 Nov 2008: 18 months) and its 1st amending ordinance (29 May 2009: 24 months)"
+        date: "Verordnung 26 Nov 2008; Änderungsverordnung 29 May 2009; KP II Ausfertigung 2 March 2009"
+        in_force: "18 months for claims from 1 Jan 2009; 24 months for claims arising in calendar year 2009; SSC refunds from 1 Feb 2009"
+        what: "Extended the maximum Kurzarbeit period to 24 months for claims arising in 2009. The BA refunded 50 % of employer social contributions on lost hours (100 % with training), and 100 % from the 7th month (from 1 July 2009)."
+        direction: buffer
+        target: core
+        source_text: "IAB-Kurzbericht 17/2009: ab dem 1. Februar 2009 dem Betrieb die Hälfte dieser Sozialbeiträge erstattet ... ab dem 7. Monat der Kurzarbeit voll erstattet. / Hensche: Ende Mai 2009 ... auf 24 Monate heraufgesetzt (Erste Änderungsverordnung vom 29.05.2009) ... für Ansprüche, die im Kalenderjahr 2009 entstanden."
+        source_url: "https://doku.iab.de/kurzber/2009/kb1709.pdf"
+        verified: true
+        note: "Your claim is confirmed. The 24 months came by ordinance in May 2009, not by law. For 2010 claims, the maximum was set back to 18 months."
+
+      - law: "Konjunkturpaket I: Gesetz zur Umsetzung steuerrechtlicher Regelungen des Maßnahmenpakets 'Beschäftigungssicherung durch Wachstumsstärkung'"
+        date: "Ausfertigung 21 Dec 2008 (BGBl. I S. 2896); cabinet package 5 Nov 2008"
+        in_force: "largely 1 Jan 2009 (tax provisions)"
+        what: "Tax-side stimulus: temporary declining-balance depreciation (25 %), a motor-vehicle tax holiday for new cars, and higher deductibility of household services; the package was valued at roughly 30-50 billion euros including induced investment."
+        direction: buffer
+        target: macro
+        source_text: "BGBl I Nr. 64 vom 29.12.2008 Seite 2896 ... Volumen rund 30 Milliarden Euro ... Investitionsvolumen von 50 Milliarden Euro (via search)."
+        source_url: "https://umwelt-online.de/recht/allgemei/steuer/z08_2896.htm"
+        verified: false
+        note: "The date and BGBl citation are confirmed. The list of measures is from my own knowledge and was not confirmed. Sources disagree on the package size (30 vs 50 bn euros)."
+
+      - law: "Konjunkturpaket II: Gesetz zur Sicherung von Beschäftigung und Stabilität in Deutschland"
+        date: "Ausfertigung 2 March 2009 (BGBl. I S. 416, promulgated 5 March 2009)"
+        in_force: "6 March 2009 (some provisions retroactive, e.g. Kurzarbeit SSC refund from 1 Feb 2009)"
+        what: "About 50 billion euros of stimulus for 2009-10: public investment, tax and contribution cuts, a 100-euro child bonus, and the Kurzarbeit contribution refund (§ 421t SGB III)."
+        direction: buffer
+        target: macro
+        source_text: "Das Paket hat laut Bundestag ein Volumen von rund 50 Mrd. € in den Jahren 2009 und 2010 (via search); dejure: BGBl. I 2009, 416."
+        source_url: "https://dejure.org/BGBl/BGBl._I_2009,_416"
+        verified: false
+        note: "The citation and the 50 bn volume are confirmed. Sources disagree on the in-force date (2 vs 6 March 2009). The child bonus figure is from my own knowledge and was not confirmed. Its Kurzarbeit element is coded separately above."
+
+      - law: "Gesetz zur Änderung des Grundgesetzes (Artikel 91c, 91d, 104b, 109, 109a, 115, 143d), Föderalismusreform II, 'Schuldenbremse'"
+        date: "BT 29 May 2009 (418 yes, 109 no, 48 abstentions); Bundesrat 12 June 2009; Ausfertigung 29 July 2009 (BGBl. I S. 2248)"
+        in_force: "1 Aug 2009; federal structural deficit limit 0.35 % of GDP binding from 2016; Länder structural balance from 2020"
+        what: "Wrote a debt brake into the Basic Law, limiting federal structural borrowing to 0.35 % of GDP, banning structural deficits for the Länder, and keeping a cyclical component and an emergency clause."
+        direction: retrenchment
+        target: macro
+        source_text: "Gesetz zur Änderung des Grundgesetzes (Artikel 91c, 91d, 104b, 109, 109a, 115, 143d) vom 29. Juli 2009, BGBl. I S. 2248 ... zweite und dritte Lesung am 29. Mai 2009 ... Bundesrat am 12. Juni 2009."
+        source_url: "https://webarchiv.bundestag.de/archive/2010/0727/dokumente/analysen/2009/schuldenbremse.pdf"
+        verified: true
+        note: "Your list gave no direction. I coded it as retrenchment because it constrains future spending; recode it if macro items should carry no direction."
+
+  - episode: "2017-20"
+    summary: >-
+      No retrenchment; buffers only. Kurzarbeit was eased by law and ordinance in March 2020 and topped up by the
+      Sozialschutz-Paket II in May 2020.
+    items:
+      - law: "Gesetz zur befristeten krisenbedingten Verbesserung der Regelungen für das Kurzarbeitergeld, plus Kurzarbeitergeldverordnung (KugV) of 25 March 2020"
+        date: "Ausfertigung 13 March 2020; KugV 25 March 2020"
+        in_force: "KugV retroactive to 1 March 2020, until 31 Dec 2020 (ordinance powers until 31 Dec 2021)"
+        what: "Let firms claim Kurzarbeit when 10 % instead of one third of staff lose more than 10 % of pay, waived the build-up of negative working-time balances, refunded 100 % of employer social contributions, and opened Kurzarbeit to temp agency workers."
+        direction: buffer
+        target: core
+        source_text: "Durch das Gesetz zur befristeten krisenbedingten Verbesserung der Regelungen für das Kurzarbeitergeld vom 13. März 2020 ... Kurzarbeitergeld-Verordnung vom 25. März 2020, die rückwirkend ab dem 1. März 2020 ... statt des gesetzlichen Mindestanteils von einem Drittel der Beschäftigten mindestens zehn Prozent ... erstattet die BA dem Arbeitgeber die Sozialversicherungsbeiträge."
+        source_url: "https://www.bundestag.de/resource/blob/694420/Kurzarbeit_Corona.pdf"
+        verified: true
+        note: "Confirmed by WD Aktueller Begriff 05/20. The temp-worker opening is margin; the item is coded core because Kurzarbeit protects incumbent jobs."
+
+      - law: "Gesetz zu sozialen Maßnahmen zur Bekämpfung der Corona-Pandemie (Sozialschutz-Paket II)"
+        date: "BT 14 May 2020 (inferred from the Bundesrat date); Bundesrat 15 May 2020; Ausfertigung 20 May 2020 (BGBl. I S. 1055)"
+        in_force: "late May 2020; Kurzarbeit top-ups until 31 Dec 2020 (later extended to end-2021)"
+        what: "For workers with at least 50 % lost pay, raised Kurzarbeitergeld from 60/67 % to 70/77 % from the 4th month and 80/87 % from the 7th month, and widened the extra-earnings allowance."
+        direction: buffer
+        target: core
+        source_text: "ab dem vierten Bezugsmonat auf 70 beziehungsweise 77 Prozent und ab dem siebten Bezugsmonat auf 80 beziehungsweise 87 Prozent."
+        source_url: "https://www.bundestag.de/resource/blob/694420/Kurzarbeit_Corona.pdf"
+        verified: true
+        note: "The BT date of 14 May is inferred from the Bundesrat vote on 15 May and was not confirmed from a primary source. The extension to end-2021 (Beschäftigungssicherungsgesetz, Dec 2020) is from my own knowledge and was not confirmed."
+
+  - episode: "2022-25"
+    summary: >-
+      No retrenchment of the core was enacted through 25 Nov 2026. The core gained: the 48 % pension floor was
+      extended to 2031 and Kurzarbeit stayed at 24 months. Retrenchment came at the margin with the Neue Grundsicherung
+      (passed March 2026, in force 1 July 2026). Your belief that no KSchG or ALG I duration/level change was passed in
+      2022-26 holds as of today. Two items are pending: the cabinet reportedly adopted on 18 Nov 2026 a labour-law bill
+      that would weaken KSchG protection for top earners (above 1.75 x the pension contribution ceiling, about 177,450
+      euros in 2026) and allow reason-free fixed-term contracts of up to 4 years. An SGB III modernisation bill
+      (BT-Drs. 21/7870) is also pending. Neither is law.
+    items:
+      - law: "Zwölftes Gesetz zur Änderung des Zweiten Buches Sozialgesetzbuch und anderer Gesetze – Einführung eines Bürgergeldes (Bürgergeld-Gesetz)"
+        date: "BT and Bundesrat 25 Nov 2022 (after the Vermittlungsausschuss); Ausfertigung 16 Dec 2022 (BGBl. I S. 2328, published 20 Dec 2022)"
+        in_force: "1 Jan 2023 (second stage 1 July 2023)"
+        what: "Replaced ALG II with Bürgergeld: raised the single-adult standard rate by 53 euros to 502 euros, introduced a 1-year grace period with 40,000 euros of protected assets (+15,000 per extra person) and actual housing costs accepted, and abolished the placement priority."
+        direction: expansion
+        target: margin
+        source_text: "socialnet: am 25.11.2022 von Bundestag und Bundesrat beschlossen ... BGBl. I S. 2328 vom 20.12.2022 ... Schonvermögen 40.000 Euro für die erste Person und 15.000 Euro für jede weitere Person im ersten Jahr."
+        source_url: "https://www.socialnet.de/lexikon/Buergergeld-Gesetz"
+        verified: true
+        note: "Your claim is confirmed. The official title ('Zwölftes Gesetz zur Änderung des SGB II ...') is from my own knowledge and was not confirmed; the short name Bürgergeld-Gesetz is confirmed."
+
+      - law: "Gesetz zur Weiterentwicklung der Fachkräfteeinwanderung (Fachkräfteeinwanderungsgesetz 2023)"
+        date: "BT 23 June 2023 (not confirmed); Bundesrat 7 July 2023; Ausfertigung 16 Aug 2023 (BGBl. 2023 I Nr. 217, published 18 Aug 2023)"
+        in_force: "staged: Nov 2023, March 2024, June 2024 (Chancenkarte, points-based job-search card)"
+        what: "Widened skilled-worker immigration with lower EU Blue Card salary thresholds, an experience-based route that does not require full recognition of the foreign qualification, and a points-based 'Chancenkarte' for job search."
+        direction: deregulation
+        target: margin
+        source_text: "BGBl. 2023 I Nr. 217, ausgegeben zu Bonn am 18. August 2023 ... vom 16. August 2023; Bundesrat 7. Juli 2023."
+        source_url: "https://www.anerkennung-in-deutschland.de/html/de/pro/aktuelles-neues-fachkraefteeinwanderungsgesetz.php"
+        verified: false
+        note: "The law's date, BGBl citation, Bundesrat date and staging are confirmed. The BT date (23 June 2023) and the exact Chancenkarte date (1 June 2024) were not confirmed, nor were the Blue Card details. The direction is my call: it opens market access rather than changing benefits."
+
+      - law: "Gesetz zur Stabilisierung des Rentenniveaus und zur vollständigen Gleichstellung der Kindererziehungszeiten (Rentenpaket 2025)"
+        date: "BT 5 Dec 2025 (roll-call: 318 yes, 225 no, 53 abstentions); Bundesrat 19 Dec 2025"
+        in_force: "1 Jan 2026 (Mütterrente III planned for 2027, paid retroactively if implementation is delayed)"
+        what: "Extends the 48 % pension-level floor (Haltelinie), via a protection clause in the adjustment formula, until 2031, keeps the sustainability factor suspended until then, and fully equalises child-rearing credits for children born before 1992 (Mütterrente III)."
+        direction: expansion
+        target: core
+        source_text: "Bundestag Textarchiv kw49/2025: 318 Ja, 225 Nein, 53 Enthaltungen ... Das Rentenniveau von 48 Prozent ... bis 2031. / Bundesregierung: zum 1. Januar 2026 in Kraft getreten; Bundesrat 19. Dezember 2025."
+        source_url: "https://www.bundestag.de/dokumente/textarchiv/2025/kw49-de-rentenpaket-1128720"
+        verified: true
+        note: "It passed. The BGBl citation was not found. Sources differ on the end point: 'bis 2031' (Bundestag, Bundesregierung) vs 'until mid-2032' (PwC). It is likely the adjustment of 1 July 2031, with effect into 2032, but that is not confirmed. A Zweites Betriebsrentenstärkungsgesetz passed the same day and is not coded here."
+
+      - law: "Verordnung über die Bezugsdauer für das Kurzarbeitergeld (ordinance under § 109 SGB III)"
+        date: "Cabinet 18 Dec 2024; renewed by cabinet 17 Dec 2025 for 2026"
+        in_force: "1 Jan 2025 - 31 Dec 2025; renewal 1 Jan 2026 - 31 Dec 2026"
+        what: "Raised the maximum Kurzarbeit period from the statutory 12 months to 24 months for claims arising in 2025, and again for 2026."
+        direction: buffer
+        target: core
+        source_text: "Bundesregierung: Maximale Bezugsdauer gilt weiter ... Verordnung ... am 17.12.2025 beschlossen ... gilt bis Ende 2026. Danach soll wieder die reguläre Bezugsdauer von maximal zwölf Monaten gelten."
+        source_url: "https://www.bundesregierung.de/breg-de/aktuelles/bezugsdauer-kurzarbeitergeld-2326616"
+        verified: false
+        note: "Your claim is confirmed (24 months for 2025). The ordinance was also renewed for 2026. Its exact official title and BGBl citation were not confirmed."
+
+      - law: "Gesetz zur Änderung des Grundgesetzes (Artikel 109, 115 und 143h)"
+        date: "BT 18 March 2025 (512 yes, 206 no; two-thirds needed 489); Bundesrat 21 March 2025; Ausfertigung 22 March 2025 (BGBl. 2025 I Nr. 94, published 24 March 2025)"
+        in_force: "March 2025"
+        what: "Exempted defence and related security spending (civil protection, intelligence services, IT security, aid to states attacked in breach of international law) above 1 % of GDP from the debt brake, allowed the Länder a combined 0.35 % of GDP structural deficit, and created a 500 bn euro infrastructure fund (100 bn to the Länder, 100 bn to the KTF climate and transformation fund) usable over 12 years for climate neutrality by 2045."
+        direction: expansion
+        target: macro
+        source_text: "Bundestag Textarchiv kw12/2025: 512 Ja, 206 Nein ... Verteidigungsausgaben oberhalb von 1 % des BIP ... strukturelle Kreditaufnahme von 0,35 % ... Sondervermögen 500 Mrd. € ... zwölf Jahre."
+        source_url: "https://www.bundestag.de/dokumente/textarchiv/2025/kw12-de-grundgesetz-1056916"
+        verified: true
+        note: "Your claim is confirmed. It was passed by the outgoing 20th Bundestag."
+
+      - law: "Gesetz zur steuerlichen Förderung von Arbeitnehmerinnen und Arbeitnehmern im Rentenalter (Aktivrentengesetz)"
+        date: "BT 5 Dec 2025; Bundesrat 19 Dec 2025; Ausfertigung 22 Dec 2025 (BGBl. 2025 I Nr. 361, published 23 Dec 2025)"
+        in_force: "1 Jan 2026"
+        what: "Exempts up to 2,000 euros a month of employment income from income tax for employees who keep working past the statutory retirement age."
+        direction: expansion
+        target: margin
+        source_text: "Bundesrat 1060. Sitzung 19.12.2025 ... BGBl. I Nr. 361 ... vom 22. Dezember 2025 ... tritt am 1. Januar 2026 in Kraft ... Steuerfreibetrag ... 2.000 € monatlich."
+        source_url: "https://dserver.bundestag.de/brd/2025/0726-25B.pdf"
+        verified: true
+        note: "Your claim is confirmed (passed Dec 2025). The target is a judgment call: it is a tax incentive for people past the standard retirement age, not a right of incumbent contributors, hence margin. The source_url is the Bundesrat decision returned by the search, which I did not open."
+
+      - law: "Dreizehntes Gesetz zur Änderung des Zweiten Buches Sozialgesetzbuch und anderer Gesetze (Umgestaltung der Grundsicherung für Arbeitsuchende; 'Neue Grundsicherung')"
+        date: "BT 5 March 2026 (roll-call: 320 yes, 268 no, 2 abstentions; Drs. 21/3541, 21/4087, 21/4522); Bundesrat 27 March 2026; Ausfertigung 16 April 2026 (not confirmed from a primary source)"
+        in_force: "1 July 2026 (phased)"
+        what: "Renames Bürgergeld 'Grundsicherungsgeld' and restores the placement priority. It cuts the standard rate by 30 % for 3 months for breaches of duties and by 30 % for one month from the 2nd missed appointment; it allows full withdrawal, including housing costs, after three consecutive missed appointments and withdrawal of the standard rate for refusing work. It abolishes the 1-year asset grace period and links protected assets to age, caps housing costs at 1.5 x the local limit, and lets parents be activated once the child is 14 months old."
+        direction: retrenchment
+        target: margin
+        source_text: "Bundestag Abstimmung id=995: Entwurf eines Dreizehnten Gesetzes zur Änderung des Zweiten Buches Sozialgesetzbuch und anderer Gesetze ... Ja 320, Nein 268, Enthaltungen 2. / Bundesregierung: Bundesrat 27. März 2026 ... tritt zum 1. Juli 2026 schrittweise in Kraft."
+        source_url: "https://www.bundestag.de/parlament/plenum/abstimmung/abstimmung?id=995"
+        verified: true
+        note: "Your claim is confirmed (Bundestag March 2026), with one correction: the official result is 320 yes, while some media reported 321. The standard rates were left unchanged. The Ausfertigung date (16 April 2026) comes from a secondary source. A side effect: subsidised employment under § 16e SGB II now builds up ALG I insurance periods."
+
+      - law: "CHECK: changes to Kündigungsschutz or ALG I duration/level, 2022 to 25 Nov 2026"
+        date: "n/a"
+        in_force: "n/a"
+        what: "No law changing the KSchG or ALG I duration or replacement rate was passed. Pending: (a) a bill amending labour-law rules, which the cabinet reportedly adopted on 18 Nov 2026 after a coalition decision of 2 July 2026; it would let employers end KSchG protection by severance for employees earning above 1.75 x the contribution ceiling (about 177,450 euros in 2026, about 185,850 in 2027), for dismissals from 15 months after entry into force, and allow reason-free fixed-term contracts of up to 4 years with up to 6 extensions for hires until end-2030; (b) an SGB III modernisation and digitalisation bill (BT-Drs. 21/7870), with a § 150 benefit-assessment change planned for 1 Jan 2027."
+        direction: deregulation
+        target: core
+        source_text: "vbw: Bundeskabinett ... am 18. November 2026 ... Gesetz zur Änderung bestimmter arbeitsrechtlicher Vorschriften; Koalitionsausschuss 2. Juli 2026; Schwelle 1,75-fache BBG ... EUR 177.450 (via search)."
+        source_url: "https://www.vbw-bayern.de/vbw/Themen-und-Services/Recht/Individualarbeitsrecht/Gesetz-zur-Aenderung-bestimmter-arbeitsrechtlicher-Vorschriften-November-2026.jsp"
+        verified: false
+        note: "Your belief ('none passed') is correct as of 25 Nov 2026. The cabinet adoption on 18 Nov 2026 rests on secondary sources; some articles still call it a Referentenentwurf. Recheck before use. If enacted, it would be core deregulation (top earners) plus margin deregulation (fixed-term contracts). The SGB III bill's cabinet date is disputed (15 July vs 7 Sept 2026)."
