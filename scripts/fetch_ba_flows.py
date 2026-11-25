@@ -15,6 +15,8 @@ for y in range(2017, 2026):
         f"{B}/{y}12/anba/anba-arbeitsmarkt/anba-arbeitsmarkt-d-0-{y}12-xlsx.xlsx?__blob=publicationFile&v=1")
 FILES["analyse-arbeitsmarkt-zeitreihen-d-0-202512.pdf"] = (
     f"{B}/202512/analyse/analyse-arbeitsmarkt-zeitreihen/analyse-arbeitsmarkt-zeitreihen-d-0-202512-pdf.pdf?__blob=publicationFile&v=1")
+FILES["analyse-d-chancen-risiken-personen-d-0-202512.xlsx"] = (
+    f"{B}/202512/analyse/analyse-d-chancen-risiken-personen/analyse-d-chancen-risiken-personen-d-0-202512-xlsx.xlsx?__blob=publicationFile&v=1")
 EXTRA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "ba_flows_extra_urls.txt")
 if os.path.exists(EXTRA):  # optional lines: "<filename> <url>"
     for line in open(EXTRA):
