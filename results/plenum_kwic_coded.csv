@@ -1,0 +1,451 @@
+id,field,period,relevant,reason
+U-1980-01,U,1980-1983,1,unemployed as group
+U-1980-02,U,1980-1983,1,high unemployment
+U-1980-03,U,1980-1983,1,mass unemployment central problem
+U-1980-04,U,1980-1983,1,reducing unemployment
+U-1980-05,U,1980-1983,1,unemployment as problem
+U-1980-06,U,1980-1983,1,unemployment top domestic problem
+U-1980-07,U,1980-1983,1,youth unemployment
+U-1980-08,U,1980-1983,1,unemployed as group
+U-1980-09,U,1980-1983,1,number of unemployed
+U-1980-10,U,1980-1983,1,fight against unemployment
+U-1980-11,U,1980-1983,1,structure of the unemployed
+U-1980-12,U,1980-1983,1,fight against unemployment
+U-1980-13,U,1980-1983,1,burden on the unemployed
+U-1980-14,U,1980-1983,0,health insurance financing technicality
+U-1980-15,U,1980-1983,1,talks with unemployed
+U-1980-16,U,1980-1983,1,unemployment forecast
+U-1980-17,U,1980-1983,1,unemployment risk for pensions
+U-1980-18,U,1980-1983,1,overcoming unemployment
+U-1980-19,U,1980-1983,0,benefit entitlement technicality
+U-1980-20,U,1980-1983,1,inflation raises unemployment
+U-1980-21,U,1980-1983,1,fight mass unemployment
+U-1980-22,U,1980-1983,1,unemployment falling
+U-1980-23,U,1980-1983,1,unemployed and welfare
+U-1980-24,U,1980-1983,1,unemployment debate
+U-1980-25,U,1980-1983,1,unemployment level
+U-1980-26,U,1980-1983,1,number of unemployed
+U-1980-27,U,1980-1983,1,unemployment as youth concern
+U-1980-28,U,1980-1983,1,overcoming unemployment
+U-1980-29,U,1980-1983,1,3 million unemployed
+U-1980-30,U,1980-1983,0,pension law technicality
+U-1980-31,U,1980-1983,0,pension law technicality
+U-1980-32,U,1980-1983,1,rising unemployment
+U-1980-33,U,1980-1983,1,fight against unemployment
+U-1980-34,U,1980-1983,1,shipyard job losses
+U-1980-35,U,1980-1983,0,unemployment abroad
+U-1980-36,U,1980-1983,1,mass unemployment
+U-1980-37,U,1980-1983,1,unemployment hits families
+U-1980-38,U,1980-1983,1,causes of unemployment
+U-1980-39,U,1980-1983,1,millions unemployed
+U-1980-40,U,1980-1983,1,youth unemployment
+U-1980-41,U,1980-1983,1,number of unemployed
+U-1980-42,U,1980-1983,1,reintegrating unemployed
+U-1980-43,U,1980-1983,1,financing fight vs unemployment
+U-1980-44,U,1980-1983,1,mass unemployment
+U-1980-45,U,1980-1983,1,mass unemployment
+U-1980-46,U,1980-1983,1,regional unemployment
+U-1980-47,U,1980-1983,0,treaty title Finland
+U-1980-48,U,1980-1983,1,high unemployment
+U-1980-49,U,1980-1983,1,unemployment level
+U-1980-50,U,1980-1983,1,rising unemployment
+U-2003-01,U,2003-2005,1,reducing unemployment
+U-2003-02,U,2003-2005,0,technical funding formula
+U-2003-03,U,2003-2005,1,youth unemployment
+U-2003-04,U,2003-2005,1,5 million unemployed
+U-2003-05,U,2003-2005,1,helping unemployed into work
+U-2003-06,U,2003-2005,1,mass unemployment and poverty
+U-2003-07,U,2003-2005,1,5 million unemployed
+U-2003-08,U,2003-2005,1,female long-term unemployment
+U-2003-09,U,2003-2005,1,regional unemployment
+U-2003-10,U,2003-2005,1,hidden unemployment today
+U-2003-11,U,2003-2005,1,unemployment statistics
+U-2003-12,U,2003-2005,1,youth unemployment
+U-2003-13,U,2003-2005,1,ALG II job acceptance
+U-2003-14,U,2003-2005,1,record unemployment
+U-2003-15,U,2003-2005,1,unemployment level
+U-2003-16,U,2003-2005,1,placement of unemployed
+U-2003-17,U,2003-2005,1,long-term unemployment programme
+U-2003-18,U,2003-2005,1,youth unemployment
+U-2003-19,U,2003-2005,1,rising number unemployed
+U-2003-20,U,2003-2005,0,technical funding formula
+U-2003-21,U,2003-2005,1,record unemployment
+U-2003-22,U,2003-2005,1,youth unemployment
+U-2003-23,U,2003-2005,1,older unemployed policy
+U-2003-24,U,2003-2005,1,unemployment fell
+U-2003-25,U,2003-2005,1,unemployment core problem
+U-2003-26,U,2003-2005,1,long-term unemployed integration
+U-2003-27,U,2003-2005,1,East German unemployment
+U-2003-28,U,2003-2005,1,long-term unemployed
+U-2003-29,U,2003-2005,1,unemployed as group
+U-2003-30,U,2003-2005,1,older unemployed
+U-2003-31,U,2003-2005,1,mass unemployment
+U-2003-32,U,2003-2005,1,helping unemployed
+U-2003-33,U,2003-2005,1,unemployment statistics
+U-2003-34,U,2003-2005,1,threatened job losses
+U-2003-35,U,2003-2005,1,hidden unemployment
+U-2003-36,U,2003-2005,1,policy causes unemployment
+U-2003-37,U,2003-2005,1,unemployment rate
+U-2003-38,U,2003-2005,1,youth unemployment
+U-2003-39,U,2003-2005,1,long-term unemployed
+U-2003-40,U,2003-2005,0,part of law title
+U-2003-41,U,2003-2005,1,employing unemployed
+U-2003-42,U,2003-2005,1,disabled unemployment
+U-2003-43,U,2003-2005,1,rising unemployment
+U-2003-44,U,2003-2005,1,start-ups by unemployed
+U-2003-45,U,2003-2005,1,5 million unemployed
+U-2003-46,U,2003-2005,1,regional unemployment
+U-2003-47,U,2003-2005,1,fight against unemployment
+U-2003-48,U,2003-2005,1,mass unemployment
+U-2003-49,U,2003-2005,1,halving unemployment
+U-2003-50,U,2003-2005,1,long-term unemployed
+U-2023-01,U,2023-2025,0,generic life risk in list
+U-2023-02,U,2023-2025,1,past level linked to present
+U-2023-03,U,2023-2025,0,polemic about politicians
+U-2023-04,U,2023-2025,1,3 million unemployed
+U-2023-05,U,2023-2025,1,3 million unemployed
+U-2023-06,U,2023-2025,1,regional unemployment rise
+U-2023-07,U,2023-2025,1,long-term unemployed into work
+U-2023-08,U,2023-2025,1,stigma of long-term unemployed
+U-2023-09,U,2023-2025,0,maintenance law list
+U-2023-10,U,2023-2025,1,unemployment ten-year high
+U-2023-11,U,2023-2025,0,definition of recession
+U-2023-12,U,2023-2025,0,unemployment abroad
+U-2023-13,U,2023-2025,1,long-term unemployed into work
+U-2023-14,U,2023-2025,0,unemployment abroad
+U-2023-15,U,2023-2025,1,rising unemployment
+U-2023-16,U,2023-2025,1,unemployment in crisis
+U-2023-17,U,2023-2025,1,unemployment as social ill
+U-2023-18,U,2023-2025,1,foreign unemployed in Germany
+U-2023-19,U,2023-2025,1,3 million unemployed forecast
+U-2023-20,U,2023-2025,1,motion on rising unemployment
+U-2023-21,U,2023-2025,0,historical enlargement fear
+U-2023-22,U,2023-2025,1,unemployed as group
+U-2023-23,U,2023-2025,1,training for unemployed
+U-2023-24,U,2023-2025,1,placing unemployed in jobs
+U-2023-25,U,2023-2025,1,long-term unemployed support
+U-2023-26,U,2023-2025,1,unemployed into work
+U-2023-27,U,2023-2025,1,policy causes job losses
+U-2023-28,U,2023-2025,1,unemployed and jobcentres
+U-2023-29,U,2023-2025,1,Buergergeld causes unemployment
+U-2023-30,U,2023-2025,1,long-term unemployment halved
+U-2023-31,U,2023-2025,0,unemployment abroad
+U-2023-32,U,2023-2025,1,disabled unemployed
+U-2023-33,U,2023-2025,0,rhetorical generic
+U-2023-34,U,2023-2025,1,rising unemployment
+U-2023-35,U,2023-2025,1,disabled unemployed
+U-2023-36,U,2023-2025,1,long-term unemployed as group
+U-2023-37,U,2023-2025,0,historical 1990s East
+U-2023-38,U,2023-2025,1,3 million unemployed
+U-2023-39,U,2023-2025,1,unemployment risk unqualified
+U-2023-40,U,2023-2025,1,exits from unemployment
+U-2023-41,U,2023-2025,0,unemployment abroad
+U-2023-42,U,2023-2025,0,party polemic
+U-2023-43,U,2023-2025,1,2.5 million unemployed
+U-2023-44,U,2023-2025,1,training policy
+U-2023-45,U,2023-2025,1,unemployed as group
+U-2023-46,U,2023-2025,1,mass unemployment over
+U-2023-47,U,2023-2025,1,unemployment by education
+U-2023-48,U,2023-2025,1,East German unemployment low
+U-2023-49,U,2023-2025,1,long-term unemployed into work
+U-2023-50,U,2023-2025,1,rising unemployment rate
+R-1980-01,R,1980-1983,1,dismissal protection reform
+R-1980-02,R,1980-1983,1,restraint non-wage labour costs
+R-1980-03,R,1980-1983,1,non-wage labour costs rise
+R-1980-04,R,1980-1983,1,non-wage labour cost pressure
+R-1980-05,R,1980-1983,0,foreign social reforms
+R-1980-06,R,1980-1983,1,dismissal protection review
+R-1980-07,R,1980-1983,1,non-wage labour costs debate
+R-1980-08,R,1980-1983,1,non-wage labour cost pressure
+R-1980-09,R,1980-1983,0,family policy context
+R-1980-10,R,1980-1983,1,non-wage labour costs burden
+R-1980-11,R,1980-1983,1,non-wage labour costs debate
+R-1980-12,R,1980-1983,1,non-wage labour costs debate
+R-1980-13,R,1980-1983,1,non-wage costs and social policy
+R-1980-14,R,1980-1983,1,transfers drive non-wage costs
+R-1980-15,R,1980-1983,0,list item executives' wishes
+R-1980-16,R,1980-1983,1,comprehensive social reform
+R-1980-17,R,1980-1983,0,data protection officer
+R-1980-18,R,1980-1983,0,rhetorical social reformers
+R-1980-19,R,1980-1983,1,non-wage labour costs comparison
+R-1980-20,R,1980-1983,0,family policy interjection
+R-1980-21,R,1980-1983,1,seafarers dismissal protection
+R-1980-22,R,1980-1983,0,family policy interjection
+R-1980-23,R,1980-1983,0,MPs' status
+R-1980-24,R,1980-1983,1,erosion of dismissal protection
+R-1980-25,R,1980-1983,0,metaphor
+R-1980-26,R,1980-1983,1,removing dismissal protection
+R-1980-27,R,1980-1983,1,non-wage labour costs
+R-1980-28,R,1980-1983,1,non-wage labour costs
+R-1980-29,R,1980-1983,1,dismissal protection improvement
+R-1980-30,R,1980-1983,1,dismissal protection improvement
+R-1980-31,R,1980-1983,1,historical social reforms claim
+R-1980-32,R,1980-1983,1,non-wage labour costs
+R-1980-33,R,1980-1983,1,dismissal protection practicability
+R-1980-34,R,1980-1983,1,non-wage labour costs debate
+R-1980-35,R,1980-1983,1,non-wage labour costs burden
+R-1980-36,R,1980-1983,1,non-wage labour costs debate
+R-1980-37,R,1980-1983,1,dismissal protection amendment
+R-1980-38,R,1980-1983,0,person's title
+R-1980-39,R,1980-1983,1,non-wage labour costs debate
+R-1980-40,R,1980-1983,1,non-wage labour costs
+R-1980-41,R,1980-1983,0,foreign social reform
+R-1980-42,R,1980-1983,1,non-wage labour costs
+R-1980-43,R,1980-1983,1,defending dismissal protection
+R-1980-44,R,1980-1983,1,non-wage labour costs
+R-1980-45,R,1980-1983,1,dismissal protection law change
+R-1980-46,R,1980-1983,1,fixed-term vs dismissal protection
+R-1980-47,R,1980-1983,1,non-wage labour costs
+R-1980-48,R,1980-1983,1,disabled dismissal protection
+R-1980-49,R,1980-1983,0,family policy context
+R-1980-50,R,1980-1983,1,non-wage labour costs
+R-2003-01,R,2003-2005,1,cut non-wage costs via health
+R-2003-02,R,2003-2005,1,dismissal protection debate
+R-2003-03,R,2003-2005,1,Agenda 2010 claims
+R-2003-04,R,2003-2005,1,cut non-wage labour costs
+R-2003-05,R,2003-2005,1,Agenda 2010 support
+R-2003-06,R,2003-2005,1,labour market reform results
+R-2003-07,R,2003-2005,1,labour market reforms
+R-2003-08,R,2003-2005,1,dismissal protection small firms
+R-2003-09,R,2003-2005,1,dismissal protection deregulation
+R-2003-10,R,2003-2005,1,Agenda 2010 critique
+R-2003-11,R,2003-2005,1,non-wage labour costs benchmark
+R-2003-12,R,2003-2005,1,ALG I duration Agenda 2010
+R-2003-13,R,2003-2005,1,dismissal protection reform
+R-2003-14,R,2003-2005,1,non-wage labour costs cut
+R-2003-15,R,2003-2005,1,labour market reforms
+R-2003-16,R,2003-2005,1,Hartz IV reform
+R-2003-17,R,2003-2005,1,dismissal protection cuts
+R-2003-18,R,2003-2005,1,non-wage labour costs cut
+R-2003-19,R,2003-2005,1,abolishing dismissal protection
+R-2003-20,R,2003-2005,1,Agenda 2010
+R-2003-21,R,2003-2005,1,non-wage labour costs cut
+R-2003-22,R,2003-2005,1,labour market reform law
+R-2003-23,R,2003-2005,1,"non-wage costs, Agenda 2010"
+R-2003-24,R,2003-2005,1,non-wage labour costs
+R-2003-25,R,2003-2005,1,non-wage labour costs cut
+R-2003-26,R,2003-2005,1,labour market reform
+R-2003-27,R,2003-2005,1,"non-wage costs, unemployment insurance"
+R-2003-28,R,2003-2005,1,labour market reforms
+R-2003-29,R,2003-2005,1,labour market reforms
+R-2003-30,R,2003-2005,1,non-wage labour costs cut
+R-2003-31,R,2003-2005,1,Agenda 2010 insufficient
+R-2003-32,R,2003-2005,1,social insurance reform
+R-2003-33,R,2003-2005,1,dismissal protection in reform law
+R-2003-34,R,2003-2005,1,rolled-back social reforms
+R-2003-35,R,2003-2005,1,Agenda 2010 component
+R-2003-36,R,2003-2005,1,Agenda 2010 outcomes
+R-2003-37,R,2003-2005,1,non-wage labour costs
+R-2003-38,R,2003-2005,1,dismissal protection new hires
+R-2003-39,R,2003-2005,1,health reform non-wage costs
+R-2003-40,R,2003-2005,1,labour market reforms effect
+R-2003-41,R,2003-2005,1,dismissal protection reform
+R-2003-42,R,2003-2005,1,non-wage labour costs cut
+R-2003-43,R,2003-2005,1,Agenda 2010 reforms
+R-2003-44,R,2003-2005,1,Agenda 2010 union debate
+R-2003-45,R,2003-2005,1,loosening dismissal protection
+R-2003-46,R,2003-2005,1,labour market reform law
+R-2003-47,R,2003-2005,1,non-wage labour costs
+R-2003-48,R,2003-2005,1,dismissal protection small firms
+R-2003-49,R,2003-2005,1,Agenda 2010 reform concept
+R-2003-50,R,2003-2005,1,waiving dismissal protection
+R-2023-01,R,2023-2025,1,Agenda 2010 reference
+R-2023-02,R,2023-2025,0,family policy context
+R-2023-03,R,2023-2025,1,rising non-wage labour costs
+R-2023-04,R,2023-2025,1,welfare state reform
+R-2023-05,R,2023-2025,1,welfare state reform
+R-2023-06,R,2023-2025,1,non-wage labour costs
+R-2023-07,R,2023-2025,1,evading dismissal protection
+R-2023-08,R,2023-2025,0,family benefit reform
+R-2023-09,R,2023-2025,1,welfare state reform commission
+R-2023-10,R,2023-2025,1,cut non-wage labour costs
+R-2023-11,R,2023-2025,1,non-wage labour costs
+R-2023-12,R,2023-2025,1,welfare state reform commission
+R-2023-13,R,2023-2025,1,Buergergeld reform
+R-2023-14,R,2023-2025,1,health costs non-wage
+R-2023-15,R,2023-2025,1,non-wage labour costs
+R-2023-16,R,2023-2025,1,welfare state reform
+R-2023-17,R,2023-2025,1,record non-wage labour costs
+R-2023-18,R,2023-2025,1,Agenda 2010 worked
+R-2023-19,R,2023-2025,1,care insurance non-wage costs
+R-2023-20,R,2023-2025,1,non-wage labour costs
+R-2023-21,R,2023-2025,1,non-wage labour costs
+R-2023-22,R,2023-2025,0,family benefit reform
+R-2023-23,R,2023-2025,1,stabilise non-wage costs
+R-2023-24,R,2023-2025,1,Agenda 2010 as model
+R-2023-25,R,2023-2025,1,non-wage labour costs
+R-2023-26,R,2023-2025,1,Hartz IV reform
+R-2023-27,R,2023-2025,1,social contributions rise
+R-2023-28,R,2023-2025,1,Agenda 2010 reference
+R-2023-29,R,2023-2025,0,court caseload
+R-2023-30,R,2023-2025,1,Buergergeld reform
+R-2023-31,R,2023-2025,1,non-wage cost relief
+R-2023-32,R,2023-2025,1,non-wage labour costs
+R-2023-33,R,2023-2025,1,welfare state reform
+R-2023-34,R,2023-2025,1,stable non-wage costs
+R-2023-35,R,2023-2025,1,welfare state reform commission
+R-2023-36,R,2023-2025,1,Agenda 2010
+R-2023-37,R,2023-2025,1,non-wage labour costs
+R-2023-38,R,2023-2025,1,welfare state reform commission
+R-2023-39,R,2023-2025,1,rising non-wage costs
+R-2023-40,R,2023-2025,1,Agenda 2010 / 2030
+R-2023-41,R,2023-2025,1,non-wage labour costs
+R-2023-42,R,2023-2025,1,non-wage labour costs
+R-2023-43,R,2023-2025,1,non-wage labour costs
+R-2023-44,R,2023-2025,1,Agenda 2010 as model
+R-2023-45,R,2023-2025,1,Agenda 2010 reference
+R-2023-46,R,2023-2025,1,welfare state reform commission
+R-2023-47,R,2023-2025,1,non-wage cost cap
+R-2023-48,R,2023-2025,1,farm non-wage labour costs
+R-2023-49,R,2023-2025,1,Agenda 2010 reforms
+R-2023-50,R,2023-2025,1,Agenda 2010 analysis
+S-1980-01,S,1980-1983,1,firm competitiveness
+S-1980-02,S,1980-1983,1,export competitiveness DM
+S-1980-03,S,1980-1983,1,German producers vs imports
+S-1980-04,S,1980-1983,1,economic competitiveness tech
+S-1980-05,S,1980-1983,1,competitiveness tax law
+S-1980-06,S,1980-1983,1,German economy competitiveness
+S-1980-07,S,1980-1983,1,firm competitiveness
+S-1980-08,S,1980-1983,1,strengthen competitiveness
+S-1980-09,S,1980-1983,1,industry competitiveness
+S-1980-10,S,1980-1983,1,German industry abroad
+S-1980-11,S,1980-1983,1,international competitiveness
+S-1980-12,S,1980-1983,1,strengthen our competitiveness
+S-1980-13,S,1980-1983,1,SME competitiveness
+S-1980-14,S,1980-1983,1,international competitiveness
+S-1980-15,S,1980-1983,1,products on world market
+S-1980-16,S,1980-1983,1,German economy competitiveness
+S-1980-17,S,1980-1983,1,German economy competitive
+S-1980-18,S,1980-1983,1,securing competitiveness
+S-1980-19,S,1980-1983,1,international competitiveness research
+S-1980-20,S,1980-1983,1,social costs and competitiveness
+S-1980-21,S,1980-1983,1,German economy competitiveness
+S-1980-22,S,1980-1983,1,international competitiveness
+S-1980-23,S,1980-1983,1,exporters' competitiveness
+S-1980-24,S,1980-1983,0,EU only
+S-1980-25,S,1980-1983,1,investment for competitiveness
+S-1980-26,S,1980-1983,1,lost competitiveness debate
+S-1980-27,S,1980-1983,1,German merchant fleet
+S-1980-28,S,1980-1983,1,competitiveness concern
+S-1980-29,S,1980-1983,1,international competitiveness
+S-1980-30,S,1980-1983,1,reduced competitiveness
+S-1980-31,S,1980-1983,1,productivity and competitiveness
+S-1980-32,S,1980-1983,0,foreign competitiveness
+S-1980-33,S,1980-1983,1,space industry competitiveness
+S-1980-34,S,1980-1983,1,business location Germany
+S-1980-35,S,1980-1983,1,energy prices competitiveness
+S-1980-36,S,1980-1983,1,working time and competitiveness
+S-1980-37,S,1980-1983,1,cost relief competitiveness
+S-1980-38,S,1980-1983,1,German steel industry
+S-1980-39,S,1980-1983,1,economy competitiveness
+S-1980-40,S,1980-1983,1,German economy competitiveness
+S-1980-41,S,1980-1983,1,price competitiveness
+S-1980-42,S,1980-1983,1,Federal Republic competitiveness
+S-1980-43,S,1980-1983,0,technology vs fossil fuels
+S-1980-44,S,1980-1983,1,long-term competitiveness
+S-1980-45,S,1980-1983,1,labour costs competitiveness
+S-1980-46,S,1980-1983,1,competitiveness goal
+S-1980-47,S,1980-1983,1,German firms competitiveness
+S-1980-48,S,1980-1983,0,EU only
+S-1980-49,S,1980-1983,1,economy competitiveness
+S-1980-50,S,1980-1983,1,long-term competitiveness
+S-2003-01,S,2003-2005,1,bureaucracy reduction
+S-2003-02,S,2003-2005,1,farm bureaucracy reduction
+S-2003-03,S,2003-2005,1,business location Germany
+S-2003-04,S,2003-2005,1,competitiveness jobs Germany
+S-2003-05,S,2003-2005,1,strong business location
+S-2003-06,S,2003-2005,1,business location Germany
+S-2003-07,S,2003-2005,1,German agriculture competitiveness
+S-2003-08,S,2003-2005,1,bureaucracy reduction crafts
+S-2003-09,S,2003-2005,0,renewables technology cost
+S-2003-10,S,2003-2005,1,bureaucracy reduction competitiveness
+S-2003-11,S,2003-2005,1,bureaucracy reduction law
+S-2003-12,S,2003-2005,1,bureaucracy reduction initiative
+S-2003-13,S,2003-2005,0,research system
+S-2003-14,S,2003-2005,1,German shipyards
+S-2003-15,S,2003-2005,1,bureaucracy reduction masterplan
+S-2003-16,S,2003-2005,1,path to competitiveness
+S-2003-17,S,2003-2005,1,bureaucracy reduction e-gov
+S-2003-18,S,2003-2005,1,energy for competitiveness
+S-2003-19,S,2003-2005,1,bureaucracy reduction
+S-2003-20,S,2003-2005,1,our firms' competitiveness
+S-2003-21,S,2003-2005,0,employment agency admin
+S-2003-22,S,2003-2005,1,SME competitiveness
+S-2003-23,S,2003-2005,1,business location East
+S-2003-24,S,2003-2005,1,bureaucracy reduction
+S-2003-25,S,2003-2005,0,EU only
+S-2003-26,S,2003-2005,1,German construction competitiveness
+S-2003-27,S,2003-2005,1,bureaucracy reduction critique
+S-2003-28,S,2003-2005,1,energy-intensive firms
+S-2003-29,S,2003-2005,1,bureaucracy reduction law
+S-2003-30,S,2003-2005,1,bureaucracy reduction law
+S-2003-31,S,2003-2005,1,bureaucracy reduction proposals
+S-2003-32,S,2003-2005,1,bureaucracy reduction labour law
+S-2003-33,S,2003-2005,1,business location Germany
+S-2003-34,S,2003-2005,1,business location damage
+S-2003-35,S,2003-2005,1,international competitiveness
+S-2003-36,S,2003-2005,1,business location Germany
+S-2003-37,S,2003-2005,1,bureaucracy reduction initiative
+S-2003-38,S,2003-2005,1,competitiveness as goal
+S-2003-39,S,2003-2005,1,bureaucracy reduction firms
+S-2003-40,S,2003-2005,1,bureaucracy reduction
+S-2003-41,S,2003-2005,1,firms' international competitiveness
+S-2003-42,S,2003-2005,1,business location Germany
+S-2003-43,S,2003-2005,1,German financial market
+S-2003-44,S,2003-2005,1,German inland shipping
+S-2003-45,S,2003-2005,1,German price competitiveness
+S-2003-46,S,2003-2005,1,East German deindustrialisation
+S-2003-47,S,2003-2005,0,EU only
+S-2003-48,S,2003-2005,1,bureaucracy reduction planning
+S-2003-49,S,2003-2005,1,bureaucracy reduction
+S-2003-50,S,2003-2005,1,deindustrialisation Germany
+S-2023-01,S,2023-2025,1,bureaucracy reduction
+S-2023-02,S,2023-2025,1,business location Germany
+S-2023-03,S,2023-2025,1,business location debate title
+S-2023-04,S,2023-2025,1,farm bureaucracy reduction
+S-2023-05,S,2023-2025,0,public administration cuts
+S-2023-06,S,2023-2025,1,raise competitiveness
+S-2023-07,S,2023-2025,1,farm bureaucracy relief
+S-2023-08,S,2023-2025,1,faster permits
+S-2023-09,S,2023-2025,1,business location risks
+S-2023-10,S,2023-2025,1,business location vs dumping
+S-2023-11,S,2023-2025,1,our firms' competitiveness
+S-2023-12,S,2023-2025,1,bureaucracy reduction terms
+S-2023-13,S,2023-2025,0,administration for citizens
+S-2023-14,S,2023-2025,1,SME bureaucracy reduction
+S-2023-15,S,2023-2025,0,research location
+S-2023-16,S,2023-2025,0,sport
+S-2023-17,S,2023-2025,1,education and competitiveness
+S-2023-18,S,2023-2025,1,economic competitiveness
+S-2023-19,S,2023-2025,1,business location Germany
+S-2023-20,S,2023-2025,1,deindustrialisation
+S-2023-21,S,2023-2025,1,bureaucracy reduction law
+S-2023-22,S,2023-2025,1,business location industry exit
+S-2023-23,S,2023-2025,1,confidence in location
+S-2023-24,S,2023-2025,1,business location Germany
+S-2023-25,S,2023-2025,1,East German location
+S-2023-26,S,2023-2025,1,auto industry competitiveness
+S-2023-27,S,2023-2025,0,transport mode
+S-2023-28,S,2023-2025,1,tourism competitiveness
+S-2023-29,S,2023-2025,1,B2B law competitiveness
+S-2023-30,S,2023-2025,1,deindustrialisation
+S-2023-31,S,2023-2025,1,strengthen competitiveness
+S-2023-32,S,2023-2025,1,bureaucracy reduction
+S-2023-33,S,2023-2025,0,party politics
+S-2023-34,S,2023-2025,1,permit acceleration
+S-2023-35,S,2023-2025,1,relief for firms
+S-2023-36,S,2023-2025,1,EU linked to German economy
+S-2023-37,S,2023-2025,1,country competitiveness
+S-2023-38,S,2023-2025,1,business location immigration
+S-2023-39,S,2023-2025,1,economic turnaround Germany
+S-2023-40,S,2023-2025,1,taxes harm location
+S-2023-41,S,2023-2025,1,bureaucracy reduction law
+S-2023-42,S,2023-2025,1,bureaucracy reduction
+S-2023-43,S,2023-2025,1,deindustrialisation
+S-2023-44,S,2023-2025,1,business location Germany
+S-2023-45,S,2023-2025,1,bureaucracy reduction SMEs
+S-2023-46,S,2023-2025,1,German digital firms
+S-2023-47,S,2023-2025,1,German economy sentiment
+S-2023-48,S,2023-2025,1,farm bureaucracy reduction
+S-2023-49,S,2023-2025,1,business location Germany
+S-2023-50,S,2023-2025,1,deindustrialisation
