@@ -1,11 +1,12 @@
 # German employment: supply, demand and sectors
 
-## A. Employment 2025 against its 2014-19 trend (log points)
+## A. Employment 2025 against a counterfactual (log points)
 
-- Employment: -5.4
-- of which labour force against its trend: -2.2
-- of which employment rate of the labour force (1 - unemployment rate) against trend: -3.2
-- residual (concept differences): -0.0
+Counterfactual: labour force on its pre-2019 trend, unemployment rate at its 2019 level.
+
+- Actual change in employment 2019-25 (domestic concept): +1.5; labour force +2.4; ILO unemployment rate 2.9 % in 2019, 3.8 % in 2025.
+- Labour-force trend 2014-19 (0.77 % a year): labour force against trend -2.2, higher unemployment -0.9; total -3.1; supply share 70%.
+- Labour-force trend 2010-14 (0.53 % a year): labour force against trend -0.8, higher unemployment -0.9; total -1.7; supply share 46%.
 
 ## B. Employment by sector, thousand persons (Eurostat nama_10_a10_e)
 

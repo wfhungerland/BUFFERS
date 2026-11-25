@@ -101,9 +101,29 @@ def main():
     t = germany()
     L = ["# Inflow risk and exit chance by group (BA, Chancen und Risiken, December 2025)", "",
          "s = monthly risk of becoming unemployed from a job (%), f = monthly chance of leaving unemployment for a job (%),",
-         "u* = s/(s+f) (steady-state index). s is the January-November mean in every year (December 2025 not yet published); f the annual mean. 'only s' / 'only f': change in u* if only that rate had moved. 'share of f' = only f / (only s + only f).", ""]
-    for a, b in ((2019, 2025), (2022, 2025), (2008, 2009)):
+         "u* = s/(s+f) (two-state steady-state index; flows from and to non-participation are shown separately below). s is the January-November mean in every year (December 2025 not yet published); f the annual mean. 'only s' / 'only f': change in u* if only that rate had moved. 'share of f' = only f / (only s + only f).", ""]
+    for g in list(t):  # base: mean of 2015-18, to avoid starting from the 2019 peak of f
+        s_, f_ = t[g]
+        s_["2015-18"] = sum(s_[y] for y in range(2015, 2019)) / 4
+        f_["2015-18"] = sum(f_[y] for y in range(2015, 2019)) / 4
+    for a, b in ((2019, 2025), ("2015-18", 2025), (2022, 2025), (2008, 2009)):
         L += [f"## {a} to {b}", ""] + rows(t, GROUPS, GROUPS, a, b) + [""]
+    s_, f_ = t["insgesamt"]
+    L += ["## Series, all unemployed", "", "| Year | s | f |", "|---|---|---|"]
+    L += [f"| {y} | {s_.get(y, float('nan')):.2f} | {f_[y]:.2f} |" for y in range(2007, 2026) if y in f_]
+    L += ["", "## All inflows and outflows (ANBA annual counts, thousands; stock = annual mean)", "",
+          "Exit rates per month = annual exits / 12 / mean stock. 'Other' exits: into training, measures, inactivity, sickness, "
+          "retirement and unknown; 'other' inflows: from training, measures, inactivity and abroad.", "",
+          "| Year | Stock | Inflows | of which from a job | Exits | of which into a job | Exit rate into a job (%/month) | Exit rate, other (%/month) |",
+          "|---|---|---|---|---|---|---|---|"]
+    a = pd.read_csv("data/raw/ba_flows/flows_de.csv")
+    a = a[a.group == "insgesamt"].drop_duplicates(["year", "variable"]).pivot(index="year", columns="variable", values="value")
+    for y in range(2017, 2026):
+        r = a.loc[y]
+        st, ex, ej = r.bestand_alo_jd, r.abgang_alo_insgesamt, r.abgang_alo_in_besch_1am_inkl_ausb
+        L.append(f"| {y} | {st / 1e3:,.0f} | {r.zugang_alo_insgesamt / 1e3:,.0f} | {r.zugang_alo_aus_besch_1am_inkl_ausb / 1e3:,.0f} "
+                 f"| {ex / 1e3:,.0f} | {ej / 1e3:,.0f} | {100 * ej / 12 / st:.1f} | {100 * (ex - ej) / 12 / st:.1f} |")
+    L.append("")
     lt = laender()
     if lt:
         L += [f"## Länder, 2019 to 2025 ({len(lt)} of 16)", ""] + rows(lt, sorted(lt), LAND, 2019, 2025) + [""]

@@ -1,7 +1,7 @@
 # Inflow risk and exit chance by group (BA, Chancen und Risiken, December 2025)
 
 s = monthly risk of becoming unemployed from a job (%), f = monthly chance of leaving unemployment for a job (%),
-u* = s/(s+f) (steady-state index). s is the January-November mean in every year (December 2025 not yet published); f the annual mean. 'only s' / 'only f': change in u* if only that rate had moved. 'share of f' = only f / (only s + only f).
+u* = s/(s+f) (two-state steady-state index; flows from and to non-participation are shown separately below). s is the January-November mean in every year (December 2025 not yet published); f the annual mean. 'only s' / 'only f': change in u* if only that rate had moved. 'share of f' = only f / (only s + only f).
 
 ## 2019 to 2025
 
@@ -15,6 +15,19 @@ u* = s/(s+f) (steady-state index). s is the January-November mean in every year 
 | Foreigners | 1.25 | 1.06 | 6.59 | 5.05 | -23 | 16.0 | 17.4 | -2.1 | +3.9 | 211% |
 | Women | 0.53 | 0.51 | 6.77 | 5.13 | -24 | 7.2 | 9.1 | -0.1 | +2.1 | 108% |
 | Men | 0.69 | 0.66 | 7.91 | 6.08 | -23 | 8.0 | 9.8 | -0.3 | +2.2 | 113% |
+
+## 2015-18 to 2025
+
+| | s 2015-18 | s 2025 | f 2015-18 | f 2025 | Δf (%) | u* 2015-18 | u* 2025 | only s | only f | share of f |
+|---|---|---|---|---|---|---|---|---|---|---|
+| All | 0.65 | 0.59 | 6.99 | 5.65 | -19 | 8.5 | 9.5 | -0.7 | +1.8 | 163% |
+| Under 25 | 1.16 | 0.99 | 12.96 | 9.94 | -23 | 8.2 | 9.1 | -1.1 | +2.2 | 195% |
+| 25 to 54 | 0.63 | 0.61 | 7.30 | 6.15 | -16 | 8.0 | 9.1 | -0.3 | +1.4 | 124% |
+| 55 and over | 0.47 | 0.42 | 3.42 | 2.73 | -20 | 12.0 | 13.4 | -1.0 | +2.6 | 163% |
+| Germans | 0.58 | 0.50 | 7.41 | 6.00 | -19 | 7.3 | 7.7 | -1.0 | +1.6 | 270% |
+| Foreigners | 1.24 | 1.06 | 5.65 | 5.05 | -11 | 18.0 | 17.4 | -2.1 | +1.7 | -408% |
+| Women | 0.57 | 0.51 | 6.30 | 5.13 | -19 | 8.3 | 9.1 | -0.8 | +1.7 | 180% |
+| Men | 0.72 | 0.66 | 7.55 | 6.08 | -20 | 8.7 | 9.8 | -0.7 | +1.9 | 153% |
 
 ## 2022 to 2025
 
@@ -41,4 +54,44 @@ u* = s/(s+f) (steady-state index). s is the January-November mean in every year 
 | Foreigners | 1.42 | 1.69 | 4.69 | 4.24 | -10 | 23.3 | 28.6 | +3.2 | +1.9 | 37% |
 | Women | 0.74 | 0.79 | 5.33 | 5.25 | -2 | 12.2 | 13.1 | +0.8 | +0.2 | 18% |
 | Men | 0.93 | 1.13 | 7.68 | 6.77 | -12 | 10.8 | 14.3 | +2.1 | +1.3 | 38% |
+
+## Series, all unemployed
+
+| Year | s | f |
+|---|---|---|
+| 2007 | nan | 6.51 |
+| 2008 | 0.84 | 6.53 |
+| 2009 | 0.97 | 6.08 |
+| 2010 | 0.86 | 7.04 |
+| 2011 | 0.80 | 7.21 |
+| 2012 | 0.77 | 6.65 |
+| 2013 | 0.76 | 6.53 |
+| 2014 | 0.73 | 6.57 |
+| 2015 | 0.70 | 6.76 |
+| 2016 | 0.67 | 6.76 |
+| 2017 | 0.63 | 7.06 |
+| 2018 | 0.61 | 7.38 |
+| 2019 | 0.61 | 7.41 |
+| 2020 | 0.64 | 6.12 |
+| 2021 | 0.53 | 6.39 |
+| 2022 | 0.51 | 6.13 |
+| 2023 | 0.54 | 5.74 |
+| 2024 | 0.57 | 5.71 |
+| 2025 | 0.59 | 5.65 |
+
+## All inflows and outflows (ANBA annual counts, thousands; stock = annual mean)
+
+Exit rates per month = annual exits / 12 / mean stock. 'Other' exits: into training, measures, inactivity, sickness, retirement and unknown; 'other' inflows: from training, measures, inactivity and abroad.
+
+| Year | Stock | Inflows | of which from a job | Exits | of which into a job | Exit rate into a job (%/month) | Exit rate, other (%/month) |
+|---|---|---|---|---|---|---|---|
+| 2017 | 2,533 | 7,554 | 2,624 | 7,737 | 2,158 | 7.1 | 18.4 |
+| 2018 | 2,340 | 7,213 | 2,585 | 7,388 | 2,085 | 7.4 | 18.9 |
+| 2019 | 2,267 | 7,243 | 2,630 | 7,226 | 2,013 | 7.4 | 19.2 |
+| 2020 | 2,695 | 6,446 | 2,729 | 5,966 | 1,950 | 6.0 | 12.4 |
+| 2021 | 2,613 | 5,824 | 2,289 | 6,201 | 2,027 | 6.5 | 13.3 |
+| 2022 | 2,418 | 6,241 | 2,275 | 6,117 | 1,773 | 6.1 | 15.0 |
+| 2023 | 2,609 | 6,550 | 2,389 | 6,367 | 1,785 | 5.7 | 14.6 |
+| 2024 | 2,787 | 6,882 | 2,525 | 6,712 | 1,901 | 5.7 | 14.4 |
+| 2025 | 2,948 | 6,915 | 2,637 | 6,813 | 1,994 | 5.6 | 13.6 |
 
