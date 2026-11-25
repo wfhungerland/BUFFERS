@@ -11,10 +11,13 @@ Data: BA, „Chancen und Risiken am Arbeitsmarkt nach Personengruppen“ (Dezemb
 | Foreigners: chance of leaving for a job | 4.7 | 4.2 | 6.6 | 5.2 | 4.5 | 4.9 | 5.1 |
 | New training contracts (Destatis), thousands | | | 511 | 470 | 480 | 475 | 462 |
 
-Steady-state check (u* = inflow risk / (inflow risk + exit chance)): 2022-25 the index rises from 7.7 to 9.5. With only the exit chance changing it would rise to 10.0; with only the inflow risk changing, to 8.8. In 2008-09, by contrast, the inflow risk drove the rise.
+Steady-state check (u* = inflow risk / (inflow risk + exit chance), an index, not the official rate):
+- 2019 to 2025: u* rises from 7.6 to 9.5. With only the exit chance changing it would rise to 9.8; with only the inflow risk changing it would fall to 7.4. Measured from 2019, the whole rise comes from fewer exits into work.
+- 2022 to 2025: u* rises from 7.7 to 9.5. Only the inflow risk changing: 8.8 (+1.1); only the exit chance changing: 8.3 (+0.6). Measured from the unusually calm year 2022, rising dismissals contribute somewhat more than slower hiring.
+- 2008 to 2009: only inflow 12.9 (+1.3), only outflow 12.3 (+0.7): the crisis ran through dismissals.
 
 Reading:
 - The risk of losing a job and becoming unemployed was 0.59 % a month in 2025, back at the 2019 level but far below 2008-09. Dismissals have risen from an unusually low 2022, not to crisis levels.
 - The chance of finding a job out of unemployment fell by a quarter since 2019, to the lowest value in the series, below 2009. For under-25s it fell from 13.7 to 9.9 %.
 - New training contracts were 10 % below 2019 in 2025.
-- This is direct flow evidence for the hiring-gate mechanism: unemployment rose mainly because exits into work slowed, not because inflows from jobs surged.
+- Flow evidence for the hiring-gate mechanism, with a qualification: against 2019 the rise comes entirely from slower exits into work; against 2022 dismissals matter as much. The essay should say both.
