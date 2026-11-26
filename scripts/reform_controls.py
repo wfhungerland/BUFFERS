@@ -61,12 +61,17 @@ def build():
     d["cut"] = d.index.isin(core.year.unique()).astype(int)
     d["du3"] = [dep[t] - dep[t - 3] if t in dep else dep[2025] - dep[2023] for t in years]
     d["gapfall3"] = [gap.get(t - 3, np.nan) - gap.get(t, np.nan) for t in years]
-    for c in ["cabinet_left_share", "grand_coalition", "bundesrat_opposition_majority", "new_government",
-              "years_to_next_election", "far_right_vote_share"]:
+    for c in ["cabinet_left_share", "grand_coalition", "bundesrat_opposition_majority", "bundesrat_opp_strict_majority",
+              "new_government", "years_to_next_election", "far_right_vote_share"]:
         d[c] = pol[c].reindex(years).astype(float)
     if d.cabinet_left_share.max() > 1.5:
         d["cabinet_left_share"] = d.cabinet_left_share / 100
     d.loc[2026, "gapfall3"] = gap.get(2023) - gap.get(2025) if pd.isna(d.loc[2026, "gapfall3"]) else d.loc[2026, "gapfall3"]
+    d["bundesrat_opp_strict_majority"] = d.bundesrat_opp_strict_majority.fillna(d.bundesrat_opposition_majority)
+    bud = pd.read_csv("coding/ba_budget.csv")
+    bud = bud.set_index("year")
+    fed = bud.federal_subsidy_or_loan_eur_bn.astype(str).str.extract(r"^\s*([0-9.]+)")[0].astype(float)
+    d["ba_federal_money"] = [int(fed.get(t - 1, 0) > 0) if t - 1 in fed.index else np.nan for t in years]
     return d
 
 
@@ -79,12 +84,12 @@ def fit(d, cols, label):
 
 def main():
     d = build()
-    CTRL = ["cabinet_left_share", "grand_coalition", "bundesrat_opposition_majority", "new_government",
+    CTRL = ["cabinet_left_share", "grand_coalition", "bundesrat_opp_strict_majority", "new_government",
             "years_to_next_election", "far_right_vote_share", "gapfall3"]
     specs = [("(1) Δu3 only", ["du3"]), ("(2) political controls only", CTRL[:-1]), ("(3) Δu3 + political controls", ["du3"] + CTRL[:-1]),
              ("(4) = (3) + gap fall", ["du3"] + CTRL)]
     names = {"du3": "Δ unemployment rate over 3 years (pp)", "cabinet_left_share": "Cabinet share of left parties",
-             "grand_coalition": "Grand coalition", "bundesrat_opposition_majority": "Opposition majority in Bundesrat",
+             "grand_coalition": "Grand coalition", "bundesrat_opp_strict_majority": "Opposition-only majority in Bundesrat",
              "new_government": "New government this year", "years_to_next_election": "Years to next federal election",
              "far_right_vote_share": "Far-right vote share, last federal election (%)", "gapfall3": "Fall in output gap over 3 years (pp)"}
     L = ["# Labour-market core cuts with political controls (Firth logit)", "",
@@ -94,7 +99,7 @@ def main():
     for period, (a, bnd) in (("1968-2026", (1968, 2026)), ("1968-2004", (1968, 2004))):
         sub = d[(d.index >= a) & (d.index <= bnd)]
         if period == "1968-2004":
-            sub = sub.drop(columns=["far_right_vote_share"])
+            sub = sub.drop(columns=["far_right_vote_share", "grand_coalition"])
         L += [f"## {period} (years: {len(sub)}, cut years: {int(sub.cut.sum())})", ""]
         cols_used, res = [], {}
         for lab, cols in specs:
@@ -125,9 +130,51 @@ def main():
             ll_wo = fit(z_w, cols_wo, "")[3]
             L += ["", f"LR test for Δu3 given political controls: {2 * (ll_w - ll_wo):.2f}."]
         # descriptive: cut years by grand coalition
-        g = sub.groupby("grand_coalition").agg(years=("cut", "size"), cut_years=("cut", "sum"), mean_du3=("du3", "mean"))
+        g = d.loc[sub.index].groupby("grand_coalition").agg(years=("cut", "size"), cut_years=("cut", "sum"), mean_du3=("du3", "mean"))
         L += ["", "Cut years by coalition type: " + "; ".join(
             f"{'grand coalition' if i == 1 else 'other'}: {int(r.cut_years)} of {int(r.years)} years (mean Δu3 {r.mean_du3:+.2f})" for i, r in g.iterrows()), ""]
+    # odds-ratio intervals for the full model (3), 1968-2026
+    L += ["## Odds-ratio 95 % intervals, model (3), 1968-2026", ""]
+    cols = ["du3"] + CTRL[:-1]
+    z, b, se, ll = fit(d, cols, "")
+    for i, c in enumerate(cols, start=1):
+        L.append(f"- {names[c]}: odds ratio {np.exp(b[i]):.2f} (95 % interval {np.exp(b[i] - 1.96 * se[i]):.2f} to {np.exp(b[i] + 1.96 * se[i]):.2f})")
+    # out-of-sample: fit 1968-2004 on du3, predict 2005-2026
+    pre, post = d[d.index <= 2004], d[d.index >= 2005]
+    Xp = np.column_stack([np.ones(len(pre)), pre.du3.values])
+    bp, sep, _ = firth(pre.cut.values.astype(float), Xp)
+    pr = 1 / (1 + np.exp(-(bp[0] + bp[1] * post.du3.values)))
+    L += ["", "## Out of sample: model fitted on 1968-2004 (Δu3 only), predicted for 2005-2026", "",
+          f"Coefficient {bp[1]:+.2f} (s.e. {sep[1]:.2f}). Expected cut years 2005-2026: {pr.sum():.1f}; observed: {int(post.cut.sum())}; "
+          f"probability of no cut year: {np.prod(1 - pr):.3f}. Largest predicted probabilities: "
+          + ", ".join(f"{t} {q:.2f} (Δu3 {du:+.1f})" for t, q, du in sorted(zip(post.index, pr, post.du3), key=lambda x: -x[1])[:5]) + "."]
+    # post-2005 dummy
+    d["post2005"] = (d.index >= 2005).astype(int)
+    z, b, se, ll = fit(d, ["du3", "post2005"], "")
+    L.append(f"\nFull sample with a post-2005 indicator: Δu3 {b[1]:+.2f} (s.e. {se[1]:.2f}); post-2005 {b[2]:+.2f} (s.e. {se[2]:.2f}).")
+    # interaction with left share; BA federal money
+    d["du3_left"] = d.du3 * d.cabinet_left_share
+    z, b, se, ll = fit(d, ["du3", "cabinet_left_share", "du3_left"], "")
+    L.append(f"Interaction with government ideology: Δu3 {b[1]:+.2f} ({se[1]:.2f}); left share {b[2]:+.2f} ({se[2]:.2f}); Δu3 × left share {b[3]:+.2f} ({se[3]:.2f}).")
+    z, b, se, ll = fit(d, ["du3", "ba_federal_money"], "")
+    L.append(f"With federal money to the Federal Employment Agency in the previous year: Δu3 {b[1]:+.2f} ({se[1]:.2f}); federal money {b[2]:+.2f} ({se[2]:.2f}); N = {len(z)}.")
+    # splice robustness: drop 1991-1993
+    dd = d.drop(index=[1991, 1992, 1993])
+    z, b, se, ll = fit(dd, ["du3"], "")
+    L.append(f"Without 1991-1993 (Δu3 spans the West German and unified series): Δu3 {b[1]:+.2f} ({se[1]:.2f}).")
+    # permutation tests respecting serial correlation
+    rng = np.random.default_rng(1)
+    z = d.dropna(subset=["du3"])
+    obs = z.du3[z.cut == 1].mean() - z.du3[z.cut == 0].mean()
+    cut, du = z.cut.values, z.du3.values
+    circ = [du[np.roll(cut, k) == 1].mean() - du[np.roll(cut, k) == 0].mean() for k in range(1, len(cut))]
+    blocks = [cut[i:i + 3] for i in range(0, len(cut), 3)]
+    bl = []
+    for _ in range(10000):
+        perm = np.concatenate([blocks[j] for j in rng.permutation(len(blocks))])[:len(cut)]
+        bl.append(du[perm == 1].mean() - du[perm == 0].mean())
+    L.append(f"Permutation tests of the difference in mean Δu3 ({obs:+.2f}): circular shift p = {np.mean(np.array(circ) >= obs):.3f} "
+             f"({len(circ)} shifts); three-year block permutation p = {np.mean(np.array(bl) >= obs):.4f}.")
     open("results/reform_controls.md", "w", encoding="utf-8").write("\n".join(L) + "\n")
     print("\n".join(L))
 
