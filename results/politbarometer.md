@@ -53,6 +53,25 @@ Source: Forschungsgruppe Wahlen (2026), ZA2391 v17.0.0, doi:10.4232/1.14611; own
 | 2023 | 6.2 | 4 | 6 | 25 | 0 | 2 | 8 | -11 | 50 | 61 |
 | 2024 | 6.5 | 4 | 18 | 9 | 0 | 2 | 9 | -26 | 49 | 75 |
 
+## Competing issues
+
+| Year | Migration | Prices/energy | Economy | Unemployment |
+|---|---|---|---|---|
+| 1992 | 36 | 6 | 12 | 39 |
+| 1993 | 29 | 6 | 13 | 54 |
+| 2003 | 2 | 7 | 18 | 72 |
+| 2005 | 3 | 8 | 14 | 84 |
+| 2015 | 66 | 1 | 5 | 11 |
+| 2016 | 58 | 2 | 1 | 4 |
+| 2018 | 47 | 1 | 4 | 6 |
+| 2019 | 29 | 1 | 7 | 5 |
+| 2022 | 5 | 34 | 4 | 2 |
+| 2023 | 22 | 25 | 6 | 4 |
+| 2024 | 28 | 9 | 18 | 4 |
+
+Regression of 'unemployment named' (%) on the unemployment rate, its change and the shares naming migration and prices/energy, 1986-2024 (N = 39), HAC s.e.: u +11.95 (0.69); du -0.18 (1.36); migration -0.16 (0.08); prices_energy -0.15 (0.11); R² 0.95. Residual 2022-24: 2022 -0.7, 2023 -2.3, 2024 -6.9.
+
 Correlation of 'unemployment named' with the unemployment rate: +0.97 (1986-2024, N = 39).
 
+Note: West Germany only until 1990; unified Germany from 1991 (the own balance falls from 60 to 23 at the break).
 Gap (own minus country net balance): mean +39; largest: 2003 +91, 2004 +79, 1993 +78, 2005 +76, 2002 +76, 2024 +75.

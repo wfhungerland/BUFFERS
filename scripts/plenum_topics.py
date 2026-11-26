@@ -111,6 +111,12 @@ def main():
     a, b = x[x.index <= 2002], x[x.index >= 2003]
     for k in TOPICS:
         L.append(f"| {k} | {x[k].corr(x.u):+.2f} | {a[k].corr(a.u):+.2f} | {b[k].corr(b.u):+.2f} | {x[k].corr(x.infl):+.2f} |")
+    L += ["", "## Correlation in first differences (annual change of topic attention with annual change of the unemployment rate)", "",
+          "| Topic | 1951-2002 | 2003-2025 |", "|---|---|---|"]
+    dx = x.diff()
+    da, db = dx[(dx.index >= 1951) & (dx.index <= 2002)], dx[dx.index >= 2003]
+    for k in TOPICS:
+        L.append(f"| {k} | {da[k].corr(da.u):+.2f} | {db[k].corr(db.u):+.2f} |")
     L += ["", "## Group totals by decade (mean hits per million words)", ""]
     dec = pm.copy()
     for g, ks in GROUPS.items():

@@ -55,6 +55,30 @@ Source: CPP-BT (Fobbe 2026); own dictionaries (scripts/plenum_topics.py). 2026 r
 | social_market_economy | +0.14 | +0.15 | -0.21 | -0.02 |
 | social_justice | +0.57 | +0.61 | +0.14 | -0.00 |
 
+## Correlation in first differences (annual change of topic attention with annual change of the unemployment rate)
+
+| Topic | 1951-2002 | 2003-2025 |
+|---|---|---|
+| unemployment | +0.59 | +0.17 |
+| inflation | -0.30 | -0.22 |
+| public_debt | +0.22 | +0.04 |
+| growth | +0.37 | +0.25 |
+| energy_prices | -0.09 | -0.22 |
+| skills_shortage | -0.22 | -0.36 |
+| location | +0.18 | +0.22 |
+| competitiveness | +0.21 | +0.30 |
+| bureaucracy | +0.07 | +0.36 |
+| strikes | +0.00 | +0.12 |
+| codetermination | -0.01 | +0.08 |
+| collective_bargaining | -0.03 | +0.04 |
+| wages | +0.33 | -0.08 |
+| working_time | +0.19 | +0.36 |
+| worker_protection | +0.01 | +0.09 |
+| short_time_work | +0.11 | +0.30 |
+| early_retirement | +0.09 | -0.16 |
+| social_market_economy | -0.14 | +0.00 |
+| social_justice | +0.20 | -0.14 |
+
 ## Group totals by decade (mean hits per million words)
 
 | Decade | Economy as outcome | Supply side and location | Labour against capital | Buffers | Frame |

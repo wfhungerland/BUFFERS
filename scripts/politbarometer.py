@@ -85,12 +85,24 @@ def main():
         f = lambda k: f"{r[k]:.0f}" if k in r and pd.notna(r[k]) else ""
         L.append(f"| {y} | {r.u:.1f} | " + " | ".join(f(k) for k in ["unemployment", "economy", "prices_energy", "reform",
                                                                        "labour_capital", "social_justice", "country_net", "own_net", "gap"]) + " |")
+    import statsmodels.formula.api as smf
+    t["du"] = t.u.diff()
+    x = t.dropna(subset=["unemployment", "u", "migration", "du"])
+    m = smf.ols("unemployment ~ u + du + migration + prices_energy", data=x).fit(cov_type="HAC", cov_kwds={"maxlags": 2})
+    L += ["", "## Competing issues", "", "| Year | Migration | Prices/energy | Economy | Unemployment |", "|---|---|---|---|---|"]
+    for yy in (1992, 1993, 2003, 2005, 2015, 2016, 2018, 2019, 2022, 2023, 2024):
+        L.append(f"| {yy} | {t.migration[yy]:.0f} | {t.prices_energy[yy]:.0f} | {t.economy[yy]:.0f} | {t.unemployment[yy]:.0f} |")
+    L += ["", f"Regression of 'unemployment named' (%) on the unemployment rate, its change and the shares naming migration and "
+          f"prices/energy, {int(x.index.min())}-{int(x.index.max())} (N = {len(x)}), HAC s.e.: "
+          + "; ".join(f"{k} {m.params[k]:+.2f} ({m.bse[k]:.2f})" for k in ["u", "du", "migration", "prices_energy"])
+          + f"; R² {m.rsquared:.2f}. Residual 2022-24: " + ", ".join(f"{i} {m.resid.get(i, float('nan')):+.1f}" for i in (2022, 2023, 2024)) + "."]
     x = t.dropna(subset=["unemployment", "u"])
     L += ["", f"Correlation of 'unemployment named' with the unemployment rate: {x.unemployment.corr(x.u):+.2f} "
           f"({x.index.min()}-{x.index.max()}, N = {len(x)}).", ""]
     g = t.dropna(subset=["gap"])
     if len(g):
-        L += [f"Gap (own minus country net balance): mean {g.gap.mean():+.0f}; "
+        L += ["Note: West Germany only until 1990; unified Germany from 1991 (the own balance falls from 60 to 23 at the break).",
+              f"Gap (own minus country net balance): mean {g.gap.mean():+.0f}; "
               f"largest: " + ", ".join(f"{i} {g.gap[i]:+.0f}" for i in g.gap.sort_values(ascending=False).index[:6]) + "."]
     open("results/politbarometer.md", "w", encoding="utf-8").write("\n".join(L) + "\n")
     print("\n".join(L))
