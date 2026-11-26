@@ -21,7 +21,7 @@ That enemy has been defeated. Registered unemployment fell from 13 percent in 20
 
 This paper argues that the defeat of mass unemployment has removed the mechanism through which German labour-market institutions used to adjust, and documents the argument with four long-run measures assembled from public data.
 
-The first is legislation. An annual coding of labour-market and social-insurance laws since 1968 shows that cuts to the core institutions of the labour market, those that protect incumbent employees against the risk of job loss, came almost only after unemployment had risen. Of twelve years with such cuts, ten followed a rise in registered unemployment over the previous three years; excluding the 1986 strike-neutrality rule, the mean rise in the eleven cut years was 2.3 points, against a fall of 0.2 points in other years (permutation p < 0.001). Pension cuts are different: of seven pension-cut years, four came with falling unemployment (1978, 1989, 2001, 2007); pensions respond to demography and contribution rates.
+The first is legislation. An annual coding of labour-market and social-insurance laws since 1968 shows that cuts to the core institutions of the labour market, those that protect incumbent employees against the risk of job loss, came almost only after unemployment had risen. Of twelve years with such cuts, ten followed a rise in registered unemployment over the previous three years; excluding the 1986 strike-neutrality rule, the mean rise in the eleven cut years was 2.3 points, against a fall of 0.2 points in other years (permutation p < 0.001). The relation holds when government ideology, grand coalitions, the Bundesrat, the electoral cycle and the far-right vote are controlled for, and in the years before 2005 alone. Pension cuts are different: of seven pension-cut years, four came with falling unemployment (1978, 1989, 2001, 2007); pensions respond to demography and contribution rates.
 
 The second is the labour market itself. Since 2006 the response of unemployment to the output gap has been weaker than before, and in 2022-25 the adjustment ran through fewer exits from unemployment and, from 2022, more inflows, but not through the mass dismissals of earlier slumps. Slower growth of the labour force accounts for about half or more of the shortfall in employment. Unemployment stayed low because labour was scarce and firms stopped hiring, not because classic buffers such as short-time work absorbed the shock.
 
@@ -104,6 +104,29 @@ Table 2 tests the pattern. Across 59 years, the rise in unemployment over the pr
 The episode view tells the same story with its limits. Of the nine downturns since 1965 identified in section 5, four had labour-market core cuts within three years after the trough (1973-75, 1979-83, 1991-93, 2001-05): the four with a rise in unemployment of 2.5 to 5.3 points. The other five, with rises of at most 1.4 points, had none. This holds for windows of one, two or three years after the trough and for either assignment of overlapping years. With pensions included, the 2007 retirement-age reform falls into the 2007-09 episode under some assignments, a core cut in an episode in which unemployment fell. With nine episodes, a perfect split is not strong evidence on its own (one in 126 under random assignment of four cut labels), which is why the annual analysis matters more.
 
 Two rival explanations deserve attention. The first is the budget of the Federal Employment Agency, which goes into deficit when unemployment rises; cuts would then follow from the books. The agency needed federal money in 1975-76, 1980-83, 1988-89, 1992-99 and 2001-05 (for 1981-2005 mostly derived from deficits and changes in reserves). But deficits were not sufficient for cuts: the agency ran a deficit of 13.8 billion euros in 2009, covered from its reserve, and of 27.3 and 21.7 billion in 2020 and 2021, covered from its reserve, a federal loan of 6.9 billion and a federal grant of 16.9 billion, without any core cut. In both episodes short-time work kept the rise in unemployment small (0.4 points in 2009, 1.0 in 2020) and short-lived. The second is partisanship. Labour-market core cuts came under SPD-FDP (1975-82), CDU-FDP (1982-97) and SPD-Greens (2003) governments alike; section 4.1 tests this and other political explanations formally.
+
+### 4.1 Political alternatives
+
+Three political explanations compete with unemployment: government ideology (left-led governments may protect workers, or, as with the Agenda 2010, cut where right-led governments cannot), the grand coalition (both large parties share the blame for unpopular reforms and may avoid them), and pressure from the radical right (governing parties may avoid cuts that radical parties can exploit). The reform literature controls for such factors with government ideology, veto players, the electoral cycle and the vote share of challenger parties (Pitlik and Wirth 2003; Høj et al. 2006; Potrafke 2010; Tsebelis 2002). Table 2a adds these to the annual model: the cabinet share of left parties (Comparative Political Data Set; Armingeon, Engler and Leemann 2022), a grand-coalition indicator, an opposition majority in the Bundesrat as the main German veto player, a change of government in the year, years to the next federal election, and the second-vote share of far-right parties (NPD, DVU, Republikaner, AfD) at the last federal election (Die Bundeswahlleiterin 2025; Deutscher Bundestag 2025). With eleven events in 59 years the model is estimated by Firth's penalised likelihood, the standard correction for rare events in small samples (Firth 1993).
+
+*Table 2a: Labour-market core cuts, unemployment and political controls (Firth logit, annual data)*
+
+| | 1968-2026 | | 1968-2004 | |
+|---|---|---|---|---|
+| | Δu only | Δu + political controls | Δu only | Δu + political controls |
+| Δ unemployment rate over three years (pp) | +0.91*** (0.27) | +0.76*** (0.28) | +0.74*** (0.28) | +0.74** (0.29) |
+| Cabinet share of left parties | | +0.56 (1.14) | | +0.66 (1.20) |
+| Grand coalition | | -0.08 (1.88) | | +0.42 (2.31) |
+| Opposition majority in the Bundesrat | | +0.72 (1.25) | | +0.62 (1.22) |
+| New government in the year | | -1.20 (1.27) | | -0.89 (1.35) |
+| Years to next federal election | | +0.23 (0.38) | | +0.22 (0.40) |
+| Far-right vote share, last federal election (%) | | -0.08 (0.15) | | |
+| Likelihood-ratio test for Δu given the controls (χ², 1 df) | | 12.9 | | 13.1 |
+| Years (cut years) | 59 (11) | 59 (11) | 37 (11) | 37 (11) |
+
+*Outcome: year with an enacted cut to dismissal protection, unemployment benefit, sick pay or short-time work (pensions and the 1986 strike rule excluded). Penalised-likelihood standard errors in parentheses; *** p < 0.01, ** p < 0.05. The far-right share is omitted for 1968-2004, when it stayed between 0.2 and 4.3 percent. Sources: Appendix A.5 and A.6; own calculation (`scripts/reform_controls.py`).*
+
+The rise in unemployment survives every political control. Its coefficient barely changes, and adding it to a model with the political variables alone improves the fit strongly (likelihood-ratio statistic 12.9, p < 0.001). None of the political variables is significant on its own. The test that matters most for the alternatives is the period before 2005: in 1968-2004, before the AfD and before the grand coalitions of 2005-09 and 2013-21, the rise in unemployment predicts core cuts just as well (0.74, s.e. 0.29). The far-right share cannot explain the absence of cuts after 2004 because it stayed between 2 and 2.2 percent in 2005-12. The grand coalition is harder to separate. No core cut was passed in any of the 16 grand-coalition years, but unemployment fell in those years on average (by 0.7 points over three years), and the model cannot tell the two apart (coefficient -0.08, s.e. 1.88). When the fall in the output gap is added as well, the coefficient on unemployment falls to 0.55 (s.e. 0.33) and that on the gap fall is small and insignificant (0.16, s.e. 0.22): the two measures of the slump overlap, but it is not lost output that carries the effect.
 
 The pending test is concrete. On 18 November 2026 the cabinet adopted a labour-law bill that would allow employers to end employment against severance for earners above 1.75 times the pension contribution ceiling, about 177,000 euros a year, and extend fixed-term contracts without objective reason (BMAS 2026). It is a change to dismissal protection without a strong rise in unemployment. It affects a small group of top earners, far from the core of the 1996 and 2003 cuts, but if it passes it is a counter-example, and section 10 treats it as such.
 
@@ -234,7 +257,7 @@ The equilibrium may be stable rather than temporary. About 13.4 million people, 
 
 **One country, author's coding.** The legislative pattern rests on one country and on a coding by the author, with 17 of 65 window items not confirmed in a cited source and some areas (pensions, strike law) open to classification choices. Table 2 shows the pattern under several definitions; a second coder and a cross-country test using existing reform databases would be the next steps.
 
-**Alternatives.** The decline of legislated core cuts since 2005 coincides with grand coalitions (2005-09, 2013-21), with the rise of the AfD, which may make governing parties avoid unpopular reforms, and with a shock (energy prices) whose rational policy response lies outside the labour market. The annual analysis controls for government change and party, but not for party competition or the type of shock.
+**Alternatives.** The decline of legislated core cuts since 2005 coincides with grand coalitions (2005-09, 2013-21), with the rise of the AfD and with a shock (energy prices) whose rational policy response lies outside the labour market. Section 4.1 shows that unemployment predicts core cuts with political controls and before 2005, and that the far-right vote cannot account for the absence of cuts in 2005-13. The grand coalition cannot be separated from falling unemployment: no grand-coalition year had a core cut, and unemployment fell in those years. The type of shock is not controlled for.
 
 **Measures.** Word counts are coarse, vocabulary changes (the location vocabulary did not exist before the 1990s), and four cells have a precision below 80 percent. Correlations of annual changes after 2003 rest on about 23 observations. The survey's problem categories change over time, the series is West German until 1990, and 1986-88 allowed three answers.
 
@@ -268,6 +291,10 @@ Topic groups from the problem codes (v33, v34): unemployment 14, 90; economy 13,
 
 `coding/reform_coding_v2.yaml` (rules, items, sources, pending bills, laws outside the windows, leads not coded) and `coding/ba_budget.csv`. Annual tests and episode variants: `scripts/reform_years.py`, `results/reform_years.md`. Uncoded leads in the 1965-67 and 1991-96 windows (Finance Amendment Act 1967, pension measures 1966-69, First Labour Law Adjustment Act 1969, Employment Promotion Act 1994, Unemployment Assistance Reform Act 1996) are listed in the coding file.
 
+### A.6 Political variables
+
+`coding/politics_annual.csv` and `.md`: chancellor, coalition and grand coalition (Deutscher Bundestag, Datenhandbuch; ParlGov), cabinet share of left parties (CPDS gov_left1 to 2020; computed by the same method for 2021-26, not confirmed), Bundesrat majorities (Datenhandbuch ch. 10.3 from 1991; before 1991 the standard dating 1972-82, not confirmed against a primary source; mixed-majority years coded as opposition majority), election dates, far-right and radical-left second-vote shares (Bundeswahlleiterin). Regression: `scripts/reform_controls.py`, `results/reform_controls.md`.
+
 ## References
 
 Abiad, A. and Mody, A. (2005) 'Financial reform: what shakes it? What shapes it?', *American Economic Review*, 95(1), pp. 66-88.
@@ -300,6 +327,12 @@ Destatis (2026a) *Neu abgeschlossene Ausbildungsverträge*, table 21211-0004, GE
 
 Destatis (2026b) *Qualität der Arbeit: Streiks* (indicator 5.3, days lost per 1,000 employees). Wiesbaden.
 
+Deutscher Bundestag (2025) *Datenhandbuch zur Geschichte des Deutschen Bundestages*, online edition. Berlin.
+
+Die Bundeswahlleiterin (2025) *Ergebnisse früherer Bundestagswahlen*. Wiesbaden.
+
+Döring, H. and Manow, P. (2024) *ParlGov: Parliaments and Governments Database*. Available at: https://www.parlgov.org.
+
 Drazen, A. and Grilli, V. (1993) 'The benefit of crises for economic reforms', *American Economic Review*, 83(3), pp. 598-607.
 
 Dustmann, C., Fitzenberger, B., Schönberg, U. and Spitz-Oener, A. (2014) 'From sick man of Europe to economic superstar: Germany's resurgent economy', *Journal of Economic Perspectives*, 28(1), pp. 167-188.
@@ -313,6 +346,8 @@ European Commission (2019) *AMECO database, autumn 2019 vintage*. Brussels.
 European Commission (2026) *AMECO database, autumn 2026 vintage*. Brussels.
 
 Eurostat (2026) *Employment by A*10 industry breakdowns (nama_10_a10_e)*. Luxembourg.
+
+Firth, D. (1993) 'Bias reduction of maximum likelihood estimates', *Biometrika*, 80(1), pp. 27-38.
 
 Fobbe, S. (2026) *Corpus der Plenarprotokolle des Deutschen Bundestages (CPP-BT)*, version 2026-09-19. Zenodo. doi:10.5281/zenodo.22844952.
 
@@ -350,6 +385,8 @@ Palier, B. and Thelen, K. (2010) 'Institutionalizing dualism: complementarities 
 
 Pitlik, H. and Wirth, S. (2003) 'Do crises promote the extent of economic liberalization? An empirical test', *European Journal of Political Economy*, 19(3), pp. 565-581.
 
+Potrafke, N. (2010) 'Does government ideology influence deregulation of product markets? Empirical evidence from OECD countries', *Public Choice*, 143(1-2), pp. 135-155.
+
 Rodrik, D. (1996) 'Understanding economic policy reform', *Journal of Economic Literature*, 34(1), pp. 9-41.
 
 Rueda, D. (2007) *Social Democracy Inside Out: Partisanship and Labor Market Policy in Advanced Industrialized Democracies*. Oxford: Oxford University Press.
@@ -361,5 +398,7 @@ Streeck, W. (2009) *Re-Forming Capitalism: Institutional Change in the German Po
 Streeck, W. and Thelen, K. (eds) (2005) *Beyond Continuity: Institutional Change in Advanced Political Economies*. Oxford: Oxford University Press.
 
 Thelen, K. (2014) *Varieties of Liberalization and the New Politics of Social Solidarity*. Cambridge: Cambridge University Press.
+
+Tsebelis, G. (2002) *Veto Players: How Political Institutions Work*. Princeton: Princeton University Press.
 
 Wlezien, C. (2005) 'On the salience of political issues: the problem with "most important problem"', *Electoral Studies*, 24(4), pp. 555-579.
