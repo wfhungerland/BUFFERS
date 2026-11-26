@@ -9,7 +9,8 @@ Datenfile Version 17.0.0, doi:10.4232/1.14611. Not redistributed; expected at da
 - Economic situation: v25 (country) and v27 (own), 1 very good ... 5 very bad. Net balance = % good or very good
   minus % bad or very bad. Gap = own balance minus country balance.
 Weights: dwght (total weight, corrects the East oversample) where positive, else pwght; before 1990 West only.
-Missing codes (< 0) are dropped per item.
+Missing codes (< 0) are dropped per item. Codes are FGW's; items change over time (codebook v33). Code 98 is
+used for another item in 1989, so the reform group starts in 2003. 1986-88 allowed three answers, of which two are kept.
 
 Run from repository root:  python3 scripts/politbarometer.py
 Writes results/politbarometer.md and results/politbarometer.csv (yearly aggregates only)
@@ -24,7 +25,7 @@ F = "data/raw/gesis/ZA2391_v17-0-0.dta"
 GROUPS = {
     "unemployment": [14, 90],
     "economy": [13, 95, 115, 117],
-    "prices_energy": [5, 93, 76, 110, 123],
+    "prices_energy": [5, 93, 76, 110],  # 123 (Energiewende, renewables, coal exit, CO2 tax) left out: mainly climate policy
     "reform": [96, 98],
     "labour_capital": [7, 8, 9, 79, 105],
     "social_justice": [77, 2],
@@ -53,6 +54,8 @@ def main():
         p = g[(g.v33 > 0) | (g.v34 > 0)]
         r["n_problem"] = len(p)
         for k, codes in GROUPS.items():
+            if k == "reform" and y < 2003:  # codes 96/98 (Reformstau, Hartz IV) only from 2003; in 1989 code 98 carries another item
+                codes = []
             hit = p.v33.isin(codes) | p.v34.isin(codes)
             r[k] = 100 * wmean(hit.astype(float), p.w) if len(p) else np.nan
         for v, name in (("v25", "country"), ("v27", "own")):
