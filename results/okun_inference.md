@@ -1,8 +1,8 @@
 # Okun relation for Germany with standard errors
 
-Dependent variable: annual change in the registered unemployment rate (pp). Regressors: change in the output gap (pp) this year and last year, interacted with period dummies (base 1962-2006; 2007-21; 2022-25). HAC s.e. (2 lags). Cumulative response = sum of current and lagged gap coefficients; a negative value means unemployment rises when the gap falls.
+Dependent variable: annual change in the registered unemployment rate (pp). Regressors: change in the output gap (pp) this year and last year, interacted with period dummies (base 1967-2006; 2007-21; 2022-25). HAC s.e. (2 lags). Cumulative response = sum of current and lagged gap coefficients; a negative value means unemployment rises when the gap falls.
 
-## AMECO gap, 1962-2025 (N = 57)
+## AMECO gap, 1967-2025 (N = 57)
 
 | Period | Cumulative response | s.e. | 90 % interval |
 |---|---|---|---|

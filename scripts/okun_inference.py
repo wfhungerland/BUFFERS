@@ -8,7 +8,7 @@
 3. Episode table with the rule's dating and with peaks moved to the year before the shock (2008, 2019).
 
 Run from repository root:  python3 scripts/okun_inference.py
-Writes results/okun_inference.md
+Writes results/okun_inference.md (effective sample 1967-2025: the AMECO gap starts in 1965)
 """
 import sys
 
@@ -47,10 +47,10 @@ def main():
     dep, _ = og.ba_rates()
     L = ["# Okun relation for Germany with standard errors", "",
          "Dependent variable: annual change in the registered unemployment rate (pp). Regressors: change in the output gap "
-         "(pp) this year and last year, interacted with period dummies (base 1962-2006; 2007-21; 2022-25). HAC s.e. (2 lags). "
+         "(pp) this year and last year, interacted with period dummies (base 1967-2006; 2007-21; 2022-25). HAC s.e. (2 lags). "
          "Cumulative response = sum of current and lagged gap coefficients; a negative value means unemployment rises when the gap falls.", ""]
     f = "du ~ dg + dg1 + p2 + p3 + dg:p2 + dg1:p2 + dg:p3 + dg1:p3"
-    for label, g, start in (("AMECO gap, 1962-2025", gap, 1961), ("OECD gap, 1993-2025", og.oecd_gap(), 1991)):
+    for label, g, start in (("AMECO gap, 1967-2025", gap, 1961), ("OECD gap, 1993-2025", og.oecd_gap(), 1991)):
         d = frame(g, dep, start)
         if label.startswith("OECD"):
             d["p2"] = ((d.index >= 2007) & (d.index <= 2021)).astype(int)
