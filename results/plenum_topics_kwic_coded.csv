@@ -1,0 +1,721 @@
+id,topic,period,relevant,reason
+inflation-1990-01,inflation,1990-2005,1,German inflation/price stability debate
+inflation-1990-02,inflation,1990-2005,1,EU inflation in stability pact debate
+inflation-1990-03,inflation,1990-2005,1,German inflation/price stability debate
+inflation-1990-04,inflation,1990-2005,0,metaphor: growth of state secretaries
+inflation-1990-05,inflation,1990-2005,1,German inflation/price stability debate
+inflation-1990-06,inflation,1990-2005,1,German inflation/price stability debate
+inflation-1990-07,inflation,1990-2005,0,"Soviet inflation, abroad"
+inflation-1990-08,inflation,1990-2005,1,German inflation/price stability debate
+inflation-1990-09,inflation,1990-2005,1,German inflation/price stability debate
+inflation-1990-10,inflation,1990-2005,1,German inflation/price stability debate
+inflation-1990-11,inflation,1990-2005,1,German inflation/price stability debate
+inflation-1990-12,inflation,1990-2005,1,German inflation/price stability debate
+inflation-1990-13,inflation,1990-2005,1,German inflation/price stability debate
+inflation-1990-14,inflation,1990-2005,1,"D-Mark inflation, partly metaphorical"
+inflation-1990-15,inflation,1990-2005,1,German inflation/price stability debate
+inflation-1990-16,inflation,1990-2005,1,German inflation/price stability debate
+inflation-1990-17,inflation,1990-2005,0,technical budget price indexation
+inflation-1990-18,inflation,1990-2005,0,"budget inflation adjustment, technical"
+inflation-1990-19,inflation,1990-2005,0,"budget inflation adjustment, technical"
+inflation-1990-20,inflation,1990-2005,1,German inflation/price stability debate
+inflation-2019-01,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-02,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-03,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-04,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-05,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-06,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-07,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-08,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-09,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-10,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-11,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-12,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-13,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-14,inflation,2019-2025,1,German anti-inflation measures (Moldova aside)
+inflation-2019-15,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-16,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-17,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-18,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-19,inflation,2019-2025,1,German inflation/price stability debate
+inflation-2019-20,inflation,2019-2025,1,German inflation/price stability debate
+public_debt-1990-01,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-02,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-03,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-04,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-05,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-06,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-07,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-08,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-09,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-10,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-11,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-12,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-13,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-14,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-15,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-16,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-17,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-18,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-19,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-1990-20,public_debt,1990-2005,1,German public debt/debt brake debate
+public_debt-2019-01,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-02,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-03,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-04,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-05,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-06,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-07,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-08,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-09,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-10,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-11,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-12,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-13,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-14,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-15,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-16,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-17,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-18,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-19,public_debt,2019-2025,1,German public debt/debt brake debate
+public_debt-2019-20,public_debt,2019-2025,1,German public debt/debt brake debate
+growth-1990-01,growth,1990-2005,1,EU Lisbon growth goal
+growth-1990-02,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-03,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-04,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-05,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-06,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-07,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-08,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-09,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-10,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-11,growth,1990-2005,0,"Asian tiger growth, abroad"
+growth-1990-12,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-13,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-14,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-15,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-16,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-17,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-18,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-19,growth,1990-2005,1,German growth/recession/stimulus
+growth-1990-20,growth,1990-2005,1,German growth/recession/stimulus
+growth-2019-01,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-02,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-03,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-04,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-05,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-06,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-07,growth,2019-2025,1,EU growth affecting Germany
+growth-2019-08,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-09,growth,2019-2025,0,"US Biden stimulus, abroad"
+growth-2019-10,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-11,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-12,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-13,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-14,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-15,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-16,growth,2019-2025,0,"development policy, education and growth abroad"
+growth-2019-17,growth,2019-2025,1,"red tape cut as stimulus, German policy"
+growth-2019-18,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-19,growth,2019-2025,1,German growth/recession/stimulus
+growth-2019-20,growth,2019-2025,1,German growth/recession/stimulus
+energy_prices-1990-01,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-02,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-03,energy_prices,1990-2005,1,oil prices and our economies
+energy_prices-1990-04,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-05,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-06,energy_prices,1990-2005,0,historical 1970s price crisis aside
+energy_prices-1990-07,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-08,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-09,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-10,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-11,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-12,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-13,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-14,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-15,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-16,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-17,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-18,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-19,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-1990-20,energy_prices,1990-2005,1,energy prices for households/firms
+energy_prices-2019-01,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-02,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-03,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-04,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-05,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-06,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-07,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-08,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-09,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-10,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-11,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-12,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-13,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-14,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-15,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-16,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-17,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-18,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-19,energy_prices,2019-2025,1,energy prices for households/firms
+energy_prices-2019-20,energy_prices,2019-2025,1,energy prices for households/firms
+skills_shortage-1990-01,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-02,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-03,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-04,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-05,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-06,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-07,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-08,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-09,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-10,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-11,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-12,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-13,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-14,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-15,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-16,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-17,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-18,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-19,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-1990-20,skills_shortage,1990-2005,1,skilled worker shortage in Germany
+skills_shortage-2019-01,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-02,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-03,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-04,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-05,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-06,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-07,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-08,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-09,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-10,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-11,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-12,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-13,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-14,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-15,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-16,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-17,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-18,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-19,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+skills_shortage-2019-20,skills_shortage,2019-2025,1,skilled worker shortage in Germany
+location-1990-01,location,1990-2005,1,Germany as business location
+location-1990-02,location,1990-2005,1,Germany as business location
+location-1990-03,location,1990-2005,1,Germany as business location
+location-1990-04,location,1990-2005,1,Germany as business location
+location-1990-05,location,1990-2005,1,Germany as business location
+location-1990-06,location,1990-2005,1,Germany as business location
+location-1990-07,location,1990-2005,1,Germany as business location
+location-1990-08,location,1990-2005,1,Germany as business location
+location-1990-09,location,1990-2005,1,Germany as business location
+location-1990-10,location,1990-2005,1,Germany as business location
+location-1990-11,location,1990-2005,1,Germany as business location
+location-1990-12,location,1990-2005,1,Germany as business location
+location-1990-13,location,1990-2005,1,Germany as business location
+location-1990-14,location,1990-2005,1,Germany as business location
+location-1990-15,location,1990-2005,1,Germany as business location
+location-1990-16,location,1990-2005,1,Germany as business location
+location-1990-17,location,1990-2005,1,Germany as business location
+location-1990-18,location,1990-2005,1,Germany as business location
+location-1990-19,location,1990-2005,1,Germany as business location
+location-1990-20,location,1990-2005,1,Germany as business location
+location-2019-01,location,2019-2025,1,Germany as business location
+location-2019-02,location,2019-2025,1,Germany as business location
+location-2019-03,location,2019-2025,1,Germany as business location
+location-2019-04,location,2019-2025,1,Germany as business location
+location-2019-05,location,2019-2025,1,Germany as business location
+location-2019-06,location,2019-2025,1,Germany as business location
+location-2019-07,location,2019-2025,1,Germany as business location
+location-2019-08,location,2019-2025,1,Germany as business location
+location-2019-09,location,2019-2025,1,Germany as business location
+location-2019-10,location,2019-2025,1,Germany as business location
+location-2019-11,location,2019-2025,1,Germany as business location
+location-2019-12,location,2019-2025,1,Germany as business location
+location-2019-13,location,2019-2025,1,Germany as business location
+location-2019-14,location,2019-2025,1,Germany as business location
+location-2019-15,location,2019-2025,1,Germany as business location
+location-2019-16,location,2019-2025,1,Germany as business location
+location-2019-17,location,2019-2025,1,Germany as business location
+location-2019-18,location,2019-2025,1,Germany as business location
+location-2019-19,location,2019-2025,1,Germany as business location
+location-2019-20,location,2019-2025,1,Germany as business location
+competitiveness-1990-01,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-02,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-03,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-04,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-05,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-06,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-07,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-08,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-09,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-10,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-11,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-12,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-13,competitiveness,1990-2005,0,"Southeast Asia, abroad only"
+competitiveness-1990-14,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-15,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-16,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-17,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-18,competitiveness,1990-2005,1,EU competitiveness vs US/Japan
+competitiveness-1990-19,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-1990-20,competitiveness,1990-2005,1,German/EU economic competitiveness
+competitiveness-2019-01,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-02,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-03,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-04,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-05,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-06,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-07,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-08,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-09,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-10,competitiveness,2019-2025,0,"southern euro countries, abroad"
+competitiveness-2019-11,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-12,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-13,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-14,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-15,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-16,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-17,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-18,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-19,competitiveness,2019-2025,1,German/EU economic competitiveness
+competitiveness-2019-20,competitiveness,2019-2025,1,German/EU economic competitiveness
+bureaucracy-1990-01,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-02,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-03,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-04,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-05,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-06,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-07,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-08,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-09,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-10,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-11,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-12,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-13,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-14,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-15,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-16,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-17,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-18,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-19,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-1990-20,bureaucracy,1990-2005,1,cutting bureaucracy/its costs
+bureaucracy-2019-01,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-02,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-03,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-04,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-05,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-06,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-07,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-08,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-09,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-10,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-11,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-12,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-13,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-14,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-15,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-16,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-17,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-18,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-19,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+bureaucracy-2019-20,bureaucracy,2019-2025,1,cutting bureaucracy/its costs
+strikes-1990-01,strikes,1990-2005,0,"1953 GDR uprising, historical"
+strikes-1990-02,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-03,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-04,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-05,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-06,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-07,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-08,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-09,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-10,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-11,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-12,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-13,strikes,1990-2005,0,student protest strikes
+strikes-1990-14,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-15,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-16,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-17,strikes,1990-2005,0,metaphorical strike
+strikes-1990-18,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-19,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-1990-20,strikes,1990-2005,1,industrial action/right to strike in Germany
+strikes-2019-01,strikes,2019-2025,1,industrial action/right to strike in Germany
+strikes-2019-02,strikes,2019-2025,0,"UK strikes, abroad"
+strikes-2019-03,strikes,2019-2025,1,industrial action/right to strike in Germany
+strikes-2019-04,strikes,2019-2025,1,industrial action/right to strike in Germany
+strikes-2019-05,strikes,2019-2025,1,industrial action/right to strike in Germany
+strikes-2019-06,strikes,2019-2025,1,industrial action/right to strike in Germany
+strikes-2019-07,strikes,2019-2025,0,school climate strikes
+strikes-2019-08,strikes,2019-2025,1,industrial action/right to strike in Germany
+strikes-2019-09,strikes,2019-2025,0,"17 June 1953 uprising, historical"
+strikes-2019-10,strikes,2019-2025,1,industrial action/right to strike in Germany
+strikes-2019-11,strikes,2019-2025,1,industrial action/right to strike in Germany
+strikes-2019-12,strikes,2019-2025,1,industrial action/right to strike in Germany
+strikes-2019-13,strikes,2019-2025,1,industrial action/right to strike in Germany
+strikes-2019-14,strikes,2019-2025,0,"Solidarnosc/1953, historical abroad"
+strikes-2019-15,strikes,2019-2025,0,"carers cannot strike, figurative"
+strikes-2019-16,strikes,2019-2025,1,industrial action/right to strike in Germany
+strikes-2019-17,strikes,2019-2025,1,industrial action/right to strike in Germany
+strikes-2019-18,strikes,2019-2025,1,industrial action/right to strike in Germany
+strikes-2019-19,strikes,2019-2025,1,truck drivers strike in Germany
+strikes-2019-20,strikes,2019-2025,1,industrial action/right to strike in Germany
+codetermination-1990-01,codetermination,1990-2005,1,church staff representation codetermination
+codetermination-1990-02,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-03,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-04,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-05,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-06,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-07,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-08,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-09,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-10,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-11,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-12,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-13,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-14,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-15,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-16,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-17,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-18,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-19,codetermination,1990-2005,1,works councils/codetermination
+codetermination-1990-20,codetermination,1990-2005,1,works councils/codetermination
+codetermination-2019-01,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-02,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-03,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-04,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-05,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-06,codetermination,2019-2025,0,"democratic participation abroad, not workplace"
+codetermination-2019-07,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-08,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-09,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-10,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-11,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-12,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-13,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-14,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-15,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-16,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-17,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-18,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-19,codetermination,2019-2025,1,works councils/codetermination
+codetermination-2019-20,codetermination,2019-2025,1,works councils/codetermination
+collective_bargaining-1990-01,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-02,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-03,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-04,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-05,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-06,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-07,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-08,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-09,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-10,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-11,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-12,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-13,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-14,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-15,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-16,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-17,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-18,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-19,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-1990-20,collective_bargaining,1990-2005,1,collective agreements/bargaining
+collective_bargaining-2019-01,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-02,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-03,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-04,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-05,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-06,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-07,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-08,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-09,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-10,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-11,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-12,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-13,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-14,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-15,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-16,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-17,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-18,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-19,collective_bargaining,2019-2025,1,collective agreements/bargaining
+collective_bargaining-2019-20,collective_bargaining,2019-2025,1,collective agreements/bargaining
+wages-1990-01,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-02,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-03,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-04,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-05,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-06,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-07,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-08,wages,1990-2005,1,US evidence in low-wage debate
+wages-1990-09,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-10,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-11,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-12,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-13,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-14,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-15,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-16,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-17,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-18,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-19,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-1990-20,wages,1990-2005,1,minimum wage/non-wage labour costs
+wages-2019-01,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-02,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-03,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-04,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-05,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-06,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-07,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-08,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-09,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-10,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-11,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-12,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-13,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-14,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-15,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-16,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-17,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-18,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-19,wages,2019-2025,1,minimum wage/non-wage labour costs
+wages-2019-20,wages,2019-2025,1,minimum wage/non-wage labour costs
+working_time-1990-01,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-02,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-03,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-04,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-05,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-06,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-07,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-08,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-09,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-10,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-11,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-12,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-13,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-14,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-15,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-16,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-17,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-18,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-19,working_time,1990-2005,1,working time regulation/reduction
+working_time-1990-20,working_time,1990-2005,1,working time regulation/reduction
+working_time-2019-01,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-02,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-03,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-04,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-05,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-06,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-07,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-08,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-09,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-10,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-11,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-12,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-13,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-14,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-15,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-16,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-17,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-18,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-19,working_time,2019-2025,1,working time regulation/reduction
+working_time-2019-20,working_time,2019-2025,1,working time regulation/reduction
+worker_protection-1990-01,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-02,worker_protection,1990-2005,0,tenure protection for property users (tenancy)
+worker_protection-1990-03,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-04,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-05,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-06,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-07,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-08,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-09,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-10,worker_protection,1990-2005,0,"tenancy/user protection, not employment"
+worker_protection-1990-11,worker_protection,1990-2005,0,"UK Thatcher reforms, abroad"
+worker_protection-1990-12,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-13,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-14,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-15,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-16,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-17,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-18,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-19,worker_protection,1990-2005,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-1990-20,worker_protection,1990-2005,0,"tenancy rent clause, not employment"
+worker_protection-2019-01,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-02,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-03,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-04,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-05,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-06,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-07,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-08,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-09,worker_protection,2019-2025,1,temp agencies in refugee placement
+worker_protection-2019-10,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-11,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-12,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-13,worker_protection,2019-2025,0,Covid tenancy dismissal moratorium
+worker_protection-2019-14,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-15,worker_protection,2019-2025,0,"fixed-term deployment, not employment"
+worker_protection-2019-16,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-17,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-18,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-19,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+worker_protection-2019-20,worker_protection,2019-2025,1,employee protection (dismissal/agency/fixed-term/sick pay)
+short_time_work-1990-01,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-02,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-03,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-04,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-05,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-06,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-07,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-08,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-09,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-10,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-11,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-12,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-13,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-14,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-15,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-16,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-17,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-18,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-19,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-1990-20,short_time_work,1990-2005,1,short-time work scheme
+short_time_work-2019-01,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-02,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-03,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-04,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-05,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-06,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-07,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-08,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-09,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-10,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-11,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-12,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-13,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-14,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-15,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-16,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-17,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-18,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-19,short_time_work,2019-2025,1,short-time work scheme
+short_time_work-2019-20,short_time_work,2019-2025,1,short-time work scheme
+early_retirement-1990-01,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-02,early_retirement,1990-2005,1,forced early retirement at 60 (hit metaphorical)
+early_retirement-1990-03,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-04,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-05,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-06,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-07,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-08,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-09,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-10,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-11,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-12,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-13,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-14,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-15,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-16,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-17,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-18,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-19,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-1990-20,early_retirement,1990-2005,1,early/partial retirement policy
+early_retirement-2019-01,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-02,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-03,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-04,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-05,early_retirement,2019-2025,1,EU coordination of early-retirement benefits
+early_retirement-2019-06,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-07,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-08,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-09,early_retirement,2019-2025,0,"disability pensions, not early retirement policy"
+early_retirement-2019-10,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-11,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-12,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-13,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-14,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-15,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-16,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-17,early_retirement,2019-2025,0,metaphor for politician
+early_retirement-2019-18,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-19,early_retirement,2019-2025,1,early/partial retirement policy
+early_retirement-2019-20,early_retirement,2019-2025,1,early/partial retirement policy
+social_market_economy-1990-01,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-02,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-03,social_market_economy,1990-2005,0,development policy abroad
+social_market_economy-1990-04,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-05,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-06,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-07,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-08,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-09,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-10,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-11,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-12,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-13,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-14,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-15,social_market_economy,1990-2005,1,GDR transition to SME
+social_market_economy-1990-16,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-17,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-18,social_market_economy,1990-2005,0,"foreign service staffing, SME as slogan"
+social_market_economy-1990-19,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-1990-20,social_market_economy,1990-2005,1,SME as German economic order
+social_market_economy-2019-01,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-02,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-03,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-04,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-05,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-06,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-07,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-08,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-09,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-10,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-11,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-12,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-13,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-14,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-15,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-16,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-17,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-18,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-19,social_market_economy,2019-2025,1,SME as German economic order
+social_market_economy-2019-20,social_market_economy,2019-2025,1,SME as German economic order
+social_justice-1990-01,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-02,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-03,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-04,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-05,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-06,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-07,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-08,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-09,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-10,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-11,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-12,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-13,social_justice,1990-2005,0,redistribution of work between genders
+social_justice-1990-14,social_justice,1990-2005,1,postal costs and social justice
+social_justice-1990-15,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-16,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-17,social_justice,1990-2005,0,"EU farm payment allocation, technical"
+social_justice-1990-18,social_justice,1990-2005,0,water distribution in Africa
+social_justice-1990-19,social_justice,1990-2005,1,social/distributive justice in German policy
+social_justice-1990-20,social_justice,1990-2005,0,"urban retail relocation, not distributive"
+social_justice-2019-01,social_justice,2019-2025,0,global North-South redistribution
+social_justice-2019-02,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-03,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-04,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-05,social_justice,2019-2025,0,"global redistribution, development policy"
+social_justice-2019-06,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-07,social_justice,2019-2025,0,"public security, rhetorical"
+social_justice-2019-08,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-09,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-10,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-11,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-12,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-13,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-14,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-15,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-16,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-17,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-18,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-19,social_justice,2019-2025,1,social/distributive justice in German policy
+social_justice-2019-20,social_justice,2019-2025,1,social/distributive justice in German policy
