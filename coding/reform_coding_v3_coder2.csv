@@ -1,0 +1,167 @@
+id,direction,size,target,note
+v3-1965-01,expansion,2,other,maternity dismissal ban and benefits
+v3-1967-01,expansion,2,core,bad-weather allowance supplement
+v3-1969-01,expansion,3,margin,AFG; training support entitlement and higher allowance
+v3-1969-02,expansion,3,core,sick pay for blue-collar workers
+v3-1969-03,expansion,2,core,"unified dismissal rules, KSchG improvements"
+v3-1969-04,mixed,1,margin,social assistance amendment incl. sanction rules; unclear balance
+v3-1969-05,expansion,1,margin,training support rates raised
+v3-1971-01,expansion,1,other,codetermination kept
+v3-1971-02,expansion,3,other,works council rights strengthened
+v3-1972-01,mixed,2,core,"winter allowance added, SWG eligibility tightened"
+v3-1972-02,re-regulation,3,margin,agency work licensing
+v3-1972-03,expansion,3,pension,"flexible retirement age, opening"
+v3-1972-04,cut,1,pension,earnings limits for flexible pension
+v3-1973-01,expansion,1,core,continued employment for apprentice reps (special group)
+v3-1974-01,expansion,1,margin,social assistance adaptation
+v3-1974-02,expansion,2,core,special dismissal protection for all severely disabled
+v3-1974-03,expansion,2,core,insolvency pay created
+v3-1974-04,expansion,2,core,68% net replacement; family supplements replaced; mostly gain
+v3-1975-01,cut,3,margin,"training allowance and Alhi access cut, job acceptance tightened"
+v3-1976-01,expansion,3,other,board codetermination
+v3-1977-01,cut,2,pension,"consolidation, adjustment delayed"
+v3-1977-02,cut,2,core,"Sperrzeit deduction, youth base cut, Alhi limited"
+v3-1978-01,expansion,1,core,EC mass-dismissal alignment
+v3-1978-02,cut,3,pension,indexation replaced by fixed lower increases
+v3-1978-03,expansion,2,pension,lower flexible age for disabled
+v3-1979-01,expansion,2,other,maternity leave and longer dismissal ban
+v3-1979-02,mixed,2,margin,"more ALMP support, stricter availability"
+v3-1980-01,expansion,2,core,transfer-of-undertakings protection
+v3-1981-01,expansion,1,other,codetermination kept
+v3-1981-02,cut,3,core,"AFKG qualifying period, Sperrzeit, base"
+v3-1981-03,cut,2,margin,budget cuts
+v3-1982-01,cut,3,core,entitlement ratio and benefit tables cut
+v3-1983-01,cut,3,core,ALG 68 to 63% for childless
+v3-1984-01,expansion,2,margin,early-retirement subsidy
+v3-1984-02,mixed,2,core,"longer ALG for older, longer Sperrzeit"
+v3-1985-01,deregulation,3,margin,easier fixed-term contracts
+v3-1985-02,expansion,3,core,longer ALG duration for older
+v3-1986-01,cut,2,core,no benefits for indirectly strike-affected workers
+v3-1986-02,cut,1,core,disabled dismissal protection delayed
+v3-1986-03,deregulation,1,margin,fixed-term for trainee doctors
+v3-1987-01,expansion,3,core,ALG up to 32 months
+v3-1987-02,mixed,2,margin,"more subsidies, stricter registration"
+v3-1988-01,expansion,1,other,youth representation
+v3-1988-02,expansion,1,other,executive committees
+v3-1988-03,cut,2,margin,"ALMP subsidies cut, sickness counted against ALG"
+v3-1989-01,cut,3,pension,"RRG 1992 retirement ages, deductions, net indexation"
+v3-1989-02,deregulation,2,margin,BeschFG extension
+v3-1990-01,deregulation,1,margin,fixed-term extension by leave periods; employee-friendly in effect
+v3-1991-01,expansion,2,core,East STW rules extended; §128 refund deleted
+v3-1992-01,cut,2,core,special dismissal grounds East public service
+v3-1992-02,cut,2,margin,ALMP cuts; also shorter entitlement for older
+v3-1993-01,cut,2,core,STW conditions tightened
+v3-1993-02,expansion,2,core,"notice periods unified; mainly gain for blue-collar, slight loss for white-collar"
+v3-1993-03,cut,3,core,BA benefit cuts
+v3-1993-04,cut,2,margin,social assistance cuts
+v3-1994-01,deregulation,2,margin,"private placement, agency work barriers removed"
+v3-1994-02,expansion,1,other,codetermination preserved
+v3-1995-01,expansion,1,core,"EU mass-dismissal directive, Nachweisgesetz"
+v3-1995-02,cut,2,core,Schlechtwettergeld replaced by Winterausfallgeld after 150 hours
+v3-1995-03,expansion,2,margin,posted-worker minimum wages (min wage coded expansion)
+v3-1996-01,cut,2,margin,Alhi cut
+v3-1996-02,cut,2,margin,social assistance growth limited
+v3-1996-03,cut,3,pension,unemployment pension age 60 to 63; Altersteilzeit added
+v3-1996-04,cut,3,core,"small-firm threshold 5 to 10, social selection"
+v3-1996-05,cut,3,core,sick pay 100 to 80%
+v3-1996-06,deregulation,2,margin,fixed-term max 2 years
+v3-1996-07,cut,3,pension,"retirement age rise accelerated, credits cut"
+v3-1996-08,expansion,2,other,European works councils
+v3-1996-09,expansion,1,core,one-off payments in benefit base
+v3-1997-01,cut,3,core,AFRG
+v3-1997-02,mixed,1,core,winter scheme revision; balance unclear
+v3-1997-03,cut,3,pension,demographic factor
+v3-1997-04,re-regulation,1,margin,contract length tied to training
+v3-1998-01,expansion,3,core,threshold restored
+v3-1998-02,expansion,3,core,sick pay restored
+v3-1998-03,expansion,3,pension,demographic factor suspended
+v3-1999-01,re-regulation,2,margin,mini-job contributions
+v3-1999-02,expansion,2,core,severance offset repealed
+v3-1999-03,expansion,2,margin,"ALMP refocus, hardships removed"
+v3-1999-04,expansion,1,core,winter scheme reorganised
+v3-1999-05,cut,3,pension,CPI indexation 2000-01
+v3-1999-06,cut,2,margin,original Alhi abolished
+v3-2000-01,expansion,1,margin,Altersteilzeit extended
+v3-2000-02,mixed,2,margin,fixed-term made permanent but restricted; part-time right
+v3-2001-01,cut,3,pension,Riester factor
+v3-2001-02,cut,3,pension,formula change (same reform as AVmG)
+v3-2001-03,expansion,2,other,works council rights
+v3-2001-04,expansion,2,margin,ALMP instruments; integration agreements
+v3-2002-01,expansion,1,other,"election simplification, neutral"
+v3-2002-02,cut,2,core,"no wage base uprating, Alhi asset cut"
+v3-2002-03,deregulation,2,margin,"marginal jobs, Ich-AG"
+v3-2003-01,cut,1,core,fixed-term hires excluded from threshold
+v3-2003-02,cut,3,core,ALG duration for older cut
+v3-2003-03,cut,2,core,reference period shortened
+v3-2003-04,cut,3,margin,Hartz IV
+v3-2003-05,mixed,1,margin,"SGB XII restructuring, one-off payments folded in"
+v3-2003-06,cut,3,pension,"adjustment suspended, full care contribution"
+v3-2004-01,expansion,1,margin,disabled job support
+v3-2004-02,cut,3,pension,sustainability factor
+v3-2004-03,mixed,1,margin,"voucher extended, start-up subsidy restricted"
+v3-2005-01,expansion,1,margin,earnings disregards
+v3-2006-01,expansion,1,margin,East ALG II rate raised
+v3-2006-02,expansion,2,core,seasonal Kug
+v3-2006-03,expansion,1,pension,pension cut avoided
+v3-2006-04,cut,2,margin,"anti-misuse, sanctions"
+v3-2006-05,expansion,1,other,codetermination in mergers
+v3-2007-01,deregulation,2,margin,WissZeitVG third-party fixed-term
+v3-2007-02,deregulation,1,margin,fixed-term 52+ with wage subsidies
+v3-2007-03,cut,3,pension,Rente mit 67
+v3-2007-04,expansion,1,margin,building-cleaning minimum wage
+v3-2007-05,expansion,1,margin,wage subsidies long-term unemployed
+v3-2007-06,expansion,1,margin,youth subsidies
+v3-2007-07,expansion,1,margin,postal minimum wage
+v3-2008-01,expansion,2,core,longer ALG for 50+
+v3-2008-02,expansion,2,pension,larger increase
+v3-2008-03,expansion,1,margin,training bonus
+v3-2008-04,expansion,1,margin,supported employment
+v3-2008-05,mixed,1,margin,instrument consolidation
+v3-2009-01,expansion,2,margin,sectoral minimum wage framework
+v3-2009-02,expansion,1,margin,minimum working conditions act
+v3-2009-03,expansion,3,core,crisis Kurzarbeit
+v3-2009-04,expansion,2,pension,pension guarantee
+v3-2010-01,expansion,2,core,Kurzarbeit crisis rules extended
+v3-2010-02,cut,2,margin,ALG II supplement and pension contributions abolished
+v3-2010-03,expansion,1,margin,"rates reset, education package"
+v3-2011-01,re-regulation,2,margin,"revolving door, TAW directive"
+v3-2011-02,cut,2,margin,ALMP cuts
+v3-2012-01,mixed,1,margin,"mini-job limit raised, pension insurance compulsory"
+v3-2014-01,expansion,1,margin,meat minimum wage
+v3-2014-02,expansion,3,pension,Rente mit 63
+v3-2014-03,expansion,3,margin,general minimum wage
+v3-2016-01,expansion,1,margin,training support
+v3-2016-02,mixed,1,margin,administrative simplification
+v3-2016-03,expansion,1,pension,flexi-pension
+v3-2016-04,re-regulation,2,margin,"agency cap, equal pay"
+v3-2016-05,cut,2,margin,EU citizens excluded
+v3-2016-06,expansion,1,margin,routine rate reset
+v3-2018-01,expansion,3,pension,double floor
+v3-2018-02,expansion,2,margin,wage subsidies
+v3-2018-03,expansion,2,margin,"training support, UI coverage widened"
+v3-2019-01,cut,1,core,bank risk-takers like executives
+v3-2020-01,expansion,3,core,Kug crisis
+v3-2020-02,expansion,3,margin,eased basic income access
+v3-2020-03,expansion,1,margin,training support
+v3-2020-04,expansion,2,core,ALG extended 3 months
+v3-2020-05,expansion,2,margin,posted workers equal remuneration
+v3-2020-06,expansion,2,pension,Grundrente
+v3-2020-07,expansion,1,margin,routine rate reset
+v3-2020-08,expansion,2,core,Kug rules extended
+v3-2021-01,expansion,1,margin,one-off supplement
+v3-2021-02,expansion,1,other,works council election protection
+v3-2022-01,expansion,2,core,Kug to 28 months
+v3-2022-02,expansion,2,margin,sanction moratorium
+v3-2022-03,expansion,3,margin,minimum wage EUR 12
+v3-2022-04,cut,1,pension,catch-up factor reinstated
+v3-2022-05,expansion,1,core,Kug ordinance power
+v3-2022-06,expansion,1,margin,"wider midi band, pensioner lump sum"
+v3-2022-07,expansion,3,margin,Buergergeld
+v3-2022-08,expansion,1,other,codetermination cross-border
+v3-2023-01,expansion,2,margin,Qualifizierungsgeld
+v3-2023-02,cut,1,margin,integration funds saving
+v3-2024-01,cut,1,margin,Buergergeld withdrawal for refusals
+v3-2024-02,mixed,1,other,"works council pay clarification, neutral"
+v3-2025-01,expansion,3,pension,"48% floor to 2031, Muetterrente"
+v3-2026-01,cut,3,margin,Neue Grundsicherung
+v3-2026-02,re-regulation,2,margin,minimum fixed-term lengths
