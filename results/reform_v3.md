@@ -9,7 +9,7 @@ Items: 165; by target and direction:
 | other | 0 | 0 | 1 | 3 | 10 |
 | pension | 14 | 0 | 10 | 1 | 0 |
 
-Second coder (n = 165): agreement on direction 76% (Cohen's kappa 0.67); on 'cut' vs other 97%; on target 99%; size within one step 0%.
+Second coder (n = 165): agreement on direction 76% (Cohen's kappa 0.67); on 'cut' vs other 97%; on target 99%; size within one step 100%.
 
 ## Core cuts (coder 1; cut or deregulation of a core institution)
 

@@ -109,7 +109,7 @@ def main():
         cut1, cut2 = a.direction == "cut", a.direction2 == "cut"
         tg = (a.target == a.target2).mean() if "target2" in a else np.nan
         L += ["", f"Second coder (n = {len(a)}): agreement on direction {agree:.0%} (Cohen's kappa {kappa:.2f}); on 'cut' vs other "
-              f"{(cut1 == cut2).mean():.0%}; on target {tg:.0%}; size within one step {((a.size - a.size2).abs() <= 1).mean():.0%}."]
+              f"{(cut1 == cut2).mean():.0%}; on target {tg:.0%}; size within one step {((a["size"] - a["size2"]).abs() <= 1).mean():.0%}."]
     # core-cut years
     core = it[(it.target == "core") & (it.direction.isin(["cut", "deregulation"]))]
     L += ["", "## Core cuts (coder 1; cut or deregulation of a core institution)", "", "| Year | Laws | Size | Stated motive | Δu3 (pp) |", "|---|---|---|---|---|"]
